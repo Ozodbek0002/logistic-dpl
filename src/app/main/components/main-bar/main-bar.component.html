@@ -1,0 +1,61 @@
+<section id="main-bar">
+    <div class="container">
+        <div class="row h-100">
+            <div class="mx-auto ms-md-0 col-11 col-sm-10 col-md-5 col-lg-5 col-xl-5">
+                <div class="text-content">
+                    <h1 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+                    <h6 class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati consectetur molestiae?
+                    </h6>
+                </div>
+            </div>
+            <div class="mx-auto me-md-0 col-11 col-sm-10 col-md-4 col-lg-4 col-xl-4">
+                <div class="form-content">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="mb-3">Get an instant free quote</h5>
+
+                            <form>
+
+                                <mat-form-field class="w-100">
+                                    <mat-label>Transport car FROM</mat-label>
+                                    <input type="text" placeholder="City or ZIP" aria-label="Number" matInput
+                                        [formControl]="myControl" [matAutocomplete]="auto">
+                                    <mat-autocomplete #auto="matAutocomplete">
+                                        <mat-option *ngFor="let option of filteredOptions | async"
+                                            [value]="option.city">
+                                            {{option.city}}
+                                        </mat-option>
+                                    </mat-autocomplete>
+                                </mat-form-field>
+
+                                <mat-form-field class="w-100">
+                                    <mat-label>Transport car TO</mat-label>
+                                    <input type="text" placeholder="City or ZIP" aria-label="Number" matInput
+                                        [formControl]="myControl" [matAutocomplete]="auto">
+                                    <mat-autocomplete #auto="matAutocomplete">
+                                        <mat-option *ngFor="let option of filteredOptions | async"
+                                            [value]="option.city">
+                                            {{option.city}}
+                                        </mat-option>
+                                    </mat-autocomplete>
+                                </mat-form-field>
+
+                                <span>Transport&nbsp;type:</span>
+                                <div class="d-inline-block">
+                                    <label for="type1" class="mx-3">Open
+                                        <input id="type1" type="radio" name="type" checked>
+                                    </label>
+                                    <label for="type2">Enclosed
+                                        <input id="type2" type="radio" name="type">
+                                    </label>
+                                </div>
+
+                                <button class="btn-theme btn-block mt-3">Vehicle details</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

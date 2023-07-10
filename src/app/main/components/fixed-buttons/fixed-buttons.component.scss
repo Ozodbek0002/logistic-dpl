@@ -1,0 +1,37 @@
+.fixed-buttons {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+    transform: translateY(-50%);
+    background-color: var(--theme-1);
+    z-index: 100;
+
+    ul {
+
+        li {
+            display: flex;
+
+            &:nth-child(even) {
+                border-top: 1px solid var(--light);
+                border-bottom: 1px solid var(--light);
+            }
+
+            a {
+                width: 100%;
+                text-align: center;
+                font-size: 20px;
+                color: var(--light);
+                padding: calc(var(--device-height) / 50);
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    background-color: var(--theme-2);
+                }
+            }
+        }
+
+
+    }
+}
