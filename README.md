@@ -1,5 +1,7 @@
 # LogisticDpl
 
+ng build --deploy-url https://merasoft-group.uz/logistic/ --base-href https://merasoft-group.uz/logistic/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server

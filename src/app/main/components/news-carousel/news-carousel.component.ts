@@ -25,7 +25,7 @@ export class NewsCarouselComponent implements AfterViewInit {
       pagination: false,
       centeredSlides: false,
       grabCursor: true,
-      spaceBetween: 40,
+      spaceBetween: 30,
       navigation: {
         nextEl: '.swiper-button-next-reviews',
         prevEl: '.swiper-button-prev-reviews'
@@ -33,19 +33,15 @@ export class NewsCarouselComponent implements AfterViewInit {
       breakpoints: {
         1400: {
           slidesPerView: 3,
-          spaceBetween: 10,
         },
         770: {
           slidesPerView: 2.5,
-          spaceBetween: 6,
         },
         500: {
           slidesPerView: 1.7,
-          spaceBetween: 4,
         },
         400: {
           slidesPerView: 1.2,
-          spaceBetween: 4,
         }
       }
     });

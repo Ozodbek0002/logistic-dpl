@@ -58,6 +58,12 @@ body {
     color: var(--black) !important;
 }
 
+.text-theme {
+    color: var(--theme-2);
+}
+
+
+
 
 .hover-shadow {
     transition: 0.3s;
@@ -65,6 +71,12 @@ body {
 
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 var(--theme-1), 0 6px 20px 0 var(--theme-1);
+}
+
+
+
+strong span {
+    color: var(--theme-2);
 }
 
 

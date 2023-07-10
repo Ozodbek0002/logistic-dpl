@@ -19,6 +19,9 @@ import { MainBarComponent } from './components/main-bar/main-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FixedButtonsComponent } from './components/fixed-buttons/fixed-buttons.component';
 import { SectionTitleComponent } from './components/section-title/section-title.component';
+import { CarShippingComponent } from './components/car-shipping/car-shipping.component';
+import { FreightShippingComponent } from './components/freight-shipping/freight-shipping.component';
+import { FreightFormComponent } from './components/freight-form/freight-form.component';
 
 
 @NgModule({
@@ -31,7 +34,10 @@ import { SectionTitleComponent } from './components/section-title/section-title.
     MainBarComponent,
     HeaderComponent,
     FixedButtonsComponent,
-    SectionTitleComponent
+    SectionTitleComponent,
+    CarShippingComponent,
+    FreightShippingComponent,
+    FreightFormComponent
   ],
   imports: [
     CommonModule,
