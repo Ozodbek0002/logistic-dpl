@@ -40,13 +40,12 @@ import { MainBarComponent } from './components/main-bar/main-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FixedButtonsComponent } from './components/fixed-buttons/fixed-buttons.component';
 import { SectionTitleComponent } from './components/section-title/section-title.component';
-import { CarShippingComponent } from './components/car-shipping/car-shipping.component';
-import { FreightShippingComponent } from './components/freight-shipping/freight-shipping.component';
-import { FreightFormComponent } from './components/freight-form/freight-form.component';
 import { BreadCrumbsComponent } from './components/bread-crumbs/bread-crumbs.component';
 import { ReviewsBlockComponent } from './components/reviews-block/reviews-block.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
+import { ReviewsCarouselComponent } from './components/reviews-carousel/reviews-carousel.component';
+import { ShortContactUsBlockComponent } from './components/short-contact-us-block/short-contact-us-block.component';
 
 
 @NgModule({
@@ -60,9 +59,6 @@ import { FaqComponent } from './components/faq/faq.component';
     HeaderComponent,
     FixedButtonsComponent,
     SectionTitleComponent,
-    CarShippingComponent,
-    FreightShippingComponent,
-    FreightFormComponent,
     BreadCrumbsComponent,
     OnlineCarBuyersComponent,
     PrivateDealersComponent,
@@ -86,6 +82,8 @@ import { FaqComponent } from './components/faq/faq.component';
     ReviewsBlockComponent,
     AboutUsComponent,
     FaqComponent,
+    ReviewsCarouselComponent,
+    ShortContactUsBlockComponent,
   ],
   imports: [
     CommonModule,

@@ -28,6 +28,7 @@ nav {
                     }
 
                     &.active {
+                        color: var(--theme-2);
                         border-left: 1px solid var(--theme-2);
                     }
                 }
