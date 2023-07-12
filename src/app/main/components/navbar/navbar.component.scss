@@ -46,6 +46,7 @@ nav {
         }
 
         &.active {
+            color: var(--theme-2);
             border-bottom: 1px solid var(--theme-2);
         }
     }

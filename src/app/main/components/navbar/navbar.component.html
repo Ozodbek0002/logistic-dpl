@@ -8,13 +8,13 @@
 
 		<div class="collapse navbar-collapse d-flex justify-content-between" id="navbarId">
 
-			<a class="navbar-brand mt-2 mt-lg-0" href="#">
+			<a class="navbar-brand mt-2 mt-lg-0" routerLink="home">
 				<img src="./assets/logo.png" loading="lazy" width="150px" />
 			</a>
 
 			<ul class="navbar-nav mb-2 mb-lg-0">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-mdb-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" routerLinkActive="active" id="dropdown1" role="button" data-mdb-toggle="dropdown"
 						aria-expanded="false">Customers</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown1">
 						<div class="navbar-dropdown">
@@ -22,16 +22,16 @@
 								<h4 class="mb-0">Auto Transportation Customers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" href="#">Online Car Buyers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/online-car-buyers" routerLinkActive="active">Online Car Buyers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Private Dealers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/private-dealers" routerLinkActive="active">Private Dealers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Dealerships</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/dealerships" routerLinkActive="active">Dealerships</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Auctions</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/auctions" routerLinkActive="active">Auctions</a>
 									</li>
 								</ul>
 							</div>
@@ -39,13 +39,13 @@
 								<h4 class="mb-0">Freight Transportation Customers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" href="#">Manufacturers and warehouses</a>
+										<a class="navbar-dropdown-link" routerLink="customers/freight/manufacturers-and-warehouses" routerLinkActive="active">Manufacturers and warehouses</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Recyclers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/freight/recyclers" routerLinkActive="active">Recyclers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Distribution Centers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/freight/distribution-centers" routerLinkActive="active">Distribution Centers</a>
 									</li>
 								</ul>
 							</div>
@@ -53,7 +53,7 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown2" role="button" data-mdb-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" link="" id="dropdown2" role="button" data-mdb-toggle="dropdown"
 						aria-expanded="false">Carriers</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown2">
 						<div class="navbar-dropdown">
@@ -61,17 +61,16 @@
 								<h4 class="mb-0">Auto Transportation Carriers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" href="#">Open car Haulers</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Open Car Haulers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Enclosed Car Haulers</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Enclosed Car Haulers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Flatbed Car Trailers</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Flatbed Car Trailers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Specialized Cars,<br />Heavy Truck
-											Haulers</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Specialized Cars,<br />Heavy Truck	Haulers</a>
 									</li>
 								</ul>
 							</div>
@@ -79,22 +78,22 @@
 								<h4 class="mb-0">Freight Transportation Carriers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" href="#">Dry Vans ( All sizes)</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Dry Vans ( All sizes)</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Reefers</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Reefers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Box Trucks</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Box Trucks</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Flatbed</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Flatbed</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Conestoga</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Conestoga</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">Drop Trailers, Containers</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">Drop Trailers, Containers</a>
 									</li>
 								</ul>
 							</div>
@@ -102,7 +101,7 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown3" role="button" data-mdb-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" link="" id="dropdown3" role="button" data-mdb-toggle="dropdown"
 						aria-expanded="false">Transportation&nbsp;Services</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown3">
 						<div class="navbar-dropdown">
@@ -110,10 +109,10 @@
 								<h4 class="mb-0">Auto Transportation Services</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" href="#">How does it work?</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">How does it work?</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">How much does it cost?</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">How much does it cost?</a>
 									</li>
 								</ul>
 							</div>
@@ -121,10 +120,10 @@
 								<h4 class="mb-0">Freight Transportation Services</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" href="#">How does it work?</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">How does it work?</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" href="#">How much does it cost?</a>
+										<a class="navbar-dropdown-link" routerLink="" routerLinkActive="active">How much does it cost?</a>
 									</li>
 								</ul>
 							</div>
@@ -132,7 +131,7 @@
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About&nbsp;Us</a>
+					<a class="nav-link" routerLink="about-us">About&nbsp;Us</a>
 				</li>
 			</ul>
 

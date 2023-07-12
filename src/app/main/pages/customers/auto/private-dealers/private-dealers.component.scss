@@ -1,0 +1,70 @@
+#private-dealers {
+
+    .text-block,
+    .img-block {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        counter-reset: list;
+
+        li {
+            display: inline-flex;
+
+            &:before {
+                margin-right: 10px;
+                counter-increment: list;
+                content: counters(list, ".") ". ";
+            }
+        }
+    }
+}
+
+
+
+#calculate {
+    overflow-x: hidden;
+
+    .text-block,
+    .img-block {
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .img-2 {
+            position: absolute;
+            width: 90%;
+            top: 45%;
+            left: 30%;
+        }
+    }
+
+    .sm-reverse {
+        .img-block .img-2 {
+            left: auto !important;
+            right: 30% !important;
+        }
+    }
+}
