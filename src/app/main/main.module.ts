@@ -46,6 +46,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ReviewsCarouselComponent } from './components/reviews-carousel/reviews-carousel.component';
 import { ShortContactUsBlockComponent } from './components/short-contact-us-block/short-contact-us-block.component';
+import { InfoNumbericComponent } from './components/info-numberic/info-numberic.component';
 
 
 @NgModule({
@@ -84,6 +85,7 @@ import { ShortContactUsBlockComponent } from './components/short-contact-us-bloc
     FaqComponent,
     ReviewsCarouselComponent,
     ShortContactUsBlockComponent,
+    InfoNumbericComponent,
   ],
   imports: [
     CommonModule,

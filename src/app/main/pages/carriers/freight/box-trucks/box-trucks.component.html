@@ -1,1 +1,87 @@
-<p>box-trucks works!</p>
+<app-bread-crumbs [img_url]="'loadboard-hero-Desktop.jpg'">
+    <div class="d-flex align-items-center h-100">
+        <div class="w-100">
+            <h1 class="text-light">Lorem, ipsum dolor.</h1>
+            <p class="text-light my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />Non unde atque
+                exercitationem quos rerum reiciendis.</p>
+
+            <a href="#" class="btn-theme">Lorem, ipsum.</a>
+        </div>
+    </div>
+</app-bread-crumbs>
+
+
+
+
+
+<div class="container mb-5 pb-5">
+
+    <div class="row">
+        <div class="col-6 mt-5 p-0">
+            <div class="d-flex align-items-center h-100">
+                <img src="./assets/images/carriers/florida.jpg" alt="You Tube link" class="img-fluid rounded">
+            </div>
+        </div>
+        <div class="col-6 p-5 mt-5">
+            <div class="d-flex align-items-center h-100">
+                <div>
+                    <h3>Lorem, ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, aliquid tempora magnam totam
+                        enim voluptatem similique quas nobis optio odio itaque repudiandae autem illum. Accusamus magni
+                        ad harum excepturi neque nemo quae. Suscipit, consequuntur quibusdam.</p>
+
+                    <a href="#" class="btn-theme">Lorem, ipsum.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<div class="container">
+    <app-section-title title="Lorem ipsum dolor sit amet consectetur."></app-section-title>
+
+    <p class="my5 text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat mollitia asperiores porro ducimus, doloribus
+        corrupti pariatur, doloremque ad voluptatibus iste recusandae! Fugit eaque optio, rem necessitatibus incidunt
+        amet animi voluptas assumenda? Repellendus unde hic placeat! Sapiente modi magnam quaerat eaque, eveniet dolorum
+        iusto odit deleniti repudiandae ullam nam aliquam.
+    </p>
+</div>
+
+
+
+
+
+
+<!-- carousel -->
+<section id="icon-carousel">
+    <div class="swiper my-5 py-5">
+        <div class="swiper-wrapper">
+
+            <div *ngFor="let item of [1,2,3,4,5,6,7]" class="swiper-slide">
+                <div class="card shadow-0 px-5 text-center">
+                    <div class="card-body">
+                        <i class="fa fa-trash bg-theme rounded shadow text-light fa-2x p-3"></i>
+                        <p class="text-center my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                            natus quas totam ut modi facilis quasi iusto.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+
+
+
+<app-short-contact-us-block></app-short-contact-us-block>
