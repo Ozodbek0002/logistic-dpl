@@ -1,0 +1,34 @@
+<section id="auto-form">
+    <div class="container">
+        <div class="form-block">
+
+            <form>
+                <div class="form-outline">
+                    <input type="text" placeholder="From">
+                    <i class="fa fa-map-marker-alt"></i>
+                </div>
+                <div class="form-outline mx-1">
+                    <input type="text" placeholder="To">
+                    <i class="fa fa-map-marker-alt"></i>
+                </div>
+                <div class="form-outline">
+                    <input style="width: 150px;" matInput [matDatepicker]="picker" readonly>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </div>
+                <div class="radio-btn mx-1">
+                    <input type="radio" class="form-check-input" name="truck" id="open">
+                    <label class="form-check-label" for="open"><i class="fa fa-truck"></i> Open</label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" class="form-check-input" name="truck" id="enclosed">
+                    <label class="form-check-label" for="enclosed"><i class="fa fa-truck"></i> Enclosed</label>
+                </div>
+                <button class="form-btn px-3 ms-1">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+
+        </div>
+    </div>
+</section>

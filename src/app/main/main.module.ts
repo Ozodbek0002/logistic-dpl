@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { MainRoutingModule } from './main-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSelectSearchModule } from 'mat-select-search';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
 
 
 import { MainComponent } from './main.component';
@@ -30,8 +32,11 @@ import { OpenCarComponent } from './pages/carriers/auto/open-car/open-car.compon
 import { EnclosedCarComponent } from './pages/carriers/auto/enclosed-car/enclosed-car.component';
 import { FlatbedCarComponent } from './pages/carriers/auto/flatbed-car/flatbed-car.component';
 import { SpecializedCarComponent } from './pages/carriers/auto/specialized-car/specialized-car.component';
-import { HowDoesComponent } from './pages/services/auto/how-does/how-does.component';
-import { HowMuchComponent } from './pages/services/auto/how-much/how-much.component';
+import { HowDoesComponent as HowDoesComponentAuto } from './pages/services/auto/how-does/how-does.component';
+import { HowMuchComponent as HowMuchComponentAuto } from './pages/services/auto/how-much/how-much.component';
+import { HowDoesComponent } from './pages/services/freight/how-does/how-does.component';
+import { HowMuchComponent } from './pages/services/freight/how-much/how-much.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -42,11 +47,11 @@ import { FixedButtonsComponent } from './components/fixed-buttons/fixed-buttons.
 import { SectionTitleComponent } from './components/section-title/section-title.component';
 import { BreadCrumbsComponent } from './components/bread-crumbs/bread-crumbs.component';
 import { ReviewsBlockComponent } from './components/reviews-block/reviews-block.component';
-import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ReviewsCarouselComponent } from './components/reviews-carousel/reviews-carousel.component';
 import { ShortContactUsBlockComponent } from './components/short-contact-us-block/short-contact-us-block.component';
 import { InfoNumbericComponent } from './components/info-numberic/info-numberic.component';
+import { AutoShipFormComponent } from './components/auto-ship-form/auto-ship-form.component';
 
 
 @NgModule({
@@ -80,12 +85,15 @@ import { InfoNumbericComponent } from './components/info-numberic/info-numberic.
     SpecializedCarComponent,
     HowDoesComponent,
     HowMuchComponent,
+    HowDoesComponentAuto,
+    HowMuchComponentAuto,
     ReviewsBlockComponent,
     AboutUsComponent,
     FaqComponent,
     ReviewsCarouselComponent,
     ShortContactUsBlockComponent,
     InfoNumbericComponent,
+    AutoShipFormComponent,
   ],
   imports: [
     CommonModule,
@@ -96,7 +104,9 @@ import { InfoNumbericComponent } from './components/info-numberic/info-numberic.
     MatInputModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatSelectSearchModule
+    MatSelectSearchModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ]
 })
 export class MainModule { }

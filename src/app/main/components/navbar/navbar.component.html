@@ -1,149 +1,372 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-0">
 	<div class="container-fluid">
 
-		<button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarId"
-			aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation">
-			<i class="fas fa-bars"></i>
-		</button>
+		<div class="toggler-nav">
+			<button class="navbar-toggler collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarId"
+				aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="d-block">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+			</button>
 
-		<div class="collapse navbar-collapse d-flex justify-content-between" id="navbarId">
 
-			<a class="navbar-brand mt-2 mt-lg-0" routerLink="home">
+			<a class="navbar-brand me-0" routerLink="home">
 				<img src="./assets/logo.png" loading="lazy" width="150px" />
 			</a>
+		</div>
 
-			<ul class="navbar-nav mb-2 mb-lg-0">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" routerLinkActive="active" id="dropdown1" role="button" data-mdb-toggle="dropdown"
-						aria-expanded="false">Customers</a>
-					<div class="dropdown-menu" aria-labelledby="dropdown1">
-						<div class="navbar-dropdown">
-							<div class="navbar-dropdown-item border-end">
+		<div class="collapse navbar-collapse" id="navbarId">
+			<div class="w-100 d-flex align-items-center justify-content-between">
+
+				<a class="navbar-brand mt-2 mt-lg-0" routerLink="home">
+					<img src="./assets/logo.png" loading="lazy" width="150px" />
+				</a>
+
+				<ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" routerLinkActive="active" id="dropdown1" role="button"
+							data-mdb-toggle="dropdown" aria-expanded="false">Customers</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown1">
+							<div class="navbar-dropdown">
+								<div class="navbar-dropdown-item border-end">
+									<h4 class="mb-0">Auto Transportation Customers</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="customers/auto/online-car-buyers"
+												routerLinkActive="active">Online Car Buyers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="customers/auto/private-dealers"
+												routerLinkActive="active">Private Dealers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="customers/auto/dealerships"
+												routerLinkActive="active">Dealerships</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="customers/auto/auctions"
+												routerLinkActive="active">Auctions</a>
+										</li>
+									</ul>
+								</div>
+								<div class="navbar-dropdown-item">
+									<h4 class="mb-0">Freight Transportation Customers</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="customers/freight/manufacturers-and-warehouses"
+												routerLinkActive="active">Manufacturers and warehouses</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="customers/freight/recyclers"
+												routerLinkActive="active">Recyclers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="customers/freight/distribution-centers"
+												routerLinkActive="active">Distribution Centers</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" link="" id="dropdown2" role="button"
+							data-mdb-toggle="dropdown" aria-expanded="false">Carriers</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown2">
+							<div class="navbar-dropdown">
+								<div class="navbar-dropdown-item border-end">
+									<h4 class="mb-0">Auto Transportation Carriers</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/auto/open-car-haulers"
+												routerLinkActive="active">Open Car Haulers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="carriers/auto/enclosed-car-haulers"
+												routerLinkActive="active">Enclosed Car Haulers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="carriers/auto/flatbed-car-trailers"
+												routerLinkActive="active">Flatbed Car Trailers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/auto/specialized-cars"
+												routerLinkActive="active">Specialized Cars,<br />Heavy Truck Haulers</a>
+										</li>
+									</ul>
+								</div>
+								<div class="navbar-dropdown-item">
+									<h4 class="mb-0">Freight Transportation Carriers</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/freight/dry-vans"
+												routerLinkActive="active">Dry Vans ( All sizes)</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/freight/reefers"
+												routerLinkActive="active">Reefers</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/freight/box-trucks"
+												routerLinkActive="active">Box Trucks</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/freight/flatbed"
+												routerLinkActive="active">Flatbed</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/freight/conestoga"
+												routerLinkActive="active">Conestoga</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link" routerLink="carriers/freight/containers"
+												routerLinkActive="active">Drop Trailers, Containers</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" link="" id="dropdown3" role="button"
+							data-mdb-toggle="dropdown" aria-expanded="false">Transportation&nbsp;Services</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown3">
+							<div class="navbar-dropdown">
+								<div class="navbar-dropdown-item border-end">
+									<h4 class="mb-0">Auto Transportation Services</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a class="navbar-dropdown-link" routerLink="services/auto/how-does-it-work"
+												routerLinkActive="active">How does it work?</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="services/auto/how-much-does-it-cost"
+												routerLinkActive="active">How much does it cost?</a>
+										</li>
+									</ul>
+								</div>
+								<div class="navbar-dropdown-item">
+									<h4 class="mb-0">Freight Transportation Services</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="services/freight/how-does-it-work"
+												routerLinkActive="active">How does it work?</a>
+										</li>
+										<li>
+											<a class="navbar-dropdown-link"
+												routerLink="services/freight/how-much-does-it-cost"
+												routerLinkActive="active">How much does it cost?</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" routerLink="about-us">About&nbsp;Us</a>
+					</li>
+				</ul>
+
+
+				<div class="search-bar">
+					<input type="text" class="input" placeholder="&nbsp;">
+					<span class="label">Search</span>
+					<div class="search-btn d-flex align-items-center justify-content-center text-light">
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div class="mobile-navbar" id="navbarId">
+			<div class="container-fluid">
+
+
+				<div class="accordion" id="accordionNavbar">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="menuOne">
+							<button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+								data-mdb-target="#menuOneCollapse" aria-expanded="false" aria-controls="menuOneCollapse">
+								Customers
+							</button>
+						</h2>
+						<div id="menuOneCollapse" class="accordion-collapse collapse" aria-labelledby="menuOne"
+							data-mdb-parent="#accordionNavbar">
+							<div class="accordion-body">
 								<h4 class="mb-0">Auto Transportation Customers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/auto/online-car-buyers" routerLinkActive="active">Online Car Buyers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/online-car-buyers"
+											routerLinkActive="active">Online Car Buyers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/auto/private-dealers" routerLinkActive="active">Private Dealers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/private-dealers"
+											routerLinkActive="active">Private Dealers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/auto/dealerships" routerLinkActive="active">Dealerships</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/dealerships"
+											routerLinkActive="active">Dealerships</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/auto/auctions" routerLinkActive="active">Auctions</a>
+										<a class="navbar-dropdown-link" routerLink="customers/auto/auctions"
+											routerLinkActive="active">Auctions</a>
 									</li>
 								</ul>
-							</div>
-							<div class="navbar-dropdown-item">
+
 								<h4 class="mb-0">Freight Transportation Customers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/freight/manufacturers-and-warehouses" routerLinkActive="active">Manufacturers and warehouses</a>
+										<a class="navbar-dropdown-link"
+											routerLink="customers/freight/manufacturers-and-warehouses"
+											routerLinkActive="active">Manufacturers and warehouses</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/freight/recyclers" routerLinkActive="active">Recyclers</a>
+										<a class="navbar-dropdown-link" routerLink="customers/freight/recyclers"
+											routerLinkActive="active">Recyclers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="customers/freight/distribution-centers" routerLinkActive="active">Distribution Centers</a>
+										<a class="navbar-dropdown-link"
+											routerLink="customers/freight/distribution-centers"
+											routerLinkActive="active">Distribution Centers</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" link="" id="dropdown2" role="button" data-mdb-toggle="dropdown"
-						aria-expanded="false">Carriers</a>
-					<div class="dropdown-menu" aria-labelledby="dropdown2">
-						<div class="navbar-dropdown">
-							<div class="navbar-dropdown-item border-end">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="menuTwo">
+							<button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+								data-mdb-target="#menuTwoCollapse" aria-expanded="false"
+								aria-controls="menuTwoCollapse">
+								Carriers
+							</button>
+						</h2>
+						<div id="menuTwoCollapse" class="accordion-collapse collapse" aria-labelledby="menuTwo"
+							data-mdb-parent="#accordionNavbar">
+							<div class="accordion-body">
 								<h4 class="mb-0">Auto Transportation Carriers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/auto/open-car-haulers" routerLinkActive="active">Open Car Haulers</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/auto/open-car-haulers"
+											routerLinkActive="active">Open Car Haulers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/auto/enclosed-car-haulers" routerLinkActive="active">Enclosed Car Haulers</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/auto/enclosed-car-haulers"
+											routerLinkActive="active">Enclosed Car Haulers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/auto/flatbed-car-trailers" routerLinkActive="active">Flatbed Car Trailers</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/auto/flatbed-car-trailers"
+											routerLinkActive="active">Flatbed Car Trailers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/auto/specialized-cars" routerLinkActive="active">Specialized Cars,<br />Heavy Truck	Haulers</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/auto/specialized-cars"
+											routerLinkActive="active">Specialized Cars,<br />Heavy Truck Haulers</a>
 									</li>
 								</ul>
-							</div>
-							<div class="navbar-dropdown-item">
+
 								<h4 class="mb-0">Freight Transportation Carriers</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/freight/dry-vans" routerLinkActive="active">Dry Vans ( All sizes)</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/freight/dry-vans"
+											routerLinkActive="active">Dry Vans ( All sizes)</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/freight/reefers" routerLinkActive="active">Reefers</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/freight/reefers"
+											routerLinkActive="active">Reefers</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/freight/box-trucks" routerLinkActive="active">Box Trucks</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/freight/box-trucks"
+											routerLinkActive="active">Box Trucks</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/freight/flatbed" routerLinkActive="active">Flatbed</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/freight/flatbed"
+											routerLinkActive="active">Flatbed</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/freight/conestoga" routerLinkActive="active">Conestoga</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/freight/conestoga"
+											routerLinkActive="active">Conestoga</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="carriers/freight/containers" routerLinkActive="active">Drop Trailers, Containers</a>
+										<a class="navbar-dropdown-link" routerLink="carriers/freight/containers"
+											routerLinkActive="active">Drop Trailers, Containers</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" link="" id="dropdown3" role="button" data-mdb-toggle="dropdown"
-						aria-expanded="false">Transportation&nbsp;Services</a>
-					<div class="dropdown-menu" aria-labelledby="dropdown3">
-						<div class="navbar-dropdown">
-							<div class="navbar-dropdown-item border-end">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="menuThree">
+							<button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+								data-mdb-target="#menuThreeCollapse" aria-expanded="false"
+								aria-controls="menuThreeCollapse">
+								Transportation Services
+							</button>
+						</h2>
+						<div id="menuThreeCollapse" class="accordion-collapse collapse" aria-labelledby="menuThree"
+							data-mdb-parent="#accordionNavbar">
+							<div class="accordion-body">
 								<h4 class="mb-0">Auto Transportation Services</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" routerLink="services/auto/how-does-it-work" routerLinkActive="active">How does it work?</a>
+										<a class="navbar-dropdown-link" routerLink="services/auto/how-does-it-work"
+											routerLinkActive="active">How does it work?</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="services/auto/how-much-does-it-cost" routerLinkActive="active">How much does it cost?</a>
+										<a class="navbar-dropdown-link" routerLink="services/auto/how-much-does-it-cost"
+											routerLinkActive="active">How much does it cost?</a>
 									</li>
 								</ul>
-							</div>
-							<div class="navbar-dropdown-item">
+
 								<h4 class="mb-0">Freight Transportation Services</h4>
 								<ul class="list-unstyled">
 									<li>
-										<a class="navbar-dropdown-link" routerLink="services/freight/how-does-it-work" routerLinkActive="active">How does it work?</a>
+										<a class="navbar-dropdown-link" routerLink="services/freight/how-does-it-work"
+											routerLinkActive="active">How does it work?</a>
 									</li>
 									<li>
-										<a class="navbar-dropdown-link" routerLink="services/freight/how-much-does-it-cost" routerLinkActive="active">How much does it cost?</a>
+										<a class="navbar-dropdown-link"
+											routerLink="services/freight/how-much-does-it-cost"
+											routerLinkActive="active">How much does it cost?</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" routerLink="about-us">About&nbsp;Us</a>
-				</li>
-			</ul>
-
-
-			<div class="search-bar">
-				<input type="text" class="input" placeholder="&nbsp;">
-				<span class="label">Search</span>
-				<div class="search-btn d-flex align-items-center justify-content-center text-light">
-					<i class="fa fa-search"></i>
+					<div class="nav-item accordion-item px-4">
+						<a routerLink="about-us" routerLinkActive="active" class="navbar-dropdown-link">About Us</a>
+					</div>
 				</div>
-			</div>
 
+				<hr>
+
+				<div class="mt-5 px-4 d-flex align-items-center justify-content-between">
+					<div class="d-flex">
+						<a href="#">Login</a>
+						<span class="mx-2">|</span>
+						<a href="#">Sign In</a>
+					</div>
+					<div class="d-flex">
+						<button type="button" class="btn p-0 nav-link shadow-0">ENG</button>
+						<span class="mx-2">|</span>
+						<button type="button" class="btn p-0 nav-link shadow-0">ESP</button>
+					</div>
+				</div>
+
+
+			</div>
 		</div>
 
 	</div>

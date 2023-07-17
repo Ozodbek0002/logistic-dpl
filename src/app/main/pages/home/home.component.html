@@ -11,7 +11,7 @@
         <div class="row">
             <div class="mx-auto col-11 col-sm-10 col-md-6 col-lg-6 col-xl-5">
                 <div class="block">
-                    <img src="./assets/images/shipping/car-hauler_SuperDispatch.jpg" alt=""
+                    <img src="./assets/images/shipping/car-hauler_SuperDispatch.jpg" alt="Service image"
                         class="img-fluid" height="300px">
 
                     <h5 class="mt-4 mb-2">Lorem, ipsum dolor.</h5>
@@ -28,8 +28,7 @@
             </div>
             <div class="mx-auto col-11 col-sm-10 col-md-6 col-lg-6 col-xl-5">
                 <div class="block">
-                    <img src="./assets/images/shipping/truck.jpg" alt=""
-                        class="img-fluid" height="300px">
+                    <img src="./assets/images/shipping/truck.jpg" alt="Service image" class="img-fluid" height="300px">
 
                     <h5 class="mt-4 mb-2">Lorem, ipsum dolor.</h5>
                     <p>
@@ -45,8 +44,8 @@
             </div>
             <div class="mx-auto col-11 col-sm-10 col-md-6 col-lg-6 col-xl-5">
                 <div class="block">
-                    <img src="./assets/images/shipping/Untitled-design-7.png" alt=""
-                        class="img-fluid" height="300px">
+                    <img src="./assets/images/shipping/Untitled-design-7.png" alt="Service image" class="img-fluid"
+                        height="300px">
 
                     <h5 class="mt-4 mb-2">Lorem, ipsum dolor.</h5>
                     <p>
@@ -62,7 +61,7 @@
             </div>
             <div class="mx-auto col-11 col-sm-10 col-md-6 col-lg-6 col-xl-5">
                 <div class="block">
-                    <img src="./assets/images/shipping/shutterstock_2025993740.jpg" alt=""
+                    <img src="./assets/images/shipping/shutterstock_2025993740.jpg" alt="Service image"
                         class="img-fluid" height="300px">
 
                     <h5 class="mt-4 mb-2">Lorem, ipsum dolor.</h5>
@@ -89,7 +88,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-11 col-md-5 mx-auto ms-md-0">
+            <div class="col-11 col-md-8 col-lg-5 mx-auto ms-lg-0 mt-4">
                 <h4 class="text-theme mb-3">About Our Freight Shipping Service</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fugiat iste, nesciunt perspiciatis qui
                     quas quis, est facilis ipsa unde mollitia magnam commodi rem eum. Dicta debitis officiis nostrum
@@ -100,53 +99,47 @@
                     quasi repudiandae. Nesciunt fugit exercitationem quis, saepe nisi architecto nulla vitae quos unde,
                     voluptates adipisci quo veritatis dolorum quaerat voluptatibus?</p>
             </div>
-            <div class="col-11 col-md-6 mx-auto me-md-0">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto me-lg-0 mt-4">
                 <h4 class="text-theme text-center mb-3">Freight Rate Calculator</h4>
 
                 <div class="card border shadow-0 py-3 px-4">
-                    <form action="">
+                    <form>
 
                         <div class="my-4">
                             <h6>Shipping option</h6>
-                            <div class="d-inline-block">
-                                <label for="type11" class="me-3">
-                                    <input class="form-check-input" id="type11" type="radio" name="type" checked>
-                                    LTL (Less-Than-Truckload)
-                                </label>
-                                <label for="type22">
-                                    <input class="form-check-input" id="type22" type="radio" name="type">
-                                    Full Truckload
-                                </label>
-                            </div>
+                            <label for="type11" class="me-3">
+                                <input class="form-check-input" id="type11" type="radio" name="type" checked>
+                                LTL (Less-Than-Truckload)
+                            </label>
+                            <label for="type22">
+                                <input class="form-check-input" id="type22" type="radio" name="type">
+                                Full Truckload
+                            </label>
                         </div>
 
                         <div class="mb-4">
                             <h6>Pickup and deliveery location</h6>
-                            <div class="d-flex">
-                                <mat-form-field class="w-100 me-2">
-                                    <mat-label>Pickup city or postal code</mat-label>
-                                    <input type="text" placeholder="City or ZIP" aria-label="Number" matInput
-                                        [formControl]="myControl1" [matAutocomplete]="auto1">
-                                    <mat-autocomplete #auto1="matAutocomplete">
-                                        <mat-option *ngFor="let option of filteredOptions1 | async"
-                                            [value]="option.city">
-                                            {{option.city}}
-                                        </mat-option>
-                                    </mat-autocomplete>
-                                </mat-form-field>
+                            <mat-form-field class="w-100 me-4">
+                                <mat-label>Pickup city or postal code</mat-label>
+                                <input type="text" placeholder="City or ZIP" aria-label="Number" matInput
+                                    [formControl]="myControl1" [matAutocomplete]="auto1">
+                                <mat-autocomplete #auto1="matAutocomplete">
+                                    <mat-option *ngFor="let option of filteredOptions1 | async" [value]="option.city">
+                                        {{option.city}}
+                                    </mat-option>
+                                </mat-autocomplete>
+                            </mat-form-field>
 
-                                <mat-form-field class="w-100">
-                                    <mat-label>Destination city or postal code</mat-label>
-                                    <input type="text" placeholder="City or ZIP" aria-label="Number" matInput
-                                        [formControl]="myControl2" [matAutocomplete]="auto2">
-                                    <mat-autocomplete #auto2="matAutocomplete">
-                                        <mat-option *ngFor="let option of filteredOptions2 | async"
-                                            [value]="option.city">
-                                            {{option.city}}
-                                        </mat-option>
-                                    </mat-autocomplete>
-                                </mat-form-field>
-                            </div>
+                            <mat-form-field class="w-100">
+                                <mat-label>Destination city or postal code</mat-label>
+                                <input type="text" placeholder="City or ZIP" aria-label="Number" matInput
+                                    [formControl]="myControl2" [matAutocomplete]="auto2">
+                                <mat-autocomplete #auto2="matAutocomplete">
+                                    <mat-option *ngFor="let option of filteredOptions2 | async" [value]="option.city">
+                                        {{option.city}}
+                                    </mat-option>
+                                </mat-autocomplete>
+                            </mat-form-field>
                         </div>
 
                         <div class="mb-4">
@@ -154,25 +147,25 @@
 
                             <div class="form-group-area">
                                 <div class="d-flex align-items-center">
-                                    <label for="">Length
-                                        <input type="number" class="form-control rounded-start" min="1" value="34">
+                                    <label>Length
+                                        <input type="text" pattern="[0-9]]{10}" class="form-control rounded-start" min="1" value="34">
                                     </label>
-                                    <label for="">Width
-                                        <input type="number" class="form-control mx-1" min="1" value="25">
+                                    <label>Width
+                                        <input type="text" class="form-control mx-1" min="1" value="25">
                                     </label>
-                                    <label for="">Heigh
-                                        <input type="number" class="form-control" min="1" value="30">
+                                    <label>Heigh
+                                        <input type="text" class="form-control" min="1" value="30">
                                     </label>
-                                    <label for="">&nbsp;
+                                    <label>&nbsp;
                                         <select class="form-select ms-1 rounded-end">
                                             <option value="1" selected>in</option>
                                             <option value="3">feet</option>
                                         </select>
                                     </label>
-                                    <label for="" class="ms-auto">Weight
-                                        <input type="number" class="form-control rounded-start" min="1" value="15">
+                                    <label class="ms-auto">Weight
+                                        <input type="text" class="form-control rounded-start" min="1" value="15">
                                     </label>
-                                    <label for="">&nbsp;
+                                    <label>&nbsp;
                                         <select class="form-select ms-1 rounded-end">
                                             <option value="1" selected>lbs</option>
                                             <option value="3">kg</option>
@@ -201,7 +194,7 @@
         <div class="row">
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
                 <div class="img-block">
-                    <img src="./assets/images/shipping/Hyster.jpg" alt="">
+                    <img src="./assets/images/shipping/Hyster.jpg" alt="Service image">
                 </div>
             </div>
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
@@ -222,7 +215,7 @@
         <div class="row sm-reverse">
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
                 <div class="img-block">
-                    <img src="./assets/images/shipping/Intermodal-Services-1-1024x614.jpg" alt="">
+                    <img src="./assets/images/shipping/Intermodal-Services-1-1024x614.jpg" alt="Service image">
                 </div>
             </div>
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
@@ -243,7 +236,7 @@
         <div class="row">
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
                 <div class="img-block">
-                    <img src="./assets/images/shipping/Impact-Transportation-forklift.jpg" alt="">
+                    <img src="./assets/images/shipping/Impact-Transportation-forklift.jpg" alt="Service image">
                 </div>
             </div>
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
@@ -264,7 +257,7 @@
         <div class="row sm-reverse">
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">
                 <div class="img-block">
-                    <img src="./assets/images/shipping/truck.jpg" alt="">
+                    <img src="./assets/images/shipping/truck.jpg" alt="Service image">
                 </div>
             </div>
             <div class="mx-auto mb-5 col-11 col-sm-10 col-md-6">

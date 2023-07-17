@@ -1,27 +1,17 @@
 #main-bar {
-    display: flex;
-    min-height: 70vh;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-position: 0%;
-    background-size: cover;
-    background-image: url(../../../../assets/images/main-bar-image.jpg);
+    position: relative;
+    display: block;
+    background: transparent;
+    min-height: 90vh;
 
-    .text-content,
-    .form-content {
-        display: flex;
-        justify-content: center;
+    #main-bar-video {
+        position: absolute;
+        width: 100%;
         height: 100%;
-        flex-direction: column;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
     }
-}
 
-@media screen and (max-width: 768px) {
-    #main-bar {
-        padding-bottom: 70px;
-
-        .form-content {
-            margin-top: 20px;
-        }
-    }
 }
