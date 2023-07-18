@@ -12,7 +12,7 @@
                     <i class="fa fa-map-marker-alt"></i>
                 </div>
                 <div class="form-outline">
-                    <input style="width: 150px;" matInput [matDatepicker]="picker" readonly>
+                    <input style="min-width: 150px;" matInput [matDatepicker]="picker" readonly>
                     <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
                     <mat-datepicker #picker></mat-datepicker>
                 </div>
@@ -24,7 +24,7 @@
                     <input type="radio" class="form-check-input" name="truck" id="enclosed">
                     <label class="form-check-label" for="enclosed"><i class="fa fa-truck"></i> Enclosed</label>
                 </div>
-                <button class="form-btn px-3 ms-1">
+                <button class="form-btn px-3 me-1 ms-2">
                     <i class="fa fa-search"></i>
                 </button>
             </form>

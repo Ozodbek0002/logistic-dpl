@@ -1,8 +1,7 @@
 #main-bar {
-    position: relative;
-    display: block;
-    background: transparent;
     min-height: 90vh;
+    position: relative;
+    background: transparent;
 
     #main-bar-video {
         position: absolute;
@@ -14,4 +13,116 @@
         z-index: -1;
     }
 
+
+    .form-block {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            padding: 2px 3px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0px 30px 0 rgba(21, 62, 143, 0.2);
+
+            .radio-btn {
+                display: inline-block;
+                min-width: fit-content;
+                width: calc(12.5% - 50px);
+
+                .form-check-label {
+                    display: contents;
+                    color: #555 !important;
+                }
+            }
+
+            .form-btn {
+                padding: 10px;
+                border-radius: 10px;
+                background: var(--theme-2);
+                border: none;
+                outline: none;
+                color: #fff;
+
+                &:hover {
+                    background: var(--theme-1);
+                }
+            }
+
+            .form-outline {
+                display: inline-block;
+                width: 24%;
+
+                
+                &:hover input {
+                    box-shadow: 0 0 2px var(--theme-2);
+                    border: 1px solid var(--theme-2) !important;
+                }
+
+                i,
+                .mat-datepicker-toggle {
+                    position: absolute;
+                    top: 50%;
+                    left: 15px;
+                    color: #999;
+                    transform: translateY(-50%);
+
+                    button.mdc-icon-button {
+                        padding-left: 0 !important;
+                    }
+                }
+
+                .mat-datepicker-toggle {
+                    width: 100%;
+                }
+
+
+                input {
+                    padding: 16px 16px 16px 45px;
+                    box-shadow: none;
+                    background: transparent;
+                    color: var(--theme-1);
+                    border-radius: 10px;
+                    outline: none;
+                    width: 100%;
+                    border: 1px solid transparent;
+
+                    &:hover,
+                    &:focus,
+                    &:focus-visible {
+                        box-shadow: 0 0 2px var(--theme-2);
+                        border: 1px solid var(--theme-2) !important;
+                    }
+
+                    &:focus~i {
+                        color: var(--theme-2);
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+@media screen and (max-width: 992px) {
+    #main-bar .form-block {
+        form {
+            .radio-btn {
+            }
+
+            .form-btn {
+            }
+
+            .form-outline {}
+        }
+    }
+}
+

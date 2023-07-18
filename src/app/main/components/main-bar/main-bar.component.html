@@ -1,11 +1,40 @@
-
 <section id="main-bar">
 
-    <app-auto-ship-form></app-auto-ship-form>
+    <div class="form-block flex-column">
+
+        <h2>Lorem, ipsum dolor.</h2>
+
+        <form>
+            <div class="form-outline">
+                <input type="text" placeholder="From">
+                <i class="fa fa-map-marker-alt"></i>
+            </div>
+            <div class="form-outline">
+                <input type="text" placeholder="To">
+                <i class="fa fa-map-marker-alt"></i>
+            </div>
+            <div class="form-outline">
+                <input matInput [matDatepicker]="picker" readonly>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </div>
+            <div class="radio-btn">
+                <input type="radio" class="form-check-input" name="truck" id="open">
+                <label class="form-check-label" for="open"><i class="fa fa-truck"></i> Open</label>
+            </div>
+            <div class="radio-btn mx-2">
+                <input type="radio" class="form-check-input" name="truck" id="enclosed">
+                <label class="form-check-label" for="enclosed"><i class="fa fa-truck"></i> Enclosed</label>
+            </div>
+            <button class="form-btn px-3 d-inline-block ms-auto">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+    </div>
 
 
     <video id="main-bar-video" preload autoplay loop muted>
         <source src="./assets/map-animation.mp4" type="video/mp4">
     </video>
 </section>
-

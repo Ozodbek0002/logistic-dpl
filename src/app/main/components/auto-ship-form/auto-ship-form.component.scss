@@ -1,11 +1,12 @@
 #auto-form {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
 
 
     .form-block {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         form {
             display: flex;
@@ -15,73 +16,111 @@
             border-radius: 10px;
             padding: 2px 3px;
             box-shadow: 0 0px 30px 0 rgba(41, 112, 250, 0.2);
-        }
 
-        .radio-btn {
-            display: inline-block;
 
-            .form-check-label {
-                color: #555 !important;
-            }
-        }
+            .radio-btn {
+                display: inline-block;  
 
-        .form-btn {
-            padding: 10px;
-            border-radius: 10px;
-            margin: 0;
-            background: var(--theme-2);
-            border: none;
-            outline: none;
-            color: #fff;
-
-            &:hover {
-                background: var(--theme-1);
-            }
-        }
-
-        .form-outline {
-            display: inline-block;
-            width: unset;
-
-            i,
-            .mat-datepicker-toggle {
-                position: absolute;
-                top: 50%;
-                left: 15px;
-                color: #999;
-                transform: translateY(-50%);
-            }
-
-            .mdc-icon-button {
-                padding: 8px 0 0 0;
-                height: 0;
-                width: 0;
-
-                .mat-mdc-icon-button svg {
-                    width: 0;
-                    height: 0;
+                .form-check-label {
+                    color: #555 !important;
                 }
             }
 
-
-            input {
-                padding: 16px 16px 16px 45px;
-                box-shadow: none;
-                background: transparent;
-                color: var(--theme-1);
+            .form-btn {
+                padding: 10px;
                 border-radius: 10px;
+                margin: 0;
+                background: var(--theme-2);
+                border: none;
                 outline: none;
-                border: 1px solid transparent;
+                color: #fff;
 
-                &:hover,
-                &:focus,
-                &:focus-visible {
-                    box-shadow: 0 0 2px var(--theme-2);
-                    border: 1px solid var(--theme-2) !important;
+                &:hover {
+                    background: var(--theme-1);
+                }
+            }
+
+            .form-outline {
+                display: inline-block;
+                width: 23%;
+                width: unset;
+
+                i,
+                .mat-datepicker-toggle {
+                    position: absolute;
+                    top: 50%;
+                    left: 15px;
+                    color: #999;
+                    transform: translateY(-50%);
                 }
 
-                &:focus~i {
-                    color: var(--theme-2);
+                .mdc-icon-button {
+                    padding: 8px 0 0 0;
+                    height: 0;
+                    width: 0;
+
+                    .mat-mdc-icon-button svg {
+                        width: 0;
+                        height: 0;
+                    }
+                }
+
+
+                input {
+                    padding: 16px 16px 16px 45px;
+                    box-shadow: none;
+                    background: transparent;
+                    color: var(--theme-1);
+                    border-radius: 10px;
+                    outline: none;
+                    border: 1px solid transparent;
+
+                    &:hover,
+                    &:focus,
+                    &:focus-visible {
+                        box-shadow: 0 0 2px var(--theme-2);
+                        border: 1px solid var(--theme-2) !important;
+                    }
+
+                    &:focus~i {
+                        color: var(--theme-2);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #auto-form .form-block form .radio-btn {
+        display: contents;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    #auto-form {
+        .form-block {
+            form {
+                width: 60%;
+                display: block;
+                margin: auto;
+
+                .radio-btn {
+                    display: inline-block;
+                    width: 31%;
+                    margin: 0 !important;
+                }
+
+                .form-outline {
+                    display: block;
+                    margin: 10px 0 0 0 !important;
+                    width: 100%;
+
+                    input {
+                        width: 100% !important;
+                    }
                 }
             }
         }
