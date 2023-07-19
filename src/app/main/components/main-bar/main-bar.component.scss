@@ -31,6 +31,7 @@
             padding: 2px 3px;
             border-radius: 10px;
             background-color: #fff;
+            border: 1px solid #ccc;
             box-shadow: 0 0px 30px 0 rgba(21, 62, 143, 0.2);
 
             .radio-btn {
@@ -45,7 +46,7 @@
             }
 
             .form-btn {
-                padding: 10px;
+                padding: 15px;
                 border-radius: 10px;
                 background: var(--theme-2);
                 border: none;
@@ -61,27 +62,32 @@
                 display: inline-block;
                 width: 24%;
 
-                
+
                 &:hover input {
                     box-shadow: 0 0 2px var(--theme-2);
                     border: 1px solid var(--theme-2) !important;
                 }
 
-                i,
-                .mat-datepicker-toggle {
+                i {
                     position: absolute;
                     top: 50%;
                     left: 15px;
                     color: #999;
                     transform: translateY(-50%);
-
-                    button.mdc-icon-button {
-                        padding-left: 0 !important;
-                    }
                 }
 
                 .mat-datepicker-toggle {
                     width: 100%;
+                    position: absolute;
+                    top: 43%;
+                    left: 0;
+                    color: #999;
+                    transform: translateY(-50%);
+
+                    .mat-mdc-icon-button.mat-mdc-button-base {
+                        padding-left: 0 !important;
+                        width: auto !important;
+                    }
                 }
 
 
@@ -115,14 +121,33 @@
 @media screen and (max-width: 992px) {
     #main-bar .form-block {
         form {
+            display: block;
+            align-items: unset;
+            justify-content: unset;
+            width: 50%;
+
             .radio-btn {
+                margin-left: 1rem !important;
+                width: calc(50% - 50px);
             }
 
             .form-btn {
+                display: block;
+                width: 100%;
+                margin-top: 10px;
+                padding: 10px;
             }
 
-            .form-outline {}
+            .form-outline {
+                width: 100%;
+            }
         }
     }
 }
 
+
+@media screen and (max-width: 992px) {
+    #main-bar .form-block form {
+        width: 80%;
+    }
+}
