@@ -2,40 +2,88 @@
 
     <div class="form-block flex-column">
 
-        <h2>Lorem, ipsum dolor.</h2>
+            <h2 class="mb-5">Lorem, ipsum dolor.</h2>
 
-        <form>
-            <div class="form-outline">
-                <input type="text" placeholder="From">
-                <i class="fa fa-map-marker-alt"></i>
-            </div>
-            <div class="form-outline">
-                <input type="text" placeholder="To">
-                <i class="fa fa-map-marker-alt"></i>
-            </div>
-            <div class="form-outline">
-                <input matInput [matDatepicker]="picker" readonly>
-                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-                <mat-datepicker #picker></mat-datepicker>
-            </div>
-            <div class="radio-btn">
-                <input type="radio" class="form-check-input" name="truck" id="open">
-                <label class="form-check-label" for="open">
-                    <img src="./../../../../assets/truck2.png" width="30px" alt="">
-                    Open
-                </label>
-            </div>
-            <div class="radio-btn mx-2">
-                <input type="radio" class="form-check-input" name="truck" id="enclosed">
-                <label class="form-check-label" for="enclosed">
-                    <img src="./../../../../assets/truck1.png" width="30px" alt="">
-                    Enclosed
-                </label>
-            </div>
-            <button class="form-btn px-3">
-                <i class="fa fa-search"></i>
-            </button>
-        </form>
+            <form>
+
+
+                <ng-container *ngIf="one">
+                    <div class="form-outline">
+                        <input type="text" placeholder="From">
+                        <i class="fa fa-map-marker-alt"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="To">
+                        <i class="fa fa-map-marker-alt"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input matInput [matDatepicker]="picker" readonly>
+                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" class="form-check-input" name="truck" id="open">
+                        <label class="form-check-label" for="open">
+                            <img src="./assets/truck2.png" width="30px" alt="">
+                            Open
+                        </label>
+                    </div>
+                    <div class="radio-btn mx-2">
+                        <input type="radio" class="form-check-input" name="truck" id="enclosed">
+                        <label class="form-check-label" for="enclosed">
+                            <img src="./assets/truck1.png" width="30px" alt="">
+                            Enclosed
+                        </label>
+                    </div>
+                    <button (click)="one = false; two = true;" class="form-btn px-3">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </ng-container>
+
+
+                <ng-container *ngIf="two">
+                    <button (click)="one = true; two = false;" class="form-btn px-3"><i class="fa fa-arrow-left"></i></button>
+
+                    <div class="form-outline">
+                        <input type="text" placeholder="Firstname">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="Lastname">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="Phone">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="Email">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+
+                    <button (click)="three = true; two = false;" class="form-btn px-3"><i class="fa fa-arrow-right"></i></button>
+                </ng-container>
+
+
+                <ng-container *ngIf="three">
+                    <button (click)="three = false; two = true;" class="form-btn px-3"><i class="fa fa-arrow-left"></i></button>
+
+                    <div class="form-outline">
+                        <input type="text" placeholder="Car made">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="Car name">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="Car type">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+
+                    <button (click)="three = false; one = true;" class="form-btn px-3">Submit</button>
+                </ng-container>
+            </form>
 
     </div>
 
@@ -43,4 +91,5 @@
     <video id="main-bar-video" preload autoplay loop muted>
         <source src="./assets/map-animation.mp4" type="video/mp4">
     </video>
+
 </section>

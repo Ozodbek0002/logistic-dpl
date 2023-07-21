@@ -17,6 +17,8 @@
 
     --device-with: 100vw;
     --device-height: 100vh;
+
+    --mdc-theme-primary: #379EFF !important;
 }
 
 
@@ -37,6 +39,17 @@ body {
     min-width: 350px;
 }
 
+
+
+.mylivechat_inline {
+    z-index: 55 !important;
+}
+
+
+
+.cdk-overlay-container {
+    z-index: 1250;
+}
 
 
 
@@ -92,6 +105,8 @@ h3 {
 .bg-theme {
     background-color: var(--theme-1);
 }
+
+
 
 
 
@@ -180,10 +195,10 @@ strong span {
 
 .dropdown {
 
-    &:hover>.dropdown-menu,
-    .dropdown-toggle.show~.dropdown-menu {
+    &:hover>.dropdown-menu {
+    // .dropdown-toggle.show~.dropdown-menu {
         display: block;
-        top: 100%;
+        top: 95%;
         opacity: 1;
         visibility: visible;
     }
@@ -283,3 +298,13 @@ strong span {
         box-shadow: inset 0 0 0 1px var(--theme-2) !important;
     }
 }
+
+
+
+
+
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+    color: var(--theme-2) !important;
+}
+
+

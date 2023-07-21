@@ -9,7 +9,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSelectSearchModule } from 'mat-select-search';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import {MatNativeDateModule} from '@angular/material/core';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 import { MainComponent } from './main.component';
@@ -52,6 +52,8 @@ import { ReviewsCarouselComponent } from './components/reviews-carousel/reviews-
 import { ShortContactUsBlockComponent } from './components/short-contact-us-block/short-contact-us-block.component';
 import { InfoNumbericComponent } from './components/info-numberic/info-numberic.component';
 import { AutoShipFormComponent } from './components/auto-ship-form/auto-ship-form.component';
+import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinner.component';
+
 
 
 @NgModule({
@@ -94,6 +96,7 @@ import { AutoShipFormComponent } from './components/auto-ship-form/auto-ship-for
     ShortContactUsBlockComponent,
     InfoNumbericComponent,
     AutoShipFormComponent,
+    LoaderSpinnerComponent,
   ],
   imports: [
     CommonModule,
@@ -106,7 +109,7 @@ import { AutoShipFormComponent } from './components/auto-ship-form/auto-ship-for
     MatSelectModule,
     MatSelectSearchModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
   ]
 })
 export class MainModule { }
