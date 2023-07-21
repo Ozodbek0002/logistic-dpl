@@ -1,0 +1,64 @@
+#products {
+    .grp-name-input {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        margin-right: 10px;
+        outline: none;
+        font-size: 20px;
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+
+
+
+    i.fa-trash-alt {
+        font-weight: 500;
+    }
+
+
+
+
+    table {
+        thead {
+            tr {
+                th {
+                    padding: 10px 8px;
+                    justify-content: flex-start;
+                    border: none;
+                    padding-bottom: 0;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #7e8388;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    padding: 10px 8px;
+
+                    .form-outline {
+                        .trailing {
+                            color: #9fb1c1;
+                        }
+
+                        input {
+                            border-color: #9fb1c1;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        thead .number-input,
+        tbody .number-input {
+            width: 120px;
+        }
+    }
+}

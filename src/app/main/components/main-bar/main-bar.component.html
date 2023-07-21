@@ -17,7 +17,7 @@
                         <i class="fa fa-map-marker-alt"></i>
                     </div>
                     <div class="form-outline">
-                        <input matInput [matDatepicker]="picker" readonly>
+                        <input style="padding-left: 55px;" matInput [matDatepicker]="picker" readonly>
                         <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
                         <mat-datepicker #picker></mat-datepicker>
                     </div>
@@ -65,20 +65,24 @@
                 </ng-container>
 
 
-                <ng-container *ngIf="three">
+                <ng-container *ngIf="three" class="d-none">
                     <button (click)="three = false; two = true;" class="form-btn px-3"><i class="fa fa-arrow-left"></i></button>
 
                     <div class="form-outline">
-                        <input type="text" placeholder="Car made">
+                        <input type="text" placeholder="Year">
                         <i class="fa fa-car"></i>
                     </div>
                     <div class="form-outline">
-                        <input type="text" placeholder="Car name">
+                        <input type="text" placeholder="Make">
                         <i class="fa fa-car"></i>
                     </div>
                     <div class="form-outline">
-                        <input type="text" placeholder="Car type">
-                        <i class="fa fa-envelope"></i>
+                        <input type="text" placeholder="Module">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" placeholder="Type">
+                        <i class="fa fa-car"></i>
                     </div>
 
                     <button (click)="three = false; one = true;" class="form-btn px-3">Submit</button>

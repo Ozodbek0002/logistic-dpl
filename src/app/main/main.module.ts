@@ -37,6 +37,10 @@ import { HowMuchComponent as HowMuchComponentAuto } from './pages/services/auto/
 import { HowDoesComponent } from './pages/services/freight/how-does/how-does.component';
 import { HowMuchComponent } from './pages/services/freight/how-much/how-much.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { ProductsComponent } from './pages/services/freight/how-much/products/products.component';
+import { TruckContainerComponent } from './pages/services/freight/how-much/truck-container/truck-container.component';
+import { ClientFormComponent } from './pages/services/freight/how-much/client-form/client-form.component';
+import { ResultComponent } from './pages/services/freight/how-much/result/result.component';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -97,6 +101,10 @@ import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinn
     InfoNumbericComponent,
     AutoShipFormComponent,
     LoaderSpinnerComponent,
+    ProductsComponent,
+    TruckContainerComponent,
+    ClientFormComponent,
+    ResultComponent,
   ],
   imports: [
     CommonModule,

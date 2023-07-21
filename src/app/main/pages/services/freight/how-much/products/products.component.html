@@ -1,0 +1,119 @@
+<section id="products">
+    <div class="container">
+
+        <div class="shadow-sm rounded w-100 p-3 mb-5">
+            <button (click)="addGroup()" type="button" class="btn-theme"><i class="fa fa-plus"></i> Add Group</button>
+        </div>
+
+
+
+        <div *ngFor="let item of data" class="shadow rounded w-100 p-3 mb-5">
+
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-f-a-c-j-c">
+                    <input class="grp-name-input" type="text" [value]="item.name" [readOnly]="true">
+                    <button (click)="deleteGroup(item.id)" class="btn btn-sm btn-secondary btn-rounded px-2"
+                        type="button">
+                        <i class="fa fa-pencil"></i>
+                    </button>
+                </div>
+
+                <button class="btn btn-sm btn-danger"><i class="fa fa-trash-alt"></i></button>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="table-responsive">
+                <table class="table table-hover table-sm align-middle mb-0">
+
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Product Name</th>
+                            <th class="number-input">Length</th>
+                            <th class="number-input">Width / Radius</th>
+                            <th class="number-input">Height</th>
+                            <th class="number-input">Weight</th>
+                            <th class="number-input">Quantity</th>
+                            <th>Stack</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr *ngFor="let product of item.details">
+                            <td>
+                                <i class="fa fa-box"></i>
+                            </td>
+                            <td>
+                                <div class="form-outline">
+                                    <input type="text" class="form-control form-sm" [value]="product.name" />
+                                </div>
+                            </td>
+                            <td class="number-input">
+                                <div class="form-outline">
+                                    <span class="trailing">mm</span>
+                                    <input type="text" class="form-control form-sm form-icon-trailing"
+                                        [value]="product.length" />
+                                </div>
+                            </td>
+                            <td class="number-input">
+                                <div class="form-outline">
+                                    <span class="trailing">mm</span>
+                                    <input type="text" class="form-control form-sm form-icon-trailing"
+                                        [value]="product.width" />
+                                </div>
+                            </td>
+                            <td class="number-input">
+                                <div class="form-outline">
+                                    <span class="trailing">mm</span>
+                                    <input type="text" class="form-control form-sm form-icon-trailing"
+                                        [value]="product.height" />
+                                </div>
+                            </td>
+                            <td class="number-input">
+                                <div class="form-outline">
+                                    <span class="trailing">kg</span>
+                                    <input type="text" class="form-control form-sm form-icon-trailing"
+                                        [value]="product.weight" />
+                                </div>
+                            </td>
+                            <td class="number-input">
+                                <div class="form-outline">
+                                    <input type="text" class="form-control form-sm" [value]="product.quantity" />
+                                </div>
+                            </td>
+                            <td class="d-flex">
+                                <button (click)="editProduct(product.id)"
+                                    class="btn btn-sm btn-secondary btn-rounded px-3" type="button">
+                                    <i class="fa fa-pencil"></i>
+                                </button>
+                                <button (click)="deleteProduct(product.id)"
+                                    class="btn btn-danger btn-sm btn-rounded py-2 ms-2">
+                                    <i class="fa fa-trash-alt"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="8" class="border-bottom-0 ps-0">
+                                <button (click)="addProduct(item.id)" class="btn btn-secondary"><i
+                                        class="fa fa-plus me-2"></i> Add Product</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </div>
+
+
+
+
+        <div class="text-center my-5">
+            <a routerLink="/app/services/freight/how-much-does-it-cost/truck-container" class="btn btn-primary">Next</a>
+        </div>
+    </div>
+</section>

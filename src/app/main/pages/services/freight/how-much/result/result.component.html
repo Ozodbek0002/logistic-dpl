@@ -1,0 +1,121 @@
+<div class="container">
+    <app-section-title title="All Informations"></app-section-title>
+
+
+    <!-- client informations -->
+    <div class="row">
+        <div class="mx-auto col-11 col-sm-10 col-md-6 mb-3">
+            <span>Firstname:</span>
+            <h5 class="mb-0 ms-3 d-inline-block">John</h5>
+        </div>
+        <div class="mx-auto col-11 col-sm-10 col-md-6 mb-3">
+            <span>Lastname:</span>
+            <h5 class="mb-0 ms-3 d-inline-block">Doe</h5>
+        </div>
+        <div class="mx-auto col-11 col-sm-10 col-md-6 mb-3">
+            <span>Phone:</span>
+            <h5 class="mb-0 ms-3 d-inline-block">+1 (999) 999-90-90</h5>
+        </div>
+        <div class="mx-auto col-11 col-sm-10 col-md-6 mb-3">
+            <span>Email:</span>
+            <h5 class="mb-0 ms-3 d-inline-block">johndoe@gmail.com</h5>
+        </div>
+    </div>
+
+
+
+
+    <!-- all products -->
+    <div *ngFor="let item of data" class="shadow rounded w-100 p-3 mt-5 pb-4">
+
+        <h4>{{ item.name }}</h4>
+
+        <hr class="my-4">
+
+        <div class="table-responsive">
+            <table class="table table-hover table-sm align-middle mb-0">
+
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Product Name</th>
+                        <th class="number-input">Length</th>
+                        <th class="number-input">Width / Radius</th>
+                        <th class="number-input">Height</th>
+                        <th class="number-input">Weight</th>
+                        <th class="number-input">Quantity</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr *ngFor="let product of item.details">
+                        <td>
+                            <i class="fa fa-box"></i>
+                        </td>
+                        <td>
+                            <div class="form-outline">
+                                <input type="text" class="form-control form-sm" [value]="product.name" readonly />
+                            </div>
+                        </td>
+                        <td class="number-input">
+                            <div class="form-outline">
+                                <span class="trailing">mm</span>
+                                <input type="text" class="form-control form-sm" [value]="product.length" readonly />
+                            </div>
+                        </td>
+                        <td class="number-input">
+                            <div class="form-outline">
+                                <span class="trailing">mm</span>
+                                <input type="text" class="form-control form-sm" [value]="product.width" readonly />
+                            </div>
+                        </td>
+                        <td class="number-input">
+                            <div class="form-outline">
+                                <span class="trailing">mm</span>
+                                <input type="text" class="form-control form-sm" [value]="product.height" readonly />
+                            </div>
+                        </td>
+                        <td class="number-input">
+                            <div class="form-outline">
+                                <span class="trailing">kg</span>
+                                <input type="text" class="form-control form-sm" [value]="product.weight" readonly />
+                            </div>
+                        </td>
+                        <td class="number-input">
+                            <div class="form-outline">
+                                <input type="text" class="form-control form-sm" [value]="product.quantity" readonly />
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- truck & containers -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="mx-auto col-11 col-sm-10 col-md-5 col-lg-4 mb-4">
+                <h6>20' STANDART</h6>
+                <img src="./assets/images/fright-form/tautliner.svg" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="text-center my-5">
+    <a routerLink="/app/services/freight/how-much-does-it-cost/client-form" class="btn btn-secondary">Back</a>
+    <button class="btn btn-info mx-2"><i class="fa fa-print me-2"></i> Print</button>
+    <button class="btn btn-primary">Send</button>
+</div>

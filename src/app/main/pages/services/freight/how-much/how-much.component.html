@@ -1,1 +1,33 @@
-<p>how-much works!</p>
+<section id="freight-page">
+    <div class="container">
+        <ul class="nav nav-tabs shadow-sm rounded my-5">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="products" routerLinkActive="active">
+                    <i class="fa fa-boxes"></i>
+                    <span>Products</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" routerLink="truck-container" routerLinkActive="active">
+                    <i class="fa fa-truck"></i>
+                    <span>Containers & Trucks</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" routerLink="client-form" routerLinkActive="active">
+                    <i class="fa fa-list"></i>
+                    <span>Information</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" routerLink="result" routerLinkActive="active">
+                    <i class="fa fa-check"></i>
+                    <span>Result</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<router-outlet></router-outlet>

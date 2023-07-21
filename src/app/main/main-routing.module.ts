@@ -24,6 +24,10 @@ import { HowMuchComponent as HowMuchComponentAuto } from './pages/services/auto/
 import { HowDoesComponent } from './pages/services/freight/how-does/how-does.component';
 import { HowMuchComponent } from './pages/services/freight/how-much/how-much.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { ProductsComponent } from './pages/services/freight/how-much/products/products.component';
+import { TruckContainerComponent } from './pages/services/freight/how-much/truck-container/truck-container.component';
+import { ClientFormComponent } from './pages/services/freight/how-much/client-form/client-form.component';
+import { ResultComponent } from './pages/services/freight/how-much/result/result.component';
 
 const routes: Routes = [
   {
@@ -90,7 +94,16 @@ const routes: Routes = [
           {
             path: 'freight', children: [
               { path: 'how-does-it-work', component: HowDoesComponent },
-              { path: 'how-much-does-it-cost', component: HowMuchComponent }
+              {
+                path: 'how-much-does-it-cost', component: HowMuchComponent, children: [
+                  { path: 'products', component: ProductsComponent },
+                  { path: 'truck-container', component: TruckContainerComponent },
+                  { path: 'client-form', component: ClientFormComponent },
+                  { path: 'result', component: ResultComponent },
+
+                  { path: '', redirectTo: 'products', pathMatch: 'full' }
+                ]
+              }
             ]
           }
         ]
