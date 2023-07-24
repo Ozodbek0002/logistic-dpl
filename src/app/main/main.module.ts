@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MainRoutingModule } from './main-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSelectSearchModule } from 'mat-select-search';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 
 
+import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
+import { SearchPipe } from '../core/pipes/search.pipe';
 
 import { HomeComponent } from './pages/home/home.component';
 import { OnlineCarBuyersComponent } from './pages/customers/auto/online-car-buyers/online-car-buyers.component';
@@ -105,6 +107,7 @@ import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinn
     TruckContainerComponent,
     ClientFormComponent,
     ResultComponent,
+    SearchPipe
   ],
   imports: [
     CommonModule,
@@ -118,6 +121,7 @@ import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinn
     MatSelectSearchModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatCheckboxModule
   ]
 })
 export class MainModule { }

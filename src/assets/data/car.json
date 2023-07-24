@@ -1,0 +1,6112 @@
+[
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "1 Series"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Audi",
+        "Model": "100"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "FIAT",
+        "Model": "124 Spider"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "1500 Classic Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "1500 Classic Quad Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "1500 Classic Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "1500 Club Coupe"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "1500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "1500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "1500 Quad Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "1500 Regular Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Alfa Romeo",
+        "Model": "164"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "190 E"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Polestar",
+        "Model": "2"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "2 Series"
+    },
+    {
+        "Category": "Convertible, Sedan",
+        "Make": "Chrysler",
+        "Model": "200"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Nissan",
+        "Model": "200SX"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Volvo",
+        "Model": "240"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Nissan",
+        "Model": "240SX"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "2500 Club Coupe"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "2500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "2500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "2500 HD Club Coupe"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "2500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "2500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "2500 Mega Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "2500 Regular Cab"
+    },
+    {
+        "Category": "Convertible, Sedan, Coupe",
+        "Make": "BMW",
+        "Model": "3 Series"
+    },
+    {
+        "Category": "Convertible, Hatchback",
+        "Make": "Saab",
+        "Model": "3-Sep"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "300"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "300 CE"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "300 D"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "300 E"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "300 SD"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "300 SE"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "300 SL"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Mercedes-Benz",
+        "Model": "300 TE"
+    },
+    {
+        "Category": "Convertible, Hatchback",
+        "Make": "Mitsubishi",
+        "Model": "3000GT"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "300M"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Nissan",
+        "Model": "300ZX"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MAZDA",
+        "Model": "323"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "3500 Club Coupe"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "3500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "3500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "3500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "3500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ram",
+        "Model": "3500 Mega Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "3500 Regular Cab"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Nissan",
+        "Model": "350Z"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Nissan",
+        "Model": "370Z"
+    },
+    {
+        "Category": "Convertible, Sedan, Coupe",
+        "Make": "BMW",
+        "Model": "4 Series"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "400 E"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "400 SE"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "400 SEL"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "430 Scuderia"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "458 Italia"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "458 Speciale"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Ferrari",
+        "Model": "458 Spider"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "488 GTB"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Ferrari",
+        "Model": "488 Spider"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Alfa Romeo",
+        "Model": "4C"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Alfa Romeo",
+        "Model": "4C Spider"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "4Runner"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "BMW",
+        "Model": "5 Series"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Saab",
+        "Model": "5-Sep"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "FIAT",
+        "Model": "500"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "FIAT",
+        "Model": "500 Abarth"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "500 E"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "500 SEC"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "500 SEL"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "500 SL"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "FIAT",
+        "Model": "500L"
+    },
+    {
+        "Category": "SUV",
+        "Make": "FIAT",
+        "Model": "500X"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "FIAT",
+        "Model": "500c"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "FIAT",
+        "Model": "500c Abarth"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "FIAT",
+        "Model": "500e"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Maybach",
+        "Model": "57"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "McLaren",
+        "Model": "570GT"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "McLaren",
+        "Model": "570S"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "599 GTB Fiorano"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "599 GTO"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "6 Series"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "600 SEC"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "600 SEL"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "600 SL"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "612 Scaglietti"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Maybach",
+        "Model": "62"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "MAZDA",
+        "Model": "626"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "McLaren",
+        "Model": "650S"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "McLaren",
+        "Model": "675LT"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "BMW",
+        "Model": "7 Series"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Porsche",
+        "Model": "718 Boxster"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Porsche",
+        "Model": "718 Cayman"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Porsche",
+        "Model": "718 Spyder"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "McLaren",
+        "Model": "720S"
+    },
+    {
+        "Category": "Wagon, Sedan",
+        "Make": "Volvo",
+        "Model": "740"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "BMW",
+        "Model": "8 Series"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "80"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "812 Superfast"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "850"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Toyota",
+        "Model": "86"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "88"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Saab",
+        "Model": "9-2X"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Saab",
+        "Model": "9-4X"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Saab",
+        "Model": "9-7X"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "90"
+    },
+    {
+        "Category": "Coupe, Hatchback, Convertible",
+        "Make": "Saab",
+        "Model": "900"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Saab",
+        "Model": "9000"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Porsche",
+        "Model": "911"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Porsche",
+        "Model": "928"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "MAZDA",
+        "Model": "929"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Volvo",
+        "Model": "940"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Volvo",
+        "Model": "960"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "Porsche",
+        "Model": "968"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "98"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "A-Class"
+    },
+    {
+        "Category": "Convertible, Sedan",
+        "Make": "Audi",
+        "Model": "A3"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Audi",
+        "Model": "A3 Sportback e-tron"
+    },
+    {
+        "Category": "Convertible, Sedan, Wagon",
+        "Make": "Audi",
+        "Model": "A4"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Audi",
+        "Model": "A4 (2005.5)"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Audi",
+        "Model": "A4 allroad"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Audi",
+        "Model": "A5"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Audi",
+        "Model": "A5 Sport"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "A6"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Audi",
+        "Model": "A6 allroad"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "A7"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "A8"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "APV Cargo"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Cadillac",
+        "Model": "ATS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Cadillac",
+        "Model": "ATS-V"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Acadia"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Acadia Limited"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Hyundai",
+        "Model": "Accent"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Plymouth",
+        "Model": "Acclaim"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Honda",
+        "Model": "Accord"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "Accord Crosstour"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Honda",
+        "Model": "Accord Hybrid"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Achieva"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Suzuki",
+        "Model": "Aerio"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Aerostar Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Aerostar Passenger"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Alero"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Cadillac",
+        "Model": "Allante"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "BMW",
+        "Model": "Alpina B7"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Nissan",
+        "Model": "Altima"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Amanti"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "Amigo"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Armada"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Bentley",
+        "Model": "Arnage"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Arteon"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "Ascender"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "Ascent"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chrysler",
+        "Model": "Aspen"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Ford",
+        "Model": "Aspire"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Saturn",
+        "Model": "Astra"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Astro Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Astro Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volkswagen",
+        "Model": "Atlas"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volkswagen",
+        "Model": "Atlas Cross Sport"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Saturn",
+        "Model": "Aura"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Aurora"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Avalanche"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Avalanche 1500"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Avalanche 2500"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Avalon"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Avalon Hybrid"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Dodge",
+        "Model": "Avenger"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Lamborghini",
+        "Model": "Aventador"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Chevrolet",
+        "Model": "Aveo"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "Aviator"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "Axiom"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "Azera"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Pontiac",
+        "Model": "Aztek"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Bentley",
+        "Model": "Azure"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Bentley",
+        "Model": "Azure T"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Mercedes-Benz",
+        "Model": "B-Class"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "MAZDA",
+        "Model": "B-Series Cab Plus"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "MAZDA",
+        "Model": "B-Series Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "MAZDA",
+        "Model": "B-Series Regular Cab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "B9 Tribeca"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Subaru",
+        "Model": "BRZ"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Subaru",
+        "Model": "Baja"
+    },
+    {
+        "Category": "Convertible, Coupe, Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Beetle"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Bentley",
+        "Model": "Bentayga"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Chevrolet",
+        "Model": "Beretta"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Lincoln",
+        "Model": "Blackwood"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Blazer"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Chevrolet",
+        "Model": "Bolt EV"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Pontiac",
+        "Model": "Bonneville"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Kia",
+        "Model": "Borrego"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Porsche",
+        "Model": "Boxster"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Oldsmobile",
+        "Model": "Bravada"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Plymouth",
+        "Model": "Breeze"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Bronco"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Bronco Sport"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Bentley",
+        "Model": "Brooklands"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "Brougham"
+    },
+    {
+        "Category": "Convertible, Coupe, Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "C-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "C-HR"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Ford",
+        "Model": "C-MAX Energi"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Ford",
+        "Model": "C-MAX Hybrid"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "C/V"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "C/V Tradesman"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volvo",
+        "Model": "C30"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Volvo",
+        "Model": "C70"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "CC"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Acura",
+        "Model": "CL"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "CL-Class"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "CLA"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "CLA-Class"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "CLK-Class"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "CLS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "CLS-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "CR-V"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "CR-V Hybrid"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Honda",
+        "Model": "CR-Z"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Lexus",
+        "Model": "CT"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "CT4"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "CT5"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "CT6"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "CT6-V"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "CTS"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "CTS-V"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "CX-3"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "CX-30"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "CX-5"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "CX-7"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "CX-9"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Volkswagen",
+        "Model": "Cabrio"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Volkswagen",
+        "Model": "Cabrio (New)"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Audi",
+        "Model": "Cabriolet"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Cadenza"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Dodge",
+        "Model": "Caliber"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Ferrari",
+        "Model": "California"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Chevrolet",
+        "Model": "Camaro"
+    },
+    {
+        "Category": "Coupe, Wagon, Sedan",
+        "Make": "Toyota",
+        "Model": "Camry"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Camry Hybrid"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Canyon Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Canyon Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Canyon Regular Cab"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercury",
+        "Model": "Capri"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Chevrolet",
+        "Model": "Caprice"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Chevrolet",
+        "Model": "Caprice Classic"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Captiva Sport"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Caravan Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Caravan Passenger"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Porsche",
+        "Model": "Carrera GT"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Buick",
+        "Model": "Cascada"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "Catera"
+    },
+    {
+        "Category": "Coupe, Convertible, Sedan",
+        "Make": "Chevrolet",
+        "Model": "Cavalier"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Porsche",
+        "Model": "Cayenne"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Porsche",
+        "Model": "Cayenne Coupe"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Porsche",
+        "Model": "Cayman"
+    },
+    {
+        "Category": "Coupe, Convertible, Hatchback",
+        "Make": "Toyota",
+        "Model": "Celica"
+    },
+    {
+        "Category": "Coupe, Sedan, Wagon",
+        "Make": "Buick",
+        "Model": "Century"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Dodge",
+        "Model": "Challenger"
+    },
+    {
+        "Category": "Sedan, Hatchback",
+        "Make": "Daihatsu",
+        "Model": "Charade"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Dodge",
+        "Model": "Charger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Cherokee"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Oldsmobile",
+        "Model": "Ciera"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "Cirrus"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "City Express"
+    },
+    {
+        "Category": "Coupe, Hatchback, Sedan",
+        "Make": "Honda",
+        "Model": "Civic"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Honda",
+        "Model": "Civic Type R"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Honda",
+        "Model": "Clarity Electric"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Honda",
+        "Model": "Clarity Fuel Cell"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Honda",
+        "Model": "Clarity Plug-in Hybrid"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Classic"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Club Wagon"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Clubman"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Chevrolet",
+        "Model": "Cobalt"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Colorado Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Colorado Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Colorado Regular Cab"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Dodge",
+        "Model": "Colt"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Plymouth",
+        "Model": "Colt Vista"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Jeep",
+        "Model": "Comanche Regular Cab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Commander"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Compass"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "Concorde"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Bentley",
+        "Model": "Continental"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Ford",
+        "Model": "Contour"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "MINI",
+        "Model": "Convertible"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Cooper"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Corolla"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Corolla Hatchback"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Corolla Hybrid"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Corolla iM"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Volkswagen",
+        "Model": "Corrado"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "Corsair"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Corsica"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Chevrolet",
+        "Model": "Corvette"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercury",
+        "Model": "Cougar"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Countryman"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "MINI",
+        "Model": "Coupe"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Cressida"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Chrysler",
+        "Model": "Crossfire"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "Crosstour"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "Crosstrek"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Ford",
+        "Model": "Crown Victoria"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Chevrolet",
+        "Model": "Cruze"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Cruze Limited"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Oldsmobile",
+        "Model": "Custom Cruiser"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Cutlass"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Cutlass Ciera"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Oldsmobile",
+        "Model": "Cutlass Cruiser"
+    },
+    {
+        "Category": "Convertible, Sedan, Coupe",
+        "Make": "Oldsmobile",
+        "Model": "Cutlass Supreme"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "D150 Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "D150 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "D250 Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "D250 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "D350 Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "D350 Regular Cab"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Aston Martin",
+        "Model": "DB11"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Aston Martin",
+        "Model": "DB9"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "Aston Martin",
+        "Model": "DB9 GT"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Aston Martin",
+        "Model": "DBS"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "DTS"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Dakota Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Dakota Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Dakota Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Dakota Quad Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Dakota Regular Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Dodge",
+        "Model": "Dart"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Rolls-Royce",
+        "Model": "Dawn"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Dodge",
+        "Model": "Daytona"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Cadillac",
+        "Model": "DeVille"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Defender 110"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Defender 90"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mitsubishi",
+        "Model": "Diamante"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Discovery"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Discovery Series II"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Discovery Sport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Dodge",
+        "Model": "Durango"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Dodge",
+        "Model": "Dynasty"
+    },
+    {
+        "Category": "Convertible, Sedan, Coupe, Wagon",
+        "Make": "Mercedes-Benz",
+        "Model": "E-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jaguar",
+        "Model": "E-PACE"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E150 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E150 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E150 Super Duty Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E150 Super Duty Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E250 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E250 Super Duty Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E350 Super Duty Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "E350 Super Duty Passenger"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Cadillac",
+        "Model": "ELR"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lexus",
+        "Model": "ES"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "EX"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Toyota",
+        "Model": "Echo"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Mitsubishi",
+        "Model": "Eclipse"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Eclipse Cross"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "EcoSport"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Econoline E150 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Econoline E150 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Econoline E250 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Econoline E350 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Econoline E350 Super Duty Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Econoline E350 Super Duty Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Edge"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Hyundai",
+        "Model": "Elantra"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Hyundai",
+        "Model": "Elantra GT"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Cadillac",
+        "Model": "Eldorado"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "Element"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lotus",
+        "Model": "Elise"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Buick",
+        "Model": "Enclave"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Buick",
+        "Model": "Encore"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Buick",
+        "Model": "Encore GX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Endeavor"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Hyundai",
+        "Model": "Entourage"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Buick",
+        "Model": "Envision"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Envoy"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Envoy XL"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Envoy XUV"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Volkswagen",
+        "Model": "Eos"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Suzuki",
+        "Model": "Equator Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Suzuki",
+        "Model": "Equator Extended Cab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Equinox"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "Equus"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Cadillac",
+        "Model": "Escalade"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Cadillac",
+        "Model": "Escalade ESV"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Cadillac",
+        "Model": "Escalade EXT"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Escape"
+    },
+    {
+        "Category": "Hatchback, Sedan, Wagon",
+        "Make": "Ford",
+        "Model": "Escort"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "Panoz",
+        "Model": "Esperante"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Suzuki",
+        "Model": "Esteem"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Volkswagen",
+        "Model": "Eurovan"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lotus",
+        "Model": "Evora"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lotus",
+        "Model": "Evora 400"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Hyundai",
+        "Model": "Excel"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Excursion"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lotus",
+        "Model": "Exige"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lotus",
+        "Model": "Exige S"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Expedition"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Expedition EL"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Expedition MAX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Explorer"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Explorer Sport"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "Explorer Sport Trac"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Mitsubishi",
+        "Model": "Expo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Express 1500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Express 1500 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Express 2500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Express 2500 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Express 3500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Express 3500 Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jaguar",
+        "Model": "F-PACE"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Jaguar",
+        "Model": "F-TYPE"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "F12berlinetta"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F150 (Heritage) Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F150 (Heritage) Super Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F150 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F150 Super Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F150 SuperCrew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F250 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F250 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F250 Super Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F250 Super Duty Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F250 Super Duty Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F250 Super Duty Super Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F350 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F350 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F350 Super Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F350 Super Duty Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F350 Super Duty Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F350 Super Duty Super Cab"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Ferrari",
+        "Model": "F430"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "F450 Super Duty Crew Cab"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ferrari",
+        "Model": "FF"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "FJ Cruiser"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Scion",
+        "Model": "FR-S"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "FX"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Ford",
+        "Model": "Festiva"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Ford",
+        "Model": "Fiesta"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "Fifth Ave"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Pontiac",
+        "Model": "Firebird"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Honda",
+        "Model": "Fit"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Ford",
+        "Model": "Five Hundred"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "Fleetwood"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Flex"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Bentley",
+        "Model": "Flying Spur"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Ford",
+        "Model": "Focus"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Ford",
+        "Model": "Focus ST"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Suzuki",
+        "Model": "Forenza"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "Forester"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Forte"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Kia",
+        "Model": "Forte Koup"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Kia",
+        "Model": "Forte5"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Volkswagen",
+        "Model": "Fox"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Freelander"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Freestar Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Freestar Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Freestyle"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "Frontier Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "Frontier King Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "Frontier Regular Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Ford",
+        "Model": "Fusion"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Ford",
+        "Model": "Fusion Energi"
+    },
+    {
+        "Category": "Coupe, Convertible, Sedan",
+        "Make": "INFINITI",
+        "Model": "G"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "G-Class"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "G-Series 1500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "G-Series 2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "G-Series 3500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "G-Series G10"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "G-Series G20"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "G-Series G30"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Pontiac",
+        "Model": "G3"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Pontiac",
+        "Model": "G5"
+    },
+    {
+        "Category": "Coupe, Convertible, Sedan",
+        "Make": "Pontiac",
+        "Model": "G6"
+    },
+    {
+        "Category": "Coupe, Sedan, Convertible",
+        "Make": "Pontiac",
+        "Model": "G6 (2009.5)"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Genesis",
+        "Model": "G70"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Pontiac",
+        "Model": "G8"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Genesis",
+        "Model": "G80"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Genesis",
+        "Model": "G90"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GL-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLA"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLA-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLB"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLC"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLC Coupe"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLE"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLE Coupe"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "GLI"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLK-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "GLS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Toyota",
+        "Model": "GR Supra"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lexus",
+        "Model": "GS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ford",
+        "Model": "GT"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Nissan",
+        "Model": "GT-R"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Ferrari",
+        "Model": "GTC4Lusso"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "GTI"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "GTI (New)"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Pontiac",
+        "Model": "GTO"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Genesis",
+        "Model": "GV80"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lexus",
+        "Model": "GX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mitsubishi",
+        "Model": "Galant"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Lamborghini",
+        "Model": "Gallardo"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "Genesis"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Hyundai",
+        "Model": "Genesis Coupe"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Maserati",
+        "Model": "Ghibli"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Rolls-Royce",
+        "Model": "Ghost"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Alfa Romeo",
+        "Model": "Giulia"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Jeep",
+        "Model": "Gladiator"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Golf"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Golf (New)"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volkswagen",
+        "Model": "Golf Alltrack"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Golf GTI"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Golf III"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Golf R"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volkswagen",
+        "Model": "Golf SportWagen"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Maserati",
+        "Model": "GranSport"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Maserati",
+        "Model": "GranTurismo"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Pontiac",
+        "Model": "Grand Am"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Grand Caravan Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Grand Caravan Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Grand Cherokee"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Grand Cherokee L"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Grand Marquis"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Pontiac",
+        "Model": "Grand Prix"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "Grand Vitara"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chrysler",
+        "Model": "Grand Voyager"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Grand Wagoneer"
+    },
+    {
+        "Category": "SUV",
+        "Make": "HUMMER",
+        "Model": "H1"
+    },
+    {
+        "Category": "SUV",
+        "Make": "HUMMER",
+        "Model": "H2"
+    },
+    {
+        "Category": "SUV",
+        "Make": "HUMMER",
+        "Model": "H3"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "HUMMER",
+        "Model": "H3T"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Chevrolet",
+        "Model": "HHR"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "HR-V"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lexus",
+        "Model": "HS"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Hardtop"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Hardtop 2 Door"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Hardtop 4 Door"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "Highlander"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "Highlander Hybrid"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "Hombre Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "Hombre Spacecab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Hummer EV"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lamborghini",
+        "Model": "Huracan"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "INFINITI",
+        "Model": "I"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jaguar",
+        "Model": "I-PACE"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "ILX"
+    },
+    {
+        "Category": "Convertible, Sedan",
+        "Make": "Lexus",
+        "Model": "IS"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lexus",
+        "Model": "IS F"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Impala"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Impala Limited"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "Imperial"
+    },
+    {
+        "Category": "Coupe, Sedan, Wagon",
+        "Make": "Subaru",
+        "Model": "Impreza"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Isuzu",
+        "Model": "Impulse"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Honda",
+        "Model": "Insight"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Acura",
+        "Model": "Integra"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Dodge",
+        "Model": "Intrepid"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Intrigue"
+    },
+    {
+        "Category": "Sedan, Coupe",
+        "Make": "Saturn",
+        "Model": "Ion"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Hyundai",
+        "Model": "Ioniq Electric"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Hyundai",
+        "Model": "Ioniq Hybrid"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Hyundai",
+        "Model": "Ioniq Plug-in Hybrid"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "INFINITI",
+        "Model": "J"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "JUKE"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "JX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Jetta"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Jetta (New)"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Jetta GLI"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Jetta III"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volkswagen",
+        "Model": "Jetta SportWagen"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Jimmy"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Dodge",
+        "Model": "Journey"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Subaru",
+        "Model": "Justy"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "K5"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "K900"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Fisker",
+        "Model": "Karma"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Kicks"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "King Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Suzuki",
+        "Model": "Kizashi"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Kona"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Kona Electric"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Saturn",
+        "Model": "L-Series"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lexus",
+        "Model": "LC"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Nissan",
+        "Model": "LEAF"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lexus",
+        "Model": "LFA"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "LHS"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "LR2"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "LR3"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "LR4"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lexus",
+        "Model": "LS"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "LSS"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lexus",
+        "Model": "LX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Buick",
+        "Model": "LaCrosse"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mitsubishi",
+        "Model": "Lancer"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mitsubishi",
+        "Model": "Lancer Evolution"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "Land Cruiser"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Daewoo",
+        "Model": "Lanos"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Plymouth",
+        "Model": "Laser"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Chrysler",
+        "Model": "LeBaron"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Pontiac",
+        "Model": "LeMans"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Buick",
+        "Model": "LeSabre"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Subaru",
+        "Model": "Legacy"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Daewoo",
+        "Model": "Leganza"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Acura",
+        "Model": "Legend"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Maserati",
+        "Model": "Levante"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Liberty"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Subaru",
+        "Model": "Loyale"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Buick",
+        "Model": "Lucerne"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Lumina"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Lumina APV"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Lumina Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Lumina Passenger"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "BMW",
+        "Model": "M"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "M-Class"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "BMW",
+        "Model": "M2"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "M3"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "M4"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "BMW",
+        "Model": "M5"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "BMW",
+        "Model": "M6"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MAZDA",
+        "Model": "MAZDA2"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "MAZDA",
+        "Model": "MAZDA3"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "MAZDA",
+        "Model": "MAZDA5"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "MAZDA",
+        "Model": "MAZDA6"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Acura",
+        "Model": "MDX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Acura",
+        "Model": "MDX Sport Hybrid"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "MKC"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lincoln",
+        "Model": "MKS"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "MKT"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "MKX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lincoln",
+        "Model": "MKZ"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "McLaren",
+        "Model": "MP4-12C"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "MAZDA",
+        "Model": "MPV"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Toyota",
+        "Model": "MR2"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MAZDA",
+        "Model": "MX-3"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "MAZDA",
+        "Model": "MX-5 Miata"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "MAZDA",
+        "Model": "MX-5 Miata RF"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "MAZDA",
+        "Model": "MX-6"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Porsche",
+        "Model": "Macan"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Dodge",
+        "Model": "Magnum"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Chevrolet",
+        "Model": "Malibu"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Malibu (Classic)"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Malibu Limited"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Marauder"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercury",
+        "Model": "Mariner"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Lincoln",
+        "Model": "Mark LT"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lincoln",
+        "Model": "Mark VII"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lincoln",
+        "Model": "Mark VIII"
+    },
+    {
+        "Category": "Hatchback, Wagon",
+        "Make": "Toyota",
+        "Model": "Matrix"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Nissan",
+        "Model": "Maxima"
+    },
+    {
+        "Category": "Convertible, Sedan, Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG C-Class"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG CLA"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG CLS"
+    },
+    {
+        "Category": "Coupe, Convertible, Sedan, Wagon",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG E-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG G-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GLA"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GLC"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GLC Coupe"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GLE"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GLE Coupe"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GLS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG GT"
+    },
+    {
+        "Category": "Coupe, Convertible, Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG S-Class"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG SL"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG SLC"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-AMG SLK"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-Maybach S 600"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercedes-Benz",
+        "Model": "Mercedes-Maybach S-Class"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercedes-Benz",
+        "Model": "Metris Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercedes-Benz",
+        "Model": "Metris Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercedes-Benz",
+        "Model": "Metris WORKER Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercedes-Benz",
+        "Model": "Metris WORKER Passenger"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Chevrolet",
+        "Model": "Metro"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Mitsubishi",
+        "Model": "Mighty Max Macro Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Mitsubishi",
+        "Model": "Mighty Max Regular Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Milan"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "MAZDA",
+        "Model": "Millenia"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Mitsubishi",
+        "Model": "Mirage"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mitsubishi",
+        "Model": "Mirage G4"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Mirai"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Tesla",
+        "Model": "Model 3"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Tesla",
+        "Model": "Model S"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Tesla",
+        "Model": "Model X"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Dodge",
+        "Model": "Monaco"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Pontiac",
+        "Model": "Montana"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Pontiac",
+        "Model": "Montana SV6"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Chevrolet",
+        "Model": "Monte Carlo"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Montego"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercury",
+        "Model": "Monterey"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Montero"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Montero Sport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mercury",
+        "Model": "Mountaineer"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Bentley",
+        "Model": "Mulsanne"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Murano"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Lamborghini",
+        "Model": "Murcielago"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "Lamborghini",
+        "Model": "Murcielago LP640"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Ford",
+        "Model": "Mustang"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Mystique"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "NEXO"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Acura",
+        "Model": "NSX"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "NV1500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "NV200"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "NV200 Taxi"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "NV2500 HD Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "NV3500 HD Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "NV3500 HD Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lexus",
+        "Model": "NX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "Nautilus"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "Navajo"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "Navigator"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lincoln",
+        "Model": "Navigator L"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Dodge",
+        "Model": "Neon"
+    },
+    {
+        "Category": "Convertible, Hatchback",
+        "Make": "Volkswagen",
+        "Model": "New Beetle"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chrysler",
+        "Model": "New Yorker"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Kia",
+        "Model": "Niro"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Kia",
+        "Model": "Niro EV"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Kia",
+        "Model": "Niro Plug-in Hybrid"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Dodge",
+        "Model": "Nitro"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Daewoo",
+        "Model": "Nubira"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Isuzu",
+        "Model": "Oasis"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Honda",
+        "Model": "Odyssey"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Optima"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Optima (2006.5)"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Optima Hybrid"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Optima Plug-in Hybrid"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "Outback"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Outlander"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Outlander PHEV"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Mitsubishi",
+        "Model": "Outlander Sport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Saturn",
+        "Model": "Outlook"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Chrysler",
+        "Model": "PT Cruiser"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MINI",
+        "Model": "Paceman"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chrysler",
+        "Model": "Pacifica"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chrysler",
+        "Model": "Pacifica Hybrid"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Palisade"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Porsche",
+        "Model": "Panamera"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Buick",
+        "Model": "Park Avenue"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Toyota",
+        "Model": "Paseo"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Passat"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Volkswagen",
+        "Model": "Passat (New)"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "Passport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Pathfinder"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Pathfinder Armada"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Patriot"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volkswagen",
+        "Model": "Phaeton"
+    },
+    {
+        "Category": "Convertible, Coupe, Sedan",
+        "Make": "Rolls-Royce",
+        "Model": "Phantom"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Honda",
+        "Model": "Pilot"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Ferrari",
+        "Model": "Portofino"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Mitsubishi",
+        "Model": "Precis"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Honda",
+        "Model": "Prelude"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Eagle",
+        "Model": "Premier"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Toyota",
+        "Model": "Previa"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Prius"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Prius Plug-in Hybrid"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Prius Prime"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Prius c"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Toyota",
+        "Model": "Prius v"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "Prizm"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "ProMaster 1500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "ProMaster 2500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "ProMaster 3500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "ProMaster Cargo Van"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "ProMaster City"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ram",
+        "Model": "ProMaster Window Van"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Ford",
+        "Model": "Probe"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "MAZDA",
+        "Model": "Protege"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MAZDA",
+        "Model": "Protege5"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Chrysler",
+        "Model": "Prowler"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "INFINITI",
+        "Model": "Q"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Audi",
+        "Model": "Q3"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "INFINITI",
+        "Model": "Q40"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Audi",
+        "Model": "Q5"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "INFINITI",
+        "Model": "Q50"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "INFINITI",
+        "Model": "Q60"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Audi",
+        "Model": "Q7"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "INFINITI",
+        "Model": "Q70"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Audi",
+        "Model": "Q8"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "QX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "QX30"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "QX50"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "QX60"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "QX70"
+    },
+    {
+        "Category": "SUV",
+        "Make": "INFINITI",
+        "Model": "QX80"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "Quattro"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Maserati",
+        "Model": "Quattroporte"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Nissan",
+        "Model": "Quest"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Mercedes-Benz",
+        "Model": "R-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Rivian",
+        "Model": "R1S"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Rivian",
+        "Model": "R1T"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "R32"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Audi",
+        "Model": "R8"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "RAV4"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "RAV4 Hybrid"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "RAV4 Prime"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Lexus",
+        "Model": "RC"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Acura",
+        "Model": "RDX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "RL"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "RLX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "RLX Sport Hybrid"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "RS 3"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "RS 4"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Audi",
+        "Model": "RS 5"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "RS 6"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "RS 7"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Acura",
+        "Model": "RSX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lexus",
+        "Model": "RX"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "MAZDA",
+        "Model": "RX-7"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "MAZDA",
+        "Model": "RX-8"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "Rabbit"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Mitsubishi",
+        "Model": "Raider Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Mitsubishi",
+        "Model": "Raider Extended Cab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Buick",
+        "Model": "Rainier"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Rally Wagon 1500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Rally Wagon 2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Rally Wagon 3500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Rally Wagon G2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Rally Wagon G3500"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 1500 Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 1500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 1500 Mega Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 1500 Quad Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 1500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 2500 Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 2500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 2500 Mega Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 2500 Quad Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 2500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 3500 Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 3500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 3500 Mega Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 3500 Quad Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 3500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Dodge",
+        "Model": "Ram 50 Regular Cab"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Van 1500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Van 2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Van 3500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Van B150"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Van B250"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Van B350"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Wagon 1500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Wagon 2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Wagon 3500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Wagon B150"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Wagon B250"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Ram Wagon B350"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Dodge",
+        "Model": "Ramcharger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Range Rover"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Range Rover Evoque"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Range Rover Sport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Land Rover",
+        "Model": "Range Rover Velar"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "Ranger Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "Ranger Super Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "Ranger SuperCab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Ford",
+        "Model": "Ranger SuperCrew"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Aston Martin",
+        "Model": "Rapide"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Aston Martin",
+        "Model": "Rapide S"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Buick",
+        "Model": "Regal"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Buick",
+        "Model": "Regal Sportback"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Buick",
+        "Model": "Regal TourX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Oldsmobile",
+        "Model": "Regency"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "Regular Cab"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Saturn",
+        "Model": "Relay"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Buick",
+        "Model": "Rendezvous"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Renegade"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Suzuki",
+        "Model": "Reno"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Honda",
+        "Model": "Ridgeline"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Kia",
+        "Model": "Rio"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Buick",
+        "Model": "Riviera"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Buick",
+        "Model": "Roadmaster"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "MINI",
+        "Model": "Roadster"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Daihatsu",
+        "Model": "Rocky"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "Rodeo"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "Rodeo Sport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Rogue"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Rogue Select"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Rogue Sport"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Kia",
+        "Model": "Rondo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Volkswagen",
+        "Model": "Routan"
+    },
+    {
+        "Category": "Coupe, Sedan, Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "S-Class"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Saturn",
+        "Model": "S-Series"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Jaguar",
+        "Model": "S-Type"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "S10 Blazer"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "S10 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "S10 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "S10 Regular Cab"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Honda",
+        "Model": "S2000"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "S3"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Audi",
+        "Model": "S4"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Audi",
+        "Model": "S4 (2005.5)"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "S40"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "S40 (New)"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Audi",
+        "Model": "S5"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "S6"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "S60"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "S7"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "S70"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Audi",
+        "Model": "S8"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "S80"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Volvo",
+        "Model": "S90"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Lexus",
+        "Model": "SC"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Saturn",
+        "Model": "SKY"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "SL"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "SL-Class"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "SLC"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "SLK"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "SLK-Class"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Mercedes-Benz",
+        "Model": "SLR McLaren"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Mercedes-Benz",
+        "Model": "SLS-Class"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Acura",
+        "Model": "SLX"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Audi",
+        "Model": "SQ5"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Cadillac",
+        "Model": "SRX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Chevrolet",
+        "Model": "SS"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "SSR"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "STS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Subaru",
+        "Model": "SVX"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Suzuki",
+        "Model": "SX4"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Sable"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Safari Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Safari Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "Samurai"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Santa Fe"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Santa Fe Sport"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Santa Fe XL"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Savana 1500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Savana 1500 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Savana 2500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Savana 2500 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Savana 3500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Savana 3500 Passenger"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Hyundai",
+        "Model": "Scoupe"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Chrysler",
+        "Model": "Sebring"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Kia",
+        "Model": "Sedona"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Kia",
+        "Model": "Seltos"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Nissan",
+        "Model": "Sentra"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Sephia"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "Sequoia"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "Seville"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Dodge",
+        "Model": "Shadow"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "Sidekick"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Toyota",
+        "Model": "Sienna"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 1500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 1500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 1500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 1500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 2500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 2500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 2500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 2500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 3500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 3500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra (Classic) 3500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 1500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 1500 Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 1500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 1500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 1500 Limited Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 1500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 HD Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 2500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 HD Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sierra 3500 Regular Cab"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Oldsmobile",
+        "Model": "Silhouette"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 1500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 1500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 1500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 1500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 2500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 2500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 2500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 3500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 3500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado (Classic) 3500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 1500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 1500 Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 1500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 1500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 1500 LD Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 1500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 HD Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 2500 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 HD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 HD Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 HD Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 HD Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Chevrolet",
+        "Model": "Silverado 3500 Regular Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "Sixty Special"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Buick",
+        "Model": "Skylark"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Toyota",
+        "Model": "Solara"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Pontiac",
+        "Model": "Solstice"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "Sonata"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "Sonata Hybrid"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "Sonata Plug-in Hybrid"
+    },
+    {
+        "Category": "Sedan, Hatchback",
+        "Make": "Chevrolet",
+        "Model": "Sonic"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sonoma Club Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sonoma Club Coupe Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sonoma Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sonoma Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "GMC",
+        "Model": "Sonoma Regular Cab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Kia",
+        "Model": "Sorento"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Kia",
+        "Model": "Soul"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Kia",
+        "Model": "Soul EV"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "Spacecab"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Chevrolet",
+        "Model": "Spark"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Chevrolet",
+        "Model": "Spark EV"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Kia",
+        "Model": "Spectra"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Alfa Romeo",
+        "Model": "Spider"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Dodge",
+        "Model": "Spirit"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Kia",
+        "Model": "Sportage"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Sportvan G10"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Sportvan G20"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Sportvan G30"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Sprinter 2500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Freightliner",
+        "Model": "Sprinter 2500 Crew"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Sprinter 2500 Passenger"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Dodge",
+        "Model": "Sprinter 3500 Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercedes-Benz",
+        "Model": "Sprinter 3500 XD Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Freightliner",
+        "Model": "Sprinter 3500XD Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Freightliner",
+        "Model": "Sprinter WORKER Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Freightliner",
+        "Model": "Sprinter WORKER Passenger"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Nissan",
+        "Model": "Stanza"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Dodge",
+        "Model": "Stealth"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Alfa Romeo",
+        "Model": "Stelvio"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Kia",
+        "Model": "Stinger"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Geo",
+        "Model": "Storm"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Dodge",
+        "Model": "Stratus"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Isuzu",
+        "Model": "Stylus"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Suburban"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Suburban 1500"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Suburban 2500"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Suburban 3500HD"
+    },
+    {
+        "Category": "Coupe, Sedan, Wagon",
+        "Make": "Eagle",
+        "Model": "Summit"
+    },
+    {
+        "Category": "Coupe, Sedan, Convertible",
+        "Make": "Pontiac",
+        "Model": "Sunbird"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Plymouth",
+        "Model": "Sundance"
+    },
+    {
+        "Category": "Convertible, Sedan, Coupe",
+        "Make": "Pontiac",
+        "Model": "Sunfire"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Supra"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Suzuki",
+        "Model": "Swift"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "T100 Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "T100 Xtracab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "TITAN Single Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "TITAN XD Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "TITAN XD King Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "TITAN XD Single Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "TL"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "TLX"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "TSX"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Audi",
+        "Model": "TT"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tacoma Access Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tacoma Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tacoma Regular Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tacoma Xtracab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Tahoe"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Tahoe (New)"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Eagle",
+        "Model": "Talon"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Ford",
+        "Model": "Taurus"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Ford",
+        "Model": "Taurus X"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Porsche",
+        "Model": "Taycan"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Kia",
+        "Model": "Telluride"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Ford",
+        "Model": "Tempo"
+    },
+    {
+        "Category": "Coupe, Sedan",
+        "Make": "Toyota",
+        "Model": "Tercel"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Terrain"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Buick",
+        "Model": "Terraza"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Ford",
+        "Model": "Thunderbird"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Hyundai",
+        "Model": "Tiburon"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volkswagen",
+        "Model": "Tiguan"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volkswagen",
+        "Model": "Tiguan Limited"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "Titan Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Nissan",
+        "Model": "Titan King Cab"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Mercury",
+        "Model": "Topaz"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Oldsmobile",
+        "Model": "Toronado"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Pontiac",
+        "Model": "Torrent"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volkswagen",
+        "Model": "Touareg"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volkswagen",
+        "Model": "Touareg 2"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chrysler",
+        "Model": "Town & Country"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lincoln",
+        "Model": "Town Car"
+    },
+    {
+        "Category": "Sedan, Wagon",
+        "Make": "Mercury",
+        "Model": "Tracer"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Tracker"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "TrailBlazer"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Trailblazer"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Pontiac",
+        "Model": "Trans Sport"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit 150 Van"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit 150 Wagon"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit 250 Van"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit 350 HD Van"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit 350 Van"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit 350 Wagon"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit Connect Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit Connect Cargo Van"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Transit Connect Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Traverse"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Chevrolet",
+        "Model": "Trax"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "Tribeca"
+    },
+    {
+        "Category": "SUV",
+        "Make": "MAZDA",
+        "Model": "Tribute"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "Trooper"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Tucson"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Tucson Fuel Cell"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tundra Access Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tundra CrewMax"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tundra Double Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Tundra Regular Cab"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Lexus",
+        "Model": "UX"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Uplander Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Uplander Passenger"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volvo",
+        "Model": "V40"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volvo",
+        "Model": "V50"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volvo",
+        "Model": "V60"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volvo",
+        "Model": "V70"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volvo",
+        "Model": "V90"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Saturn",
+        "Model": "VUE"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Vandura 1500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Vandura 2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Vandura 3500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Vandura G1500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Vandura G2500"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "GMC",
+        "Model": "Vandura G3500"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "Aston Martin",
+        "Model": "Vanquish"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Aston Martin",
+        "Model": "Vanquish S"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Aston Martin",
+        "Model": "Vantage"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Isuzu",
+        "Model": "VehiCROSS"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Hyundai",
+        "Model": "Veloster"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Venture Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chevrolet",
+        "Model": "Venture Passenger"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Venue"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Toyota",
+        "Model": "Venza"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Hyundai",
+        "Model": "Veracruz"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Buick",
+        "Model": "Verano"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Suzuki",
+        "Model": "Verona"
+    },
+    {
+        "Category": "Hatchback, Sedan",
+        "Make": "Nissan",
+        "Model": "Versa"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Nissan",
+        "Model": "Versa Note"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Pontiac",
+        "Model": "Vibe"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Acura",
+        "Model": "Vigor"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Mercury",
+        "Model": "Villager"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Dodge",
+        "Model": "Viper"
+    },
+    {
+        "Category": "Coupe, Convertible",
+        "Make": "Aston Martin",
+        "Model": "Virage"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Eagle",
+        "Model": "Vision"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "Vitara"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Chevrolet",
+        "Model": "Volt"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Chrysler",
+        "Model": "Voyager"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Subaru",
+        "Model": "WRX"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Windstar Cargo"
+    },
+    {
+        "Category": "Van/Minivan",
+        "Make": "Ford",
+        "Model": "Windstar Passenger"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Rolls-Royce",
+        "Model": "Wraith"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Wrangler"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Jeep",
+        "Model": "Wrangler Unlimited"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "X-90"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Jaguar",
+        "Model": "X-Type"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X1"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X2"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X3"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X4"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X5"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X5 M"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X6"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X6 M"
+    },
+    {
+        "Category": "SUV",
+        "Make": "BMW",
+        "Model": "X7"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volvo",
+        "Model": "XC40"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volvo",
+        "Model": "XC60"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Volvo",
+        "Model": "XC70"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Volvo",
+        "Model": "XC90"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Jaguar",
+        "Model": "XE"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Jaguar",
+        "Model": "XF"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "XG300"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Hyundai",
+        "Model": "XG350"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Jaguar",
+        "Model": "XJ"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "Jaguar",
+        "Model": "XK"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "XL-7"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Suzuki",
+        "Model": "XL7"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "Cadillac",
+        "Model": "XLR"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Cadillac",
+        "Model": "XT4"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Cadillac",
+        "Model": "XT5"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Cadillac",
+        "Model": "XT6"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Cadillac",
+        "Model": "XTS"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Subaru",
+        "Model": "XV Crosstrek"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Nissan",
+        "Model": "Xterra"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Toyota",
+        "Model": "Xtra Cab"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Yaris"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Toyota",
+        "Model": "Yaris Hatchback"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Toyota",
+        "Model": "Yaris iA"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Yukon"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Yukon Denali"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Yukon XL"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Yukon XL 1500"
+    },
+    {
+        "Category": "SUV",
+        "Make": "GMC",
+        "Model": "Yukon XL 2500"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "BMW",
+        "Model": "Z3"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "BMW",
+        "Model": "Z4"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "Z4 M"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "BMW",
+        "Model": "Z8"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Acura",
+        "Model": "ZDX"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Ford",
+        "Model": "ZX2"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Lincoln",
+        "Model": "Zephyr"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Audi",
+        "Model": "allroad"
+    },
+    {
+        "Category": "Wagon",
+        "Make": "Nissan",
+        "Model": "cube"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Honda",
+        "Model": "del Sol"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Volkswagen",
+        "Model": "e-Golf"
+    },
+    {
+        "Category": "SUV",
+        "Make": "Audi",
+        "Model": "e-tron"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "smart",
+        "Model": "fortwo"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "smart",
+        "Model": "fortwo cabrio"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "smart",
+        "Model": "fortwo electric drive"
+    },
+    {
+        "Category": "Convertible",
+        "Make": "smart",
+        "Model": "fortwo electric drive cabrio"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "i-280 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "i-290 Extended Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "i-350 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "i-370 Crew Cab"
+    },
+    {
+        "Category": "Pickup",
+        "Make": "Isuzu",
+        "Model": "i-370 Extended Cab"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Mitsubishi",
+        "Model": "i-MiEV"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "BMW",
+        "Model": "i3"
+    },
+    {
+        "Category": "Convertible, Coupe",
+        "Make": "BMW",
+        "Model": "i8"
+    },
+    {
+        "Category": "Sedan",
+        "Make": "Scion",
+        "Model": "iA"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Scion",
+        "Model": "iM"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Scion",
+        "Model": "iQ"
+    },
+    {
+        "Category": "Coupe",
+        "Make": "Scion",
+        "Model": "tC"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Scion",
+        "Model": "xA"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Scion",
+        "Model": "xB"
+    },
+    {
+        "Category": "Hatchback",
+        "Make": "Scion",
+        "Model": "xD"
+    }
+]

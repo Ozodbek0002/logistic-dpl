@@ -2,92 +2,151 @@
 
     <div class="form-block flex-column">
 
-            <h2 class="mb-5">Lorem, ipsum dolor.</h2>
+        <h2 class="mb-5">Lorem, ipsum dolor.</h2>
 
-            <form>
-
-
-                <ng-container *ngIf="one">
-                    <div class="form-outline">
-                        <input type="text" placeholder="From">
-                        <i class="fa fa-map-marker-alt"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="To">
-                        <i class="fa fa-map-marker-alt"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input style="padding-left: 55px;" matInput [matDatepicker]="picker" readonly>
-                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-                        <mat-datepicker #picker></mat-datepicker>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" class="form-check-input" name="truck" id="open">
-                        <label class="form-check-label" for="open">
-                            <img src="./assets/truck2.png" width="30px" alt="">
-                            Open
-                        </label>
-                    </div>
-                    <div class="radio-btn mx-2">
-                        <input type="radio" class="form-check-input" name="truck" id="enclosed">
-                        <label class="form-check-label" for="enclosed">
-                            <img src="./assets/truck1.png" width="30px" alt="">
-                            Enclosed
-                        </label>
-                    </div>
-                    <button (click)="one = false; two = true;" class="form-btn px-3">
-                        <i class="fa fa-arrow-right"></i>
-                    </button>
-                </ng-container>
+        <form #f="ngForm" (submit)="send(f)">
 
 
-                <ng-container *ngIf="two">
-                    <button (click)="one = true; two = false;" class="form-btn px-3"><i class="fa fa-arrow-left"></i></button>
+            <div class="form" [class.d-none]="!one">
 
-                    <div class="form-outline">
-                        <input type="text" placeholder="Firstname">
-                        <i class="fa fa-user"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="Lastname">
-                        <i class="fa fa-user"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="Phone">
-                        <i class="fa fa-phone"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="Email">
-                        <i class="fa fa-envelope"></i>
-                    </div>
+                <div class="form-outline">
+                    <input ngModel name="from" type="text" placeholder="From (Zip Code)" #inputFrom
+                        (input)="findCityByZipCodeFrom(inputFrom.value)" [matAutocomplete]="from" required>
+                    <i class="fa fa-map-marker-alt"></i>
 
-                    <button (click)="three = true; two = false;" class="form-btn px-3"><i class="fa fa-arrow-right"></i></button>
-                </ng-container>
+                    <mat-autocomplete #from="matAutocomplete">
+                        <mat-option
+                            [value]="searchResultFrom().city + ', ' + searchResultFrom().state + ' ' + inputFrom.value">
+                            {{ searchResultFrom().city }}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="to" type="text" placeholder="To (Zip Code)" #inputTo
+                        (input)="findCityByZipCodeTo(inputTo.value)" [matAutocomplete]="to" required>
+                    <i class="fa fa-map-marker-alt"></i>
+
+                    <mat-autocomplete #to="matAutocomplete">
+                        <mat-option
+                            [value]="searchResultTo().city + ', ' + searchResultTo().state + ' ' + inputTo.value">
+                            {{ searchResultTo().city }}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="date" style="padding-left: 55px;" matInput [matDatepicker]="picker" readonly
+                        required>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </div>
+
+                <div class="radio-btn">
+                    <input ngModel type="radio" class="form-check-input" name="truck" value="open" id="open" required>
+                    <label class="form-check-label" for="open">
+                        <img src="./assets/truck2.png" width="30px" alt="">
+                        Open
+                    </label>
+                </div>
+                <div class="radio-btn mx-2">
+                    <input ngModel type="radio" class="form-check-input" name="truck" value="enclosed" id="enclosed" required>
+                    <label class="form-check-label" for="enclosed">
+                        <img src="./assets/truck1.png" width="30px" alt="">
+                        Enclosed
+                    </label>
+                </div>
+
+                <button type="button" (click)="one = false; two = true;" class="form-btn px-3">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
 
 
-                <ng-container *ngIf="three" class="d-none">
-                    <button (click)="three = false; two = true;" class="form-btn px-3"><i class="fa fa-arrow-left"></i></button>
+            <div class="form" [class.d-none]="!two">
+                <button type="button" (click)="one = true; two = false;" class="form-btn px-3">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
 
-                    <div class="form-outline">
-                        <input type="text" placeholder="Year">
-                        <i class="fa fa-car"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="Make">
-                        <i class="fa fa-car"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="Module">
-                        <i class="fa fa-car"></i>
-                    </div>
-                    <div class="form-outline">
-                        <input type="text" placeholder="Type">
-                        <i class="fa fa-car"></i>
-                    </div>
+                <div class="form-outline">
+                    <input ngModel name="first_name" type="text" placeholder="First name" required minlength="3">
+                    <i class="fa fa-user"></i>
+                </div>
 
-                    <button (click)="three = false; one = true;" class="form-btn px-3">Submit</button>
-                </ng-container>
-            </form>
+                <div class="form-outline">
+                    <input ngModel name="last_name" type="text" placeholder="Last name" required minlength="3">
+                    <i class="fa fa-user"></i>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="phone" type="text" placeholder="Phone" required minlength="6">
+                    <i class="fa fa-phone"></i>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="email" type="email" placeholder="Email" required minlength="8">
+                    <i class="fa fa-envelope"></i>
+                </div>
+
+                <button type="button" (click)="three = true; two = false;" class="form-btn px-3">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+
+
+            <div class="form" [class.d-none]="!three">
+                <button type="button" (click)="three = false; two = true;" class="form-btn px-3">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
+
+                <div class="form-outline">
+                    <input ngModel name="year" type="text" placeholder="Year" required minlength="3">
+                    <i class="fa fa-car"></i>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="make" type="text" placeholder="Make" required minlength="3" #makeInput
+                        [matAutocomplete]="makeSelect">
+                    <i class="fa fa-car"></i>
+
+                    <mat-autocomplete #makeSelect="matAutocomplete">
+                        <mat-option *ngFor="let option of (model | async) | search:makeInput.value"
+                            [value]="option.name">
+                            {{option.name}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="model" type="text" placeholder="Model" required minlength="3" #modelInput
+                        [matAutocomplete]="carSelect">
+                    <i class="fa fa-car"></i>
+
+                    <mat-autocomplete #carSelect="matAutocomplete">
+                        <mat-option *ngFor="let option of (car | async) | search:modelInput.value"
+                            [value]="option.Model">
+                            {{option.Model}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+                <div class="form-outline">
+                    <input ngModel name="type" type="text" placeholder="Type" required minlength="3" #typeInput
+                        [matAutocomplete]="typeSelect">
+                    <i class="fa fa-car"></i>
+
+                    <mat-autocomplete #typeSelect="matAutocomplete">
+                        <mat-option *ngFor="let option of (type | async) | search:typeInput.value"
+                            [value]="option.name">
+                            {{option.name}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+                <button type="submit" [disabled]="f.invalid" (click)="three = false; one = true;"
+                    class="form-btn px-3">Submit</button>
+            </div>
+        </form>
 
     </div>
 

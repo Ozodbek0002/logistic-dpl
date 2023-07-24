@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ProductGroupModel } from 'src/app/core/models/productGroup.model';
+import { ProductService } from 'src/app/core/services/product.service';
 
 @Component({
   selector: 'app-products',
@@ -7,91 +8,31 @@ import { ProductGroupModel } from 'src/app/core/models/productGroup.model';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent {
-  data: ProductGroupModel[] = [
-    {
-      id: 12,
-      name: "First group",
-      details: [
-        {
-          id: 21,
-          name: 'Olma',
-          image: 'link',
-          length: 1000,
-          width: 1000,
-          height: 1000,
-          weight: 10,
-          quantity: 10
-        },
-        {
-          id: 23,
-          name: 'Nok',
-          image: 'link',
-          length: 300,
-          width: 200,
-          height: 500,
-          weight: 200,
-          quantity: 10
-        },
-        {
-          id: 32,
-          name: 'Moloko',
-          image: 'link',
-          length: 300,
-          width: 200,
-          height: 500,
-          weight: 200,
-          quantity: 10
-        }
-      ]
-    },
-    {
-      id: 9,
-      name: "Second group",
-      details: [
-        {
-          id: 21,
-          name: 'Olma',
-          image: 'link',
-          length: 1000,
-          width: 1000,
-          height: 1000,
-          weight: 10,
-          quantity: 10
-        },
-        {
-          id: 23,
-          name: 'Nok',
-          image: 'link',
-          length: 300,
-          width: 200,
-          height: 500,
-          weight: 200,
-          quantity: 10
-        },
-        {
-          id: 32,
-          name: 'Moloko',
-          image: 'link',
-          length: 300,
-          width: 200,
-          height: 500,
-          weight: 200,
-          quantity: 10
-        }
-      ]
-    }
-  ];
+  productList: any;
+  userProducts: Array<any> = [];
 
+
+  constructor(private productService: ProductService) {
+    this.userProducts.push(productService.getDefultGroup());
+    this.productList = this.productList;
+  }
+
+
+
+  editGroup(id: number) {
+    console.log(id);
+  }
 
 
 
   addGroup() {
-    console.log('add group');
+    this.userProducts.push(this.productService.getDefultGroup());
   }
 
 
+
   deleteGroup(id: number) {
-    console.log(id);
+    this.userProducts = this.userProducts.filter((item: any) => item.id != id);
   }
 
 

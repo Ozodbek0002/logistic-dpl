@@ -7,7 +7,7 @@ import { ProductGroupModel } from 'src/app/core/models/productGroup.model';
   styleUrls: ['./result.component.scss']
 })
 export class ResultComponent {
-  data: ProductGroupModel[] = [
+  data: any = [
     {
       id: 12,
       name: "First group",

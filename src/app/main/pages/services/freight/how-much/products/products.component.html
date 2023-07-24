@@ -7,18 +7,19 @@
 
 
 
-        <div *ngFor="let item of data" class="shadow rounded w-100 p-3 mb-5">
+        <div *ngFor="let group of userProducts" class="shadow rounded w-100 p-3 mb-5">
 
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-f-a-c-j-c">
-                    <input class="grp-name-input" type="text" [value]="item.name" [readOnly]="true">
-                    <button (click)="deleteGroup(item.id)" class="btn btn-sm btn-secondary btn-rounded px-2"
+                    <input class="grp-name-input" type="text" [value]="group.name" [readOnly]="true">
+                    <button class="btn btn-sm btn-secondary btn-rounded py-2" (click)="editGroup(group.id)"
                         type="button">
                         <i class="fa fa-pencil"></i>
                     </button>
                 </div>
 
-                <button class="btn btn-sm btn-danger"><i class="fa fa-trash-alt"></i></button>
+                <button (click)="deleteGroup(group.id)" class="btn btn-sm btn-danger btn-rounded py-2"><i
+                        class="fa fa-trash-alt"></i></button>
             </div>
 
             <hr class="my-4">
@@ -28,67 +29,76 @@
 
                     <thead>
                         <tr>
-                            <th>Type</th>
+                            <th width="42px">Type</th>
                             <th>Product Name</th>
                             <th class="number-input">Length</th>
                             <th class="number-input">Width / Radius</th>
                             <th class="number-input">Height</th>
                             <th class="number-input">Weight</th>
                             <th class="number-input">Quantity</th>
-                            <th>Stack</th>
+                            <th width="111px">Stack</th>
                         </tr>
                     </thead>
 
                     <tbody>
 
-                        <tr *ngFor="let product of item.details">
+                        <tr *ngFor="let item of group.details">
+
                             <td>
-                                <i class="fa fa-box"></i>
+                                <img [src]="item.product[0]['icon']" class="h-100" alt="Product icon">
                             </td>
+
                             <td>
                                 <div class="form-outline">
-                                    <input type="text" class="form-control form-sm" [value]="product.name" />
+                                    <input type="text" class="form-control form-sm" [value]="item.name" />
                                 </div>
                             </td>
+
                             <td class="number-input">
                                 <div class="form-outline">
-                                    <span class="trailing">mm</span>
+                                    <span class="trailing">inc</span>
                                     <input type="text" class="form-control form-sm form-icon-trailing"
-                                        [value]="product.length" />
+                                        [(ngModel)]="item.product[0]['parametrs'][0]['value']" />
                                 </div>
                             </td>
+
                             <td class="number-input">
                                 <div class="form-outline">
-                                    <span class="trailing">mm</span>
+                                    <span class="trailing">inc</span>
                                     <input type="text" class="form-control form-sm form-icon-trailing"
-                                        [value]="product.width" />
+                                        [(ngModel)]="item.product[0]['parametrs'][1]['value']" />
                                 </div>
                             </td>
+
                             <td class="number-input">
                                 <div class="form-outline">
-                                    <span class="trailing">mm</span>
+                                    <span class="trailing">inc</span>
                                     <input type="text" class="form-control form-sm form-icon-trailing"
-                                        [value]="product.height" />
+                                        [(ngModel)]="item.product[0]['parametrs'][2]['value']" />
                                 </div>
                             </td>
+
                             <td class="number-input">
                                 <div class="form-outline">
                                     <span class="trailing">kg</span>
                                     <input type="text" class="form-control form-sm form-icon-trailing"
-                                        [value]="product.weight" />
+                                        [(ngModel)]="item.product[0]['parametrs'][3]['value']" />
                                 </div>
                             </td>
+
                             <td class="number-input">
                                 <div class="form-outline">
-                                    <input type="text" class="form-control form-sm" [value]="product.quantity" />
+                                    <input type="text" class="form-control form-sm"
+                                        [(ngModel)]="item.product[0]['parametrs'][4]['value']" />
                                 </div>
                             </td>
+
                             <td class="d-flex">
-                                <button (click)="editProduct(product.id)"
-                                    class="btn btn-sm btn-secondary btn-rounded px-3" type="button">
+                                <button (click)="editProduct(item.id)" class="btn btn-sm btn-secondary btn-rounded px-3"
+                                    type="button">
                                     <i class="fa fa-pencil"></i>
                                 </button>
-                                <button (click)="deleteProduct(product.id)"
+                                <button (click)="deleteProduct(item.id)" type="button"
                                     class="btn btn-danger btn-sm btn-rounded py-2 ms-2">
                                     <i class="fa fa-trash-alt"></i>
                                 </button>
@@ -99,8 +109,10 @@
                     <tfoot>
                         <tr>
                             <td colspan="8" class="border-bottom-0 ps-0">
-                                <button (click)="addProduct(item.id)" class="btn btn-secondary"><i
-                                        class="fa fa-plus me-2"></i> Add Product</button>
+                                <button (click)="addProduct(group.id)" class="btn btn-secondary" data-mdb-toggle="modal"
+                                    data-mdb-target="#addProductModal">
+                                    <i class="fa fa-plus me-2"></i> Add Product
+                                </button>
                             </td>
                         </tr>
                     </tfoot>
@@ -117,3 +129,39 @@
         </div>
     </div>
 </section>
+
+
+
+
+<!-- form modal -->
+<div class="container">
+    <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="product-form" class="container">
+
+                        <h3 class="text-center">Add product</h3>
+
+                        <div class="row">
+                            <ng-container *ngFor="let item of productList">
+                                <div class="col">
+                                    <img [src]="item.icon" alt="product icon">
+                                    <h6 class="text-center">{{ item.name }}</h6>
+                                </div>
+                            </ng-container>
+                        </div>
+
+
+                        <div class="d-flex">
+                            <button type="reset" class="btn-secondary btn w-100 me-3"
+                                data-mdb-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn-theme w-100">SEND</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

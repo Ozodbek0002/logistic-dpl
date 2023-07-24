@@ -16,8 +16,9 @@
                     </div>
 
                     <a href="#" class="btn-theme mt-4" role="button" data-mdb-toggle="modal"
-                        data-mdb-target="#privateFormModal">Send
-                        Message</a>
+                        data-mdb-target="#privateFormModal">
+                        Send Message
+                    </a>
                 </div>
             </div>
         </div>
@@ -166,32 +167,32 @@
         </div>
         <div class="mx-auto col-11 col-sm-10 col-md-6 mt-5">
 
-            <form action="">
+            <form #f="ngForm" (submit)="send(f)">
                 <h3 class="text-center">Private dealers form</h3>
 
                 <mat-form-field class="w-100">
-                    <mat-label>Firstname</mat-label>
-                    <input type="text" matInput>
+                    <mat-label>First name</mat-label>
+                    <input type="text" matInput ngModel name="first_name" required minlength="3">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
-                    <mat-label>Lastname</mat-label>
-                    <input type="text" matInput>
+                    <mat-label>Last name</mat-label>
+                    <input type="text" matInput ngModel name="last_name" required minlength="3">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>Phone</mat-label>
-                    <input type="text" matInput>
+                    <input type="text" matInput ngModel name="phone" required minlength="7">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>Email</mat-label>
-                    <input type="email" matInput>
+                    <input type="email" matInput ngModel name="email" required minlength="6">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>Volume</mat-label>
-                    <mat-select ngModel name="car">
+                    <mat-select ngModel name="car" required>
                         <mat-option [value]="'1'">1 vehicle in month</mat-option>
                         <mat-option [value]="'1-5'">1-5 vehicle in month</mat-option>
                         <mat-option [value]="'5-10'">5-10 vehicle in month</mat-option>
@@ -199,7 +200,7 @@
                     </mat-select>
                 </mat-form-field>
 
-                <button type="submit" class="btn-theme w-100">SEND</button>
+                <button [disabled]="f.invalid" type="submit" class="btn-theme w-100">SEND</button>
             </form>
         </div>
     </div>
@@ -324,32 +325,33 @@
                         <div class="row w-100">
                             <div class="mx-auto col-11 col-sm-10 col-md-9 col-lg-7 col-xl-6">
 
-                                <form action="">
+                                <form #fm="ngForm" (submit)="send(fm)">
                                     <h3 class="text-center">Private dealers form</h3>
 
+
                                     <mat-form-field class="w-100">
-                                        <mat-label>Firstname</mat-label>
-                                        <input type="text" matInput>
+                                        <mat-label>First name</mat-label>
+                                        <input type="text" matInput ngModel name="first_name" required minlength="3">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
-                                        <mat-label>Lastname</mat-label>
-                                        <input type="text" matInput>
+                                        <mat-label>Last name</mat-label>
+                                        <input type="text" matInput ngModel name="last_name" required minlength="3">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
                                         <mat-label>Phone</mat-label>
-                                        <input type="text" matInput>
+                                        <input type="text" matInput ngModel name="phone" required minlength="7">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
                                         <mat-label>Email</mat-label>
-                                        <input type="email" matInput>
+                                        <input type="email" matInput ngModel name="email" required minlength="6">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
                                         <mat-label>Volume</mat-label>
-                                        <mat-select ngModel name="car">
+                                        <mat-select ngModel name="car" required>
                                             <mat-option [value]="'1'">1 vehicle in month</mat-option>
                                             <mat-option [value]="'1-5'">1-5 vehicle in month</mat-option>
                                             <mat-option [value]="'5-10'">5-10 vehicle in month</mat-option>
@@ -359,9 +361,9 @@
 
 
                                     <div class="d-flex">
-                                        <button type="button" class="btn-warning btn w-100 me-3"
+                                        <button type="reset" class="btn-secondary btn w-100 me-3"
                                             data-mdb-dismiss="modal">Cancel</button>
-                                        <button type="submit" class="btn-theme w-100">SEND</button>
+                                        <button [disabled]="fm.invalid" type="submit" class="btn-theme w-100">SEND</button>
                                     </div>
                                 </form>
 

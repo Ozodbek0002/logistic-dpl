@@ -1,7 +1,7 @@
-import { ProductModel } from "./product.model";
+import { ProductCubeModel, ProductSlinderModel } from "./product.model";
 
 export interface ProductGroupModel {
     id: number,
     name: string,
-    details: ProductModel[]
+    details: ProductCubeModel[] | ProductSlinderModel[]
 }

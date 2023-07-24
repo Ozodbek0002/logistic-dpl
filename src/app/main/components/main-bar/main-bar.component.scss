@@ -27,7 +27,7 @@
         }
 
 
-        form {
+        .form {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -125,7 +125,7 @@
 
 @media screen and (max-width: 992px) {
     #main-bar .form-block {
-        form {
+        .form {
             display: block;
             align-items: unset;
             justify-content: unset;
@@ -152,7 +152,7 @@
 
 
 @media screen and (max-width: 992px) {
-    #main-bar .form-block form {
+    #main-bar .form-block .form {
         width: 80%;
     }
 }
