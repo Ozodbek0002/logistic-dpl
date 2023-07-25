@@ -1,23 +1,26 @@
-export interface ProductCubeModel {
+export interface ProductModel {
     id: number,
     name: string,
     icon: string,
     image: string,
-    length: number,
-    width: number,
-    height: number,
-    weight: number,
-    quantity: number
+    parametrs: ProductParametrModel[]
+};
+
+
+
+export interface ProductParametrModel {
+    name: string,
+    label: string,
+    unity: string | undefined,
+    value: number | undefined
 }
 
 
-export interface ProductSlinderModel {
+
+
+export interface UserProductModel {
     id: number,
     name: string,
-    icon: string,
-    image: string,
-    radius: number,
-    height: number,
-    weight: number,
-    quantity: number
+    product: ProductModel[]
 }
+

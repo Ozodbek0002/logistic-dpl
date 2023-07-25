@@ -1,8 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { AfterViewInit, Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { environment } from 'src/environments/environment.development';
-declare let initHeadline: any;
 
 @Component({
   selector: 'app-dealarships',
@@ -10,7 +9,7 @@ declare let initHeadline: any;
   styleUrls: ['./dealarships.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class DealarshipsComponent implements AfterViewInit {
+export class DealarshipsComponent {
   defult = [{"name": "..."}];
 
   companies: Array<any> = this.defult;
@@ -18,8 +17,6 @@ export class DealarshipsComponent implements AfterViewInit {
 
 
   constructor(private http: HttpClient) {}
-
-
 
 
   send(form: NgForm) {
@@ -35,10 +32,4 @@ export class DealarshipsComponent implements AfterViewInit {
     else
       this.companies = this.defult;
   }
-
-
-  ngAfterViewInit(): void {
-    initHeadline();
-  }
-
 }

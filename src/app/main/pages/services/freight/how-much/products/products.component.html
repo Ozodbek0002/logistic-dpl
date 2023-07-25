@@ -1,26 +1,9 @@
 <section id="products">
     <div class="container">
 
-        <div class="shadow-sm rounded w-100 p-3 mb-5">
-            <button (click)="addGroup()" type="button" class="btn-theme"><i class="fa fa-plus"></i> Add Group</button>
-        </div>
+        <div class="shadow border rounded w-100 p-3 mb-5">
 
-
-
-        <div *ngFor="let group of userProducts" class="shadow rounded w-100 p-3 mb-5">
-
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="d-f-a-c-j-c">
-                    <input class="grp-name-input" type="text" [value]="group.name" [readOnly]="true">
-                    <button class="btn btn-sm btn-secondary btn-rounded py-2" (click)="editGroup(group.id)"
-                        type="button">
-                        <i class="fa fa-pencil"></i>
-                    </button>
-                </div>
-
-                <button (click)="deleteGroup(group.id)" class="btn btn-sm btn-danger btn-rounded py-2"><i
-                        class="fa fa-trash-alt"></i></button>
-            </div>
+            <h5>Product group</h5>
 
             <hr class="my-4">
 
@@ -42,7 +25,7 @@
 
                     <tbody>
 
-                        <tr *ngFor="let item of group.details">
+                        <tr *ngFor="let item of userProducts; trackBy: trackByFn">
 
                             <td>
                                 <img [src]="item.product[0]['icon']" class="h-100" alt="Product icon">
@@ -54,13 +37,24 @@
                                 </div>
                             </td>
 
-                            <td class="number-input">
+                            <td class="number-input"
+                                *ngIf="item.product[0]['parametrs'][0]['value'] != undefined; else undefinedValue">
                                 <div class="form-outline">
                                     <span class="trailing">inc</span>
                                     <input type="text" class="form-control form-sm form-icon-trailing"
                                         [(ngModel)]="item.product[0]['parametrs'][0]['value']" />
                                 </div>
                             </td>
+
+                            <ng-template #undefinedValue>
+                                <td class="number-input">
+                                    <div class="form-outline">
+                                        <span class="trailing">inc</span>
+                                        <input type="text" class="form-control form-sm form-icon-trailing" value=""
+                                            readonly />
+                                    </div>
+                                </td>
+                            </ng-template>
 
                             <td class="number-input">
                                 <div class="form-outline">
@@ -95,7 +89,7 @@
 
                             <td class="d-flex">
                                 <button (click)="editProduct(item.id)" class="btn btn-sm btn-secondary btn-rounded px-3"
-                                    type="button">
+                                    data-mdb-toggle="modal" type="button" data-mdb-target="#editProductModal">
                                     <i class="fa fa-pencil"></i>
                                 </button>
                                 <button (click)="deleteProduct(item.id)" type="button"
@@ -109,7 +103,7 @@
                     <tfoot>
                         <tr>
                             <td colspan="8" class="border-bottom-0 ps-0">
-                                <button (click)="addProduct(group.id)" class="btn btn-secondary" data-mdb-toggle="modal"
+                                <button class="btn btn-secondary" data-mdb-toggle="modal" type="button"
                                     data-mdb-target="#addProductModal">
                                     <i class="fa fa-plus me-2"></i> Add Product
                                 </button>
@@ -122,8 +116,6 @@
         </div>
 
 
-
-
         <div class="text-center my-5">
             <a routerLink="/app/services/freight/how-much-does-it-cost/truck-container" class="btn btn-primary">Next</a>
         </div>
@@ -133,30 +125,76 @@
 
 
 
-<!-- form modal -->
+<!-- add product form modal -->
 <div class="container">
     <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div id="product-form" class="container">
+                    <div id="product-form" class="container py-4">
 
-                        <h3 class="text-center">Add product</h3>
+                        <h3 class="text-center mb-3">Add product</h3>
 
                         <div class="row">
                             <ng-container *ngFor="let item of productList">
-                                <div class="col">
-                                    <img [src]="item.icon" alt="product icon">
-                                    <h6 class="text-center">{{ item.name }}</h6>
+                                <div class="col" (click)="selectedProduct(item.id)">
+                                    <div class="product-item" [class.active]="selectedProductNumber == item.id">
+                                        <img [src]="item.icon" alt="product icon">
+                                        <h6 class="text-center">{{ item.name }}</h6>
+                                    </div>
                                 </div>
                             </ng-container>
                         </div>
 
 
-                        <div class="d-flex">
-                            <button type="reset" class="btn-secondary btn w-100 me-3"
-                                data-mdb-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn-theme w-100">SEND</button>
+                        <div class="row my-5" *ngFor="let item of selectedProductList$ | async">
+
+                            <div class="col-12 col-sm-10 col-md-4 mx-auto me-md-auto">
+                                <div class="p-4">
+                                    <img [src]="item['product'][0]['image']" class="w-100" alt="product-img">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-10 col-md-6 mx-auto h-100 px-0">
+                                <form #prodForm="ngForm">
+
+                                    <div class="row w-100 mx-auto">
+
+                                        <div class="col-12 mb-3">
+                                            <span>Product name</span>
+                                            <div class="form-outline mb-3">
+                                                <input [(ngModel)]="item.name" name="product_name" required type="text"
+                                                    class="form-control form-sm rounded-pill" />
+                                            </div>
+                                        </div>
+
+                                        <input type="hidden" name="product_id" [(ngModel)]="item['id']">
+                                        <input type="hidden" name="product_type_id" [(ngModel)]="item['product'][0]['id']">
+
+                                        <ng-container *ngFor="let param of item['product'][0]['parametrs']">
+                                            <div *ngIf="param.value != undefined"
+                                                class="col-6 col-sm-6 col-md-6 col-lg-4">
+                                                <span>{{ param.label }}</span>
+                                                <div class="form-outline mb-3">
+                                                    <span *ngIf="param.unity != undefined" class="trailing">{{ param.unity }}</span>
+                                                    <input [(ngModel)]="param.value" name="{{ param.name }}" required type="text"
+                                                        class="form-control form-sm form-icon-trailing rounded-pill" />
+                                                </div>
+                                            </div>
+                                        </ng-container>
+
+                                    </div>
+
+
+                                    <div class="d-flex">
+                                        <button class="btn-secondary btn w-100 me-3" (click)="selectedProduct(1)" type="button"
+                                            data-mdb-dismiss="modal">Cancel</button>
+                                        <button data-mdb-dismiss="modal" (click)="addProduct(prodForm)" type="button"
+                                            class="btn-theme w-100">SEND</button>
+                                    </div>
+
+                                </form>
+                            </div>
                         </div>
 
                     </div>

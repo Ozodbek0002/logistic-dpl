@@ -63,3 +63,48 @@
         }
     }
 }
+
+
+
+#product-form {
+
+    .col {
+        margin-bottom: 20px;
+
+        .prod-radio-btn {
+            display: none;
+        }
+
+        .product-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0px #ddd;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &.active {
+                color: #fff;
+                background-color: #e3ebf7;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    #products {
+        table {
+            thead .number-input,
+            tbody .number-input {
+                display: none;
+            }
+        }
+    }
+}

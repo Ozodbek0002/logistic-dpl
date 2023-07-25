@@ -1,117 +1,149 @@
 <app-bread-crumbs [img_url]="'trucks.jpg'">
     <div class="d-flex align-items-center h-100">
-        <div>
+        <div class="w-100 d-block">
             <h1 class="text-light">Lorem, ipsum dolor.</h1>
-            <p class="text-light my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />Non unde atque
-                exercitationem quos rerum reiciendis.</p>
-            <a href="#" class="btn-theme">Become a carrier</a>
+
+            <div class="g-container">
+                <ul id="list-example" class="list-unstyled" style="--s: 4">
+                    <li>
+                        <div (click)="goTo('block-1')" class="text-light">
+                            Lorem ipsum
+                            <i class="fa fa-arrow-right ms-3"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div (click)="goTo('block-2')" class="text-light">
+                            Lorem ipsum
+                            <i class="fa fa-arrow-right ms-3"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div (click)="goTo('block-3')" class="text-light">
+                            Lorem ipsum
+                            <i class="fa fa-arrow-right ms-3"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div (click)="goTo('block-4')" class="text-light">
+                            Lorem ipsum
+                            <i class="fa fa-arrow-right ms-3"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div (click)="goTo('block-1')" class="text-light">
+                            Lorem ipsum
+                            <i class="fa fa-arrow-right ms-3"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </app-bread-crumbs>
 
 
-<div class="container">
-    <app-section-title title="Lorem ipsum dolor sit amet consectetur adipisicing elit."></app-section-title>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ab quo aspernatur sequi
-        saepe magni ipsam ipsa
-        tempore id vel, expedita maxime perferendis ipsum quod eaque, sint atque facere temporibus. At dicta soluta
-        exercitationem commodi nemo provident maiores odit consectetur, ut repellendus dolor perspiciatis nam cupiditate
-        doloremque sed?</p>
-
-    <img src="./assets/images/header.jpg" class="w-100 my-4 rounded" alt="Service image">
-</div>
 
 
+<div data-mdb-spy="scroll" data-mdb-target="#list-example" data-mdb-offset="0">
 
 
-<div class="container mb-5 pb-5">
-    <app-section-title title="Lorem ipsum dolor sit"></app-section-title>
-
-    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque in aut nostrum voluptatum, et
-        illo voluptatem modi quam blanditiis, nulla nam impedit ex pariatur ea ut! Similique excepturi dignissimos
-        quibusdam.</p>
-
-
-    <div class="row mt-5">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>In the office</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex laudantium debitis qui at
-                        dolorum totam facere rerum minima tempora?</p>
-                    <a href="#" class="btn-theme">Carrier</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/carshop-nottingham.jpg" alt="Service image" class="img-fluid rounded">
-        </div>
-    </div>
-
-
-    <div class="row mt-5">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/istockphoto.jpg" alt="You Tube link" class="img-fluid rounded">
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni accusantium quo, libero rem non
-                        voluptatibus deleniti praesentium deserunt est.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-
-<div class="mb-5 bg-img jarallax"
-    style="background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(./assets/images/modern-dark.jpg);">
     <div class="container">
+        <app-section-title title="Lorem ipsum dolor sit amet consectetur adipisicing elit."></app-section-title>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ab quo aspernatur sequi
+            saepe magni ipsam ipsa
+            tempore id vel, expedita maxime perferendis ipsum quod eaque, sint atque facere temporibus. At dicta soluta
+            exercitationem commodi nemo provident maiores odit consectetur, ut repellendus dolor perspiciatis nam cupiditate
+            doloremque sed?</p>
 
-        <div class="row">
-            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5 d-flex align-items-center">
-                <img src="./assets/images/showroom.jpg" class="w-100 rounded" alt="Service image">
+        <img src="./assets/images/header.jpg" class="w-100 my-4 rounded" alt="Service image">
+    </div>
+
+
+
+
+    <div class="container mb-5 pb-5">
+        <app-section-title title="Lorem ipsum dolor sit"></app-section-title>
+
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque in aut nostrum voluptatum, et
+            illo voluptatem modi quam blanditiis, nulla nam impedit ex pariatur ea ut! Similique excepturi dignissimos
+            quibusdam.</p>
+
+
+        <div class="row mt-5" id="block-1">
+            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
+                <div class="d-flex align-items-center h-100">
+                    <div>
+                        <h3>In the office</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex laudantium debitis qui at
+                            dolorum totam facere rerum minima tempora? Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Sequi ex laudantium debitis qui at
+                            dolorum totam facere rerum minima tempora?</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5 p-5 ms-auto">
-                <h3 class="text-light">Save time. Book instantly.</h3>
-                <p class="text-light mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
-                    pariatur, blanditiis labore necessitatibus tenetur hic aperiam ipsam. Officiis atque odit quae totam
-                    enim.</p>
+            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
+                <img src="./assets/images/carshop-nottingham.jpg" alt="Service image" class="img-fluid rounded">
+            </div>
+        </div>
 
-                <ul class="text-light ps-3">
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
 
-                <a href="#" class="btn-theme">Book or make offer</a>
+        <div class="row mt-5 sm-reverse" id="block-2">
+            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
+                <div class="d-flex align-items-center h-100">
+                    <div>
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex laudantium debitis qui at
+                            dolorum totam facere rerum minima tempora? Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Sequi ex laudantium debitis qui at
+                            dolorum totam facere rerum minima tempora?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
+                <img src="./assets/images/istockphoto.jpg" alt="You Tube link" class="img-fluid rounded">
+            </div>
+        </div>
+
+
+        <div class="row mt-5" id="block-3">
+            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
+                <div class="d-flex align-items-center h-100">
+                    <div>
+                        <h3>In the office</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex laudantium debitis qui at
+                            dolorum totam facere rerum minima tempora? Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Sequi ex laudantium debitis qui at
+                            dolorum totam facere rerum minima tempora?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
+                <img src="./assets/images/carshop-nottingham.jpg" alt="Service image" class="img-fluid rounded">
             </div>
         </div>
 
     </div>
-</div>
 
 
 
-<!-- testimonials -->
-<div class="container mb-5">
-    <div class="testimonials">
-        <img class="d-block mb-4 rounded" src="./assets/images/quote.svg" width="80px" alt="Service image">
-        <span class="text-uppercase text-theme">WHAT PEOPLE ARE SAYING</span>
-        <h3 class="mb-4" style="font-size: 40px;line-height: .8;">Testimonials</h3>
 
-        <p style="font-size: 20px;">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veniam minus laborum
-            at perspiciatis suscipit? Earum quidem qui optio quos ab vel ullam.”</p>
+    <div id="block-4" class="mb-5 bg-img jarallax"
+        style="background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(./assets/images/modern-dark.jpg);">
+        <div class="container">
 
-        <h6 class="fw-bold">Lorem, ipsum.</h6>
-        <h6 class="fw-bold">Lorem ipsum dolor sit amet.</h6>
+            <div class="row">
+                <div class="col-11 col-sm-8 col-md-6 mx-auto py-5 d-flex align-items-center">
+                    <img src="./assets/images/showroom.jpg" class="w-100 rounded" alt="Service image">
+                </div>
+                <div class="col-11 col-sm-8 col-md-6 mx-auto p-5 ms-auto">
+                    <h3 class="text-light">Save time. Book instantly.</h3>
+                    <p class="text-light mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+                        pariatur, blanditiis labore necessitatibus tenetur hic aperiam ipsam. Officiis atque odit quae totam
+                        enim.</p>
+                </div>
+            </div>
+
+        </div>
     </div>
+
 </div>
-
-
-<app-faq></app-faq>

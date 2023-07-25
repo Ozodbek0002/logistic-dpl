@@ -52,12 +52,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FixedButtonsComponent } from './components/fixed-buttons/fixed-buttons.component';
 import { SectionTitleComponent } from './components/section-title/section-title.component';
 import { BreadCrumbsComponent } from './components/bread-crumbs/bread-crumbs.component';
-import { ReviewsBlockComponent } from './components/reviews-block/reviews-block.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ReviewsCarouselComponent } from './components/reviews-carousel/reviews-carousel.component';
-import { ShortContactUsBlockComponent } from './components/short-contact-us-block/short-contact-us-block.component';
-import { InfoNumbericComponent } from './components/info-numberic/info-numberic.component';
-import { AutoShipFormComponent } from './components/auto-ship-form/auto-ship-form.component';
 import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinner.component';
 
 
@@ -95,13 +91,9 @@ import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinn
     HowMuchComponent,
     HowDoesComponentAuto,
     HowMuchComponentAuto,
-    ReviewsBlockComponent,
     AboutUsComponent,
     FaqComponent,
     ReviewsCarouselComponent,
-    ShortContactUsBlockComponent,
-    InfoNumbericComponent,
-    AutoShipFormComponent,
     LoaderSpinnerComponent,
     ProductsComponent,
     TruckContainerComponent,

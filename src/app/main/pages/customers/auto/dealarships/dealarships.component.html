@@ -1,48 +1,17 @@
 <app-bread-crumbs [img_url]="'header.jpg'">
-    <div class="row h-100">
-        <div class="col-11 col-sm-10 col-md-8 col-lg-6">
-            <div class="d-flex align-items-center h-100">
-                <div>
+    <div class="d-flex align-items-center h-100">
+        <div class="w-100">
+            <h1 class="text-light">Lorem, ipsum dolor.</h1>
+            <p class="text-light my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />Non unde atque
+                exercitationem quos rerum reiciendis.</p>
 
-                    <div class="cd-headline rotate-1 text-dark mb-4 pb-2">
-                        <span class="d-block text-light h4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Itaque, quod!</span>
-                        <span class="cd-words-wrapper h2">
-                            <b class="is-visible">BMW</b>
-                            <b>Mersede Benz</b>
-                            <b>Audi</b>
-                            <b>Ferrari</b>
-                        </span>
-                    </div>
-
-                    <a href="#" class="btn-theme mt-4" role="button" data-mdb-toggle="modal"
-                        data-mdb-target="#privateFormModal">
-                        Send Message
-                    </a>
-                </div>
-            </div>
+            <a href="#" class="btn-theme mt-4" role="button" data-mdb-toggle="modal"
+                data-mdb-target="#privateFormModal">
+                Send Message
+            </a>
         </div>
     </div>
 </app-bread-crumbs>
-
-
-
-
-<!-- text area -->
-<div class="container py-5 my-5">
-    <div class="row py-5 my-5">
-        <div class="mx-auto col-11 col-sm-10 col-md-9 col-lg-7 col-xl-6 text-center">
-            <p class="mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde minus sed et aut molestias at vel
-                doloribus nostrum odio qui laborum autem quia porro nobis, similique eveniet numquam ipsa nesciunt! Odit
-                earum eaque dolorem molestiae id esse illo possimus sequi, corrupti excepturi? Ex veritatis mollitia
-                ullam quis omnis! Beatae repudiandae omnis quo provident. Repellat, voluptates rem recusandae est
-                temporibus ipsa, nemo ut eos ab velit dolorem earum molestias voluptas iste!
-            </p>
-        </div>
-    </div>
-</div>
-
 
 
 
@@ -113,36 +82,6 @@
                 </div>
             </div>
         </div>
-        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
-            <div class="icon-block">
-                <div class="icon">
-                    <i class="fa-solid fa-shield"></i>
-                </div>
-                <div class="text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
-                </div>
-            </div>
-        </div>
-        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
-            <div class="icon-block">
-                <div class="icon">
-                    <i class="fa-solid fa-warehouse"></i>
-                </div>
-                <div class="text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
-                </div>
-            </div>
-        </div>
-        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
-            <div class="icon-block">
-                <div class="icon">
-                    <i class="fa-solid fa-file-lines"></i>
-                </div>
-                <div class="text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -167,44 +106,40 @@
         </div>
         <div class="mx-auto col-11 col-sm-10 col-md-6 mt-5">
 
-            <form #fm="ngForm" (submit)="send(fm)">
+            <form #f="ngForm" (submit)="send(f)">
                 <h3 class="text-center">Private dealers form</h3>
-
-
-                <mat-form-field class="w-100">
-                    <mat-label>Company name</mat-label>
-                    <input ngModel name="company_name" type="text" placeholder="Company name" aria-label="Number"
-                        matInput [matAutocomplete]="company1" #searchCompany1
-                        (input)="findCompany(searchCompany1.value)" required>
-
-                    <mat-autocomplete #company1="matAutocomplete">
-                        <mat-option *ngFor="let option of companies" [value]="option.name">
-                            {{option.name}}
-                        </mat-option>
-                    </mat-autocomplete>
-                </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>First name</mat-label>
-                    <input ngModel name="first_name" type="text" matInput required minlength="3">
+                    <input type="text" matInput ngModel name="first_name" required minlength="3">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>Last name</mat-label>
-                    <input ngModel name="last_name" type="text" matInput required minlength="3">
+                    <input type="text" matInput ngModel name="last_name" required minlength="3">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
-                    <mat-label>Role</mat-label>
-                    <input ngModel name="role" type="text" matInput required minlength="3">
+                    <mat-label>Phone</mat-label>
+                    <input type="text" matInput ngModel name="phone" required minlength="7">
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>Email</mat-label>
-                    <input ngModel name="email" type="email" matInput required minlength="5">
+                    <input type="email" matInput ngModel name="email" required minlength="6">
                 </mat-form-field>
 
-                <button [disabled]="fm.invalid" type="submit" class="btn-theme w-100">SEND</button>
+                <mat-form-field class="w-100">
+                    <mat-label>Volume</mat-label>
+                    <mat-select ngModel name="car" required>
+                        <mat-option [value]="'1'">1 vehicle in month</mat-option>
+                        <mat-option [value]="'1-5'">1-5 vehicle in month</mat-option>
+                        <mat-option [value]="'5-10'">5-10 vehicle in month</mat-option>
+                        <mat-option [value]="'10+'">10+ vehicle in month</mat-option>
+                    </mat-select>
+                </mat-form-field>
+
+                <button [disabled]="f.invalid" type="submit" class="btn-theme w-100">SEND</button>
             </form>
         </div>
     </div>
@@ -222,7 +157,7 @@
         <div class="row">
             <div class="mx-auto ms-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
                 <div class="img-block">
-                    <img class="img-fluid rounded-3" src="./assets/images/answers_to.jpg" alt="Service image">
+                    <img class="img-fluid rounded-3" src="./assets/images/dealers/dealership.jpg" alt="Service image">
                 </div>
             </div>
             <div class="mx-auto me-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
@@ -242,7 +177,7 @@
         <div class="row sm-reverse">
             <div class="mx-auto me-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
                 <div class="img-block">
-                    <img class="img-fluid rounded-3" src="./assets/images/carshop-nottingham.jpg" alt="Service image">
+                    <img class="img-fluid rounded-3" src="./assets/images/dealers/carhauler.jpg" alt="Service image">
                 </div>
             </div>
             <div class="mx-auto ms-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
@@ -263,62 +198,6 @@
 
 
 
-
-<div class="container">
-    <div class="card">
-        <div class="row w-100">
-            <div class="col-12 col-sm-10 col-md-5 col-lg-6 mx-auto py-4 px-5 mt-4">
-                <i class="fa fa-warehouse fa-3x text-theme"></i>
-                <h3 class="my-4">Lorem ipsum dolor sit.</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed maxime libero! Minima consectetur
-                    ipsum enim sint aperiam hic debitis magni earum vero obcaecati quaerat quod omnis, praesentium fugit
-                    reiciendis laudantium aspernatur, magnam deserunt animi temporibus eligendi? Veniam, nulla eaque?
-                </p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, unde doloremque eaque voluptatem
-                    debitis iste accusantium vero omnis, fuga quia laudantium corrupti. Ipsum dolore molestias
-                    consequatur quas voluptatibus id dicta adipisci possimus aspernatur nobis.</p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eos facere inventore iure
-                    similique, quasi hic! Soluta voluptates fugit exercitationem voluptas, quam magnam eveniet? Modi non
-                    doloribus officiis earum nobis.</p>
-            </div>
-
-            <div class="col-12 col-sm-10 col-md-5 col-lg-6 mx-auto py-4 px-5 mt-4">
-                <i class="fa fa-shield fa-3x text-theme"></i>
-                <h3 class="my-4">Lorem ipsum dolor sit.</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed maxime libero! Minima consectetur
-                    ipsum enim sint aperiam hic debitis magni earum vero obcaecati quaerat quod omnis, praesentium fugit
-                    reiciendis laudantium aspernatur, magnam deserunt animi temporibus eligendi? Veniam, nulla eaque?
-                </p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, unde doloremque eaque voluptatem
-                    debitis iste accusantium vero omnis, fuga quia laudantium corrupti. Ipsum dolore molestias
-                    consequatur quas voluptatibus id dicta adipisci possimus aspernatur nobis.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eos facere inventore iure
-                    similique, quasi hic! Soluta voluptates fugit exercitationem voluptas, quam magnam eveniet? Modi non
-                    doloribus officiis earum nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-                    eos facere inventore iure similique, quasi hic! Soluta voluptates fugit exercitationem voluptas,
-                    quam magnam eveniet? Modi non doloribus officiis earum nobis.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<app-short-contact-us-block></app-short-contact-us-block>
-
-
-
-
-
-
 <!-- form modal -->
 <div class="container">
     <div class="modal fade" id="privateFormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -329,48 +208,45 @@
                         <div class="row w-100">
                             <div class="mx-auto col-11 col-sm-10 col-md-9 col-lg-7 col-xl-6">
 
-                                <form #f="ngForm" (submit)="send(f)">
+                                <form #fm="ngForm" (submit)="send(fm)">
                                     <h3 class="text-center">Private dealers form</h3>
 
 
                                     <mat-form-field class="w-100">
-                                        <mat-label>Company name</mat-label>
-                                        <input ngModel name="company_name" type="text" placeholder="Company name"
-                                            aria-label="Number" matInput [matAutocomplete]="company" #searchCompany
-                                            (input)="findCompany(searchCompany.value)" required>
-
-                                        <mat-autocomplete #company="matAutocomplete">
-                                            <mat-option *ngFor="let option of companies" [value]="option.name">
-                                                {{option.name}}
-                                            </mat-option>
-                                        </mat-autocomplete>
-                                    </mat-form-field>
-
-                                    <mat-form-field class="w-100">
                                         <mat-label>First name</mat-label>
-                                        <input ngModel name="first_name" type="text" matInput required minlength="3">
+                                        <input type="text" matInput ngModel name="first_name" required minlength="3">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
                                         <mat-label>Last name</mat-label>
-                                        <input ngModel name="last_name" type="text" matInput required minlength="3">
+                                        <input type="text" matInput ngModel name="last_name" required minlength="3">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
-                                        <mat-label>Role</mat-label>
-                                        <input ngModel name="role" type="text" matInput required minlength="3">
+                                        <mat-label>Phone</mat-label>
+                                        <input type="text" matInput ngModel name="phone" required minlength="7">
                                     </mat-form-field>
 
                                     <mat-form-field class="w-100">
                                         <mat-label>Email</mat-label>
-                                        <input ngModel name="email" type="email" matInput required minlength="5">
+                                        <input type="email" matInput ngModel name="email" required minlength="6">
+                                    </mat-form-field>
+
+                                    <mat-form-field class="w-100">
+                                        <mat-label>Volume</mat-label>
+                                        <mat-select ngModel name="car" required>
+                                            <mat-option [value]="'1'">1 vehicle in month</mat-option>
+                                            <mat-option [value]="'1-5'">1-5 vehicle in month</mat-option>
+                                            <mat-option [value]="'5-10'">5-10 vehicle in month</mat-option>
+                                            <mat-option [value]="'10+'">10+ vehicle in month</mat-option>
+                                        </mat-select>
                                     </mat-form-field>
 
 
                                     <div class="d-flex">
-                                        <button type="button" class="btn-secondary btn w-100 me-3"
+                                        <button type="reset" class="btn-secondary btn w-100 me-3"
                                             data-mdb-dismiss="modal">Cancel</button>
-                                        <button [disabled]="f.invalid" type="submit"
+                                        <button [disabled]="fm.invalid" type="submit"
                                             class="btn-theme w-100">SEND</button>
                                     </div>
                                 </form>

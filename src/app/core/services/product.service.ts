@@ -1,24 +1,23 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { ProductCubeModel, ProductSlinderModel } from '../models/product.model';
+import { ProductModel } from '../models/product.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-  readonly selectedProduct$$ = new BehaviorSubject<ProductCubeModel[] | ProductSlinderModel[]>([]);
-  public productList = [
+  public productList: ProductModel[] = [
     {
       id: 1,
       name: "box",
       icon: "./assets/images/fright-form/box.svg",
       image: "./assets/images/fright-form/box1.svg",
       parametrs: [
-        { name: "length", label: "Length", value: 100 },
-        { name: "width", label: "Width", value: 100 },
-        { name: "height", label: "Height", value: 100 },
-        { name: "weight", label: "Weight", value: 1 },
-        { name: "quantity", label: "Quantity", value: 1 }
+        { name: "length", label: "Length", unity: "inc", value: 100 },
+        { name: "width", label: "Width", unity: "inc", value: 100 },
+        { name: "height", label: "Height", unity: "inc", value: 100 },
+        { name: "weight", label: "Weight", unity: "kg", value: 1 },
+        { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
       ]
     },
     {
@@ -27,24 +26,24 @@ export class ProductService {
       icon: "./assets/images/fright-form/bigbags.svg",
       image: "./assets/images/fright-form/bigbags1.svg",
       parametrs: [
-        { name: "length", label: "Length", value: 100 },
-        { name: "width", label: "Width", value: 100 },
-        { name: "height", label: "Height", value: 100 },
-        { name: "weight", label: "Weight", value: 1 },
-        { name: "quantity", label: "Quantity", value: 1 }
+        { name: "length", label: "Length", unity: "inc", value: 100 },
+        { name: "width", label: "Width", unity: "inc", value: 100 },
+        { name: "height", label: "Height", unity: "inc", value: 100 },
+        { name: "weight", label: "Weight", unity: "kg", value: 1 },
+        { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
       ]
     },
     {
       id: 3,
-      name: "cacks",
+      name: "sacks",
       icon: "./assets/images/fright-form/sacks.svg",
       image: "./assets/images/fright-form/sacks1.svg",
       parametrs: [
-        { name: "length", label: "Length", value: 100 },
-        { name: "width", label: "Width", value: 100 },
-        { name: "height", label: "Height", value: 100 },
-        { name: "weight", label: "Weight", value: 1 },
-        { name: "quantity", label: "Quantity", value: 1 }
+        { name: "length", label: "Length", unity: "inc", value: 100 },
+        { name: "width", label: "Width", unity: "inc", value: 100 },
+        { name: "height", label: "Height", unity: "inc", value: 100 },
+        { name: "weight", label: "Weight", unity: "kg", value: 1 },
+        { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
       ]
     },
     {
@@ -53,10 +52,11 @@ export class ProductService {
       icon: "./assets/images/fright-form/barrels1.svg",
       image: "./assets/images/fright-form/barrels.svg",
       parametrs: [
-        { name: "radius", label: "Radius", value: 100 },
-        { name: "height", label: "Height", value: 100 },
-        { name: "weight", label: "Weight", value: 1 },
-        { name: "quantity", label: "Quantity", value: 1 }
+        { name: "length", label: "Length", unity: "inc", value: undefined },
+        { name: "radius", label: "Radius", unity: "inc", value: 100 },
+        { name: "height", label: "Height", unity: "inc", value: 100 },
+        { name: "weight", label: "Weight", unity: "kg", value: 1 },
+        { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
       ]
     },
     {
@@ -65,106 +65,137 @@ export class ProductService {
       icon: "./assets/images/fright-form/rolls.svg",
       image: "./assets/images/fright-form/roll.svg",
       parametrs: [
-        { name: "radius", label: "Radius", value: 100 },
-        { name: "height", label: "Height", value: 100 },
-        { name: "weight", label: "Weight", value: 1 },
-        { name: "quantity", label: "Quantity", value: 1 }
+        { name: "length", label: "Length", unity: "inc", value: undefined },
+        { name: "radius", label: "Radius", unity: "inc", value: 100 },
+        { name: "height", label: "Height", unity: "inc", value: 100 },
+        { name: "weight", label: "Weight", unity: "kg", value: 1 },
+        { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
       ]
     }
   ];
 
 
-  defultProductGroup = {
-    id: 0,
-    name: "New group",
-    details: [
-      {
-        id: 1,
-        name: 'Olma',
-        product: [
-          {
-            id: 1,
-            name: "box",
-            icon: "./assets/images/fright-form/box.svg",
-            image: "./assets/images/fright-form/box1.svg",
-            parametrs: [
-              { name: "length", label: "Length", value: 100 },
-              { name: "width", label: "Width", value: 100 },
-              { name: "height", label: "Height", value: 100 },
-              { name: "weight", label: "Weight", value: 1 },
-              { name: "quantity", label: "Quantity", value: 1 }
-            ]
-          }
-        ]
-      },
-      {
-        id: 2,
-        name: 'Nok',
-        product: [
-          {
-            id: 2,
-            name: "bigbags",
-            icon: "./assets/images/fright-form/bigbags.svg",
-            image: "./assets/images/fright-form/bigbags1.svg",
-            parametrs: [
-              { name: "length", label: "Length", value: 100 },
-              { name: "width", label: "Width", value: 100 },
-              { name: "height", label: "Height", value: 100 },
-              { name: "weight", label: "Weight", value: 1 },
-              { name: "quantity", label: "Quantity", value: 1 }
-            ]
-          }
-        ]
-      },
-      {
-        id: 3,
-        name: 'Moloko',
-        product: [
-          {
-            id: 3,
-            name: "cacks",
-            icon: "./assets/images/fright-form/sacks.svg",
-            image: "./assets/images/fright-form/sacks1.svg",
-            parametrs: [
-              { name: "length", label: "Length", value: 100 },
-              { name: "width", label: "Width", value: 100 },
-              { name: "height", label: "Height", value: 100 },
-              { name: "weight", label: "Weight", value: 1 },
-              { name: "quantity", label: "Quantity", value: 1 }
-            ]
-          }
-        ]
-      }
-    ]
-  };
+  public defultProductGroup = [
+    {
+      id: 1,
+      name: 'Olma',
+      product: [
+        {
+          id: 1,
+          name: "box",
+          icon: "./assets/images/fright-form/box.svg",
+          image: "./assets/images/fright-form/box1.svg",
+          parametrs: [
+            { name: "length", label: "Length", unity: "inc", value: 100 },
+            { name: "width", label: "Width", unity: "inc", value: 100 },
+            { name: "height", label: "Height", unity: "inc", value: 100 },
+            { name: "weight", label: "Weight", unity: "kg", value: 1 },
+            { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
+          ]
+        }
+      ]
+    },
+    {
+      id: 2,
+      name: 'Nok',
+      product: [
+        {
+          id: 2,
+          name: "bigbags",
+          icon: "./assets/images/fright-form/bigbags.svg",
+          image: "./assets/images/fright-form/bigbags1.svg",
+          parametrs: [
+            { name: "length", label: "Length", unity: "inc", value: 100 },
+            { name: "width", label: "Width", unity: "inc", value: 100 },
+            { name: "height", label: "Height", unity: "inc", value: 100 },
+            { name: "weight", label: "Weight", unity: "kg", value: 1 },
+            { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
+          ]
+        }
+      ]
+    },
+    {
+      id: 3,
+      name: 'Moloko',
+      product: [
+        {
+          id: 3,
+          name: "sacks",
+          icon: "./assets/images/fright-form/sacks.svg",
+          image: "./assets/images/fright-form/sacks1.svg",
+          parametrs: [
+            { name: "length", label: "Length", unity: "inc", value: 100 },
+            { name: "width", label: "Width", unity: "inc", value: 100 },
+            { name: "height", label: "Height", unity: "inc", value: 100 },
+            { name: "weight", label: "Weight", unity: "kg", value: 1 },
+            { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
+          ]
+        }
+      ]
+    }
+  ];
+
+
+  public defultSelectProduct = [{
+    id: this.getRandomId(),
+    name: "New Product",
+    product: [{
+      id: 1,
+      name: "box",
+      icon: "./assets/images/fright-form/box.svg",
+      image: "./assets/images/fright-form/box1.svg",
+      parametrs: [
+        { name: "length", label: "Length", unity: "inc", value: 100 },
+        { name: "width", label: "Width", unity: "inc", value: 100 },
+        { name: "height", label: "Height", unity: "inc", value: 100 },
+        { name: "weight", label: "Weight", unity: "kg", value: 1 },
+        { name: "quantity", label: "Quantity", unity: undefined, value: 1 }
+      ]
+    }]
+  }];
+
+
+
+  private selectedProduct$$ = new BehaviorSubject<any>(this.defultSelectProduct);
+
+
 
 
   constructor() { }
 
 
 
-  getDefultGroup() {
-    this.defultProductGroup.id = this.getRandomId();
-    console.log(this.defultProductGroup);
-    return this.defultProductGroup;
-  }
-
-
   selectProduct(id: number) {
-    const findData: any = this.productList.find(item => item.id == id);
+    let findData: any = this.productList.filter(item => item.id == id);
+
+    let data = [{
+      id: this.getRandomId(),
+      name: 'New product',
+      product: findData
+    }];
+
+    console.log(data);
+    
 
     if (findData != undefined)
-      this.selectedProduct$$.next(findData);
+      this.selectedProduct$$.next(data);
   }
+
+
+  setProduct(data: any) {
+    this.selectedProduct$$.next(data);
+  }
+
 
 
   getSelectedProduct() {
-    this.selectedProduct$$.asObservable();
+    return this.selectedProduct$$.asObservable();
   }
 
 
+
   getRandomId() {
-    return Math.floor(Math.random() * 100);
+    return Math.floor(Math.random() * 1000);
   }
 
 }

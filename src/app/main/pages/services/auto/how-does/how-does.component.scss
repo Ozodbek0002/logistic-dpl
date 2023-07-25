@@ -1,34 +1,30 @@
-#img-hover {
-    $width: 100vw;
+#block-carousel {
+    position: relative;
 
-    .img-block {
-        display: inline-block;
-        width: 45%;
-        margin: 2.5%;
-        margin-top: 0;
-        height: 250px;
-        background-position: center;
-        background-size: cover;
-        filter: grayscale(100%);
-        overflow: hidden;
-        transition: all .3s ease-in;
-
-        &:hover {
-            cursor: pointer;
-            filter: grayscale(0);
-        }
-
-        h4 {
-            padding: 20px;
-            color: var(--light);
+    .card {
+        .card-img-top {
+            height: 230px;
         }
     }
-}
 
 
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        top: 102%;
+    }
 
-.card {
-    .card-img-top {
-        height: 230px;
+
+    .swiper-button-next-reviews,
+    .swiper-button-prev-reviews {
+        margin-top: 0px;
+        position: absolute;
+        top: 50%;
+        right: -40px;
+        font-size: 20px;
+        transform: translateY(-50%);
+    }
+
+    .swiper-button-prev-reviews {
+        left: -40px;
+        right: unset;
     }
 }

@@ -15,7 +15,6 @@ export class PrivateDealersComponent implements AfterViewInit {
 
 
 
-
   send(form: NgForm) {
     console.log(form.value);
     form.onReset();
