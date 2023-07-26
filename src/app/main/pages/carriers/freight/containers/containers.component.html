@@ -3,7 +3,11 @@
         <div class="w-100">
             <h1 class="text-light">Lorem, ipsum dolor.</h1>
             <p class="text-light my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />Non unde atque
-                exercitationem quos rerum reiciendis.</p>
+                exercitationem quos rerum reiciendis.
+                <a routerLink="/app/services/freight/how-much-does-it-cost/products"
+                    class="btn btn-outline-light btn-floating ms-5 py-2"><i style="font-size: 16px;"
+                        class="fa fa-arrow-right"></i></a>
+            </p>
         </div>
     </div>
 </app-bread-crumbs>
@@ -13,113 +17,132 @@
 
 
 
-<div class="container mb-5 pb-5">
-    <app-section-title title="Lorem ipsum dolor sit"></app-section-title>
+
+<div class="container my-5 py-5">
+    <app-section-title title="Lorem ipsum truck and containers"></app-section-title>
 
     <div class="row">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem ipsum dolor, sit amet.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequuntur nostrum,
-                        quibusdam nesciunt neque repellat doloribus! Autem odit facere quisquam maiores ut tempora sed,
-                        cum sequi aut pariatur! Nam dolorum nulla perferendis minus laudantium reprehenderit pariatur
-                        quasi aliquid distinctio vero.</p>
+        <div class="col-11 col-sm-7 col-md-6 col-lg-5 col-xl-4 mx-auto mt-5 text-center">
+            <h4>Trailer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime.</p>
+
+            <h4 class="mt-5">Lorem, ipsum.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum?</p>
+
+            <h4 class="mt-5">Lorem, ipsum.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum?</p>
+
+            <h4 class="mt-5">Lorem, ipsum.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum?</p>
+        </div>
+
+        <!-- <div class="line"></div> -->
+        <!-- <hr> -->
+
+        <div class="col-11 col-sm-7 col-md-6 col-lg-5 col-xl-4 mx-auto mt-5 text-center">
+            <h4>Container</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime.</p>
+
+            <h4 class="mt-5">Lorem, ipsum.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum?</p>
+
+            <h4 class="mt-5">Lorem, ipsum.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum?</p>
+
+            <h4 class="mt-5">Lorem, ipsum.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum?</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- text list -->
+<div class="container my-5 py-5">
+    <app-section-title title="Lorem ipsum dolor sit amet"></app-section-title>
+
+    <div class="text-list">
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, dignissimos? Ipsam, ducimus.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, dignissimos? Ipsam, ducimus.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, dignissimos? Ipsam, ducimus.</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- f.a.q -->
+<div class="container mb-5">
+    <app-section-title title="F.A.Q"></app-section-title>
+    <div class="faq">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just about any HTML
+                        can go within the <strong>.accordion-body</strong>, though the transition does
+                        limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                        default, until the collapse plugin adds the appropriate classes that we use to
+                        style each element. These classes control the overall appearance, as well as the
+                        showing and hiding via CSS transitions. You can modify any of this with custom CSS
+                        or overriding our default variables. It's also worth noting that just about any
+                        HTML can go within the <strong>.accordion-body</strong>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just about any HTML
+                        can go within the <strong>.accordion-body</strong>, though the transition does
+                        limit overflow.
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <img src="./assets/images/carriers/container-lorry.jpg" alt="DPL service image"
-                    class="img-fluid w-100 rounded">
-            </div>
-        </div>
     </div>
-
-
-    <div class="row">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem, ipsum dolor sit.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, aliquid tempora magnam totam
-                        enim voluptatem similique quas nobis optio odio itaque repudiandae autem illum. Accusamus magni
-                        ad harum excepturi neque nemo quae. Suscipit, consequuntur quibusdam.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/carriers/full-truck.webp" alt="DPL service image" class="img-fluid rounded">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem ipsum dolor, sit amet.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequuntur nostrum,
-                        quibusdam nesciunt neque repellat doloribus! Autem odit facere quisquam maiores ut tempora sed,
-                        cum sequi aut pariatur! Nam dolorum nulla perferendis minus laudantium reprehenderit pariatur
-                        quasi aliquid distinctio vero.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/carriers/2-truck-buck.webp" alt="DPL service image" class="img-fluid rounded">
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem, ipsum dolor sit.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, aliquid tempora magnam totam
-                        enim voluptatem similique quas nobis optio odio itaque repudiandae autem illum. Accusamus magni
-                        ad harum excepturi neque nemo quae. Suscipit, consequuntur quibusdam.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/carriers/trauck-back.webp" alt="DPL service image" class="img-fluid rounded">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem ipsum dolor, sit amet.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequuntur nostrum,
-                        quibusdam nesciunt neque repellat doloribus! Autem odit facere quisquam maiores ut tempora sed,
-                        cum sequi aut pariatur! Nam dolorum nulla perferendis minus laudantium reprehenderit pariatur
-                        quasi aliquid distinctio vero.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/carriers/full-truck-2.webp" alt="DPL service image" class="img-fluid rounded">
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <div class="d-flex align-items-center h-100">
-                <div>
-                    <h3>Lorem, ipsum dolor sit.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, aliquid tempora magnam totam
-                        enim voluptatem similique quas nobis optio odio itaque repudiandae autem illum. Accusamus magni
-                        ad harum excepturi neque nemo quae. Suscipit, consequuntur quibusdam.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-11 col-sm-8 col-md-6 mx-auto mt-5">
-            <img src="./assets/images/carriers/container-transport.webp" alt="DPL service image"
-                class="img-fluid rounded">
-        </div>
-    </div>
-
 </div>

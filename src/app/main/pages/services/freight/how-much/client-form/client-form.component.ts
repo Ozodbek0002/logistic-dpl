@@ -12,7 +12,7 @@ export class ClientFormComponent {
   defult = {
     "country": ".",
     "state": ".",
-    "city": "..."
+    "city": "Loading..."
   };
 
   searchResultFrom: any = signal(this.defult);

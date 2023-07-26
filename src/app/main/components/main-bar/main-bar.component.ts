@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Observable, debounceTime, distinctUntilChanged, from } from 'rxjs';
+import { Observable } from 'rxjs';
 import { CarModel } from 'src/app/core/models/car.model';
 import { CarsService } from 'src/app/core/services/cars.service';
 
@@ -18,7 +18,7 @@ export class MainBarComponent {
   defult = {
     "country": ".",
     "state": ".",
-    "city": "..."
+    "city": "Loading..."
   };
 
   searchResultFrom: any = signal(this.defult);

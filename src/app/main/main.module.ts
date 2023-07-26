@@ -52,8 +52,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FixedButtonsComponent } from './components/fixed-buttons/fixed-buttons.component';
 import { SectionTitleComponent } from './components/section-title/section-title.component';
 import { BreadCrumbsComponent } from './components/bread-crumbs/bread-crumbs.component';
-import { FaqComponent } from './components/faq/faq.component';
-import { ReviewsCarouselComponent } from './components/reviews-carousel/reviews-carousel.component';
 import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinner.component';
 
 
@@ -92,8 +90,6 @@ import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinn
     HowDoesComponentAuto,
     HowMuchComponentAuto,
     AboutUsComponent,
-    FaqComponent,
-    ReviewsCarouselComponent,
     LoaderSpinnerComponent,
     ProductsComponent,
     TruckContainerComponent,

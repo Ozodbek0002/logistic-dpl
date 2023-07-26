@@ -5,6 +5,10 @@
             <p class="text-light w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, facere
                 dignissimos laboriosam dolorum placeat eos illum dolorem ducimus, commodi omnis, quidem amet nemo non
                 excepturi.</p>
+            <div class="d-flex w-auto">
+                <a routerLink="signup" class="btn-theme me-3">Sign Up</a>
+                <a routerLink="/app/services/freight/how-much-does-it-cost/products" class="btn-theme">Free Form</a>
+            </div>
         </div>
     </div>
 </app-bread-crumbs>
@@ -12,40 +16,70 @@
 
 
 
+
+
 <div class="container">
     <app-section-title title="Lorem ipsum dolor sit amet consectetur adipisicing."></app-section-title>
 
-    <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores commodi ipsam possimus laborum cupiditate
-        labore nobis unde doloremque atque iste! Blanditiis, nesciunt nam labore minima sint quos excepturi eius quidem
-        consectetur ratione fuga voluptas iusto.</p>
-
-    <div class="row my-5">
-
-        <div class="col-12 col-sm-10 col-md-5 mb-5 mx-auto">
-            <div class="d-f-a-c-j-c">
-                <i class="fa fa-car fa-2x text-light bg-theme p-3 rounded-3"></i>
-                <p class="d-block mb-0 ms-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, at?</p>
+    <div class="row">
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa fa-box"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
             </div>
         </div>
-
-        <div class="col-12 col-sm-10 col-md-5 mb-5 mx-auto">
-            <div class="d-f-a-c-j-c">
-                <i class="fa fa-truck fa-2x text-light bg-theme p-3 rounded-3"></i>
-                <p class="d-block mb-0 ms-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, at?</p>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa fa-box-open"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
             </div>
         </div>
-
-        <div class="col-12 col-sm-10 col-md-5 mb-5 mx-auto">
-            <div class="d-f-a-c-j-c">
-                <i class="fa fa-ship fa-2x text-light bg-theme p-3 rounded-3"></i>
-                <p class="d-block mb-0 ms-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, at?</p>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa fa-truck-ramp-box"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
             </div>
         </div>
-
-        <div class="col-12 col-sm-10 col-md-5 mb-5 mx-auto">
-            <div class="d-f-a-c-j-c">
-                <i class="fa fa-plane fa-2x text-light bg-theme p-3 rounded-3"></i>
-                <p class="d-block mb-0 ms-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, at?</p>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa fa-gauge-high"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa fa-boxes-stacked"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa-solid fa-stopwatch"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
             </div>
         </div>
     </div>
@@ -54,74 +88,72 @@
 
 
 
-<div class="container">
 
-    <div class="row sm-reverse">
-        <div class="mx-auto me-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
-            <div class="h-100 d-f-a-c-j-c">
-                <img class="img-fluid rounded-3" src="./assets/images/carriers/red-ferrari.webp" alt="Service image">
+
+<!-- f.a.q -->
+<div class="container mb-5">
+    <app-section-title title="F.A.Q"></app-section-title>
+    <div class="faq">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just about any HTML
+                        can go within the <strong>.accordion-body</strong>, though the transition does
+                        limit overflow.
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="mx-auto ms-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
-            <div class="h-100 d-f-a-c-j-c flex-column">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia!</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nobis cumque nesciunt quas. Ipsum
-                    modi eveniet reiciendis suscipit similique sequi ad qui, delectus culpa iste laudantium dolores
-                    nesciunt voluptate minus, cum nisi ab quaerat voluptas.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nobis cumque nesciunt quas. Ipsum
-                    modi eveniet reiciendis suscipit similique sequi ad qui, delectus culpa iste laudantium dolores
-                    nesciunt voluptate minus, cum nisi ab quaerat voluptas.</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                        default, until the collapse plugin adds the appropriate classes that we use to
+                        style each element. These classes control the overall appearance, as well as the
+                        showing and hiding via CSS transitions. You can modify any of this with custom CSS
+                        or overriding our default variables. It's also worth noting that just about any
+                        HTML can go within the <strong>.accordion-body</strong>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-
-<div class="container">
-    <div class="card">
-        <div class="row w-100">
-            <div class="col-12 col-sm-10 col-md-5 col-lg-6 mx-auto py-4 px-5 mt-4">
-                <i class="fa fa-shipping-fast fa-3x text-theme"></i>
-                <h3 class="my-4">Lorem ipsum dolor sit.</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed maxime libero! Minima consectetur
-                    ipsum enim sint aperiam hic debitis magni earum vero obcaecati quaerat quod omnis, praesentium fugit
-                    reiciendis laudantium aspernatur, magnam deserunt animi temporibus eligendi? Veniam, nulla eaque?
-                </p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, unde doloremque eaque voluptatem
-                    debitis iste accusantium vero omnis, fuga quia laudantium corrupti. Ipsum dolore molestias
-                    consequatur quas voluptatibus id dicta adipisci possimus aspernatur nobis.</p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eos facere inventore iure
-                    similique, quasi hic! Soluta voluptates fugit exercitationem voluptas, quam magnam eveniet? Modi non
-                    doloribus officiis earum nobis.</p>
-            </div>
-
-            <div class="col-12 col-sm-10 col-md-5 col-lg-6 mx-auto py-4 px-5 mt-4">
-                <i class="fa fa-truck-ramp-box fa-3x text-theme"></i>
-                <h3 class="my-4">Lorem ipsum dolor sit.</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed maxime libero! Minima consectetur
-                    ipsum enim sint aperiam hic debitis magni earum vero obcaecati quaerat quod omnis, praesentium fugit
-                    reiciendis laudantium aspernatur, magnam deserunt animi temporibus eligendi? Veniam, nulla eaque?
-                </p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, unde doloremque eaque voluptatem
-                    debitis iste accusantium vero omnis, fuga quia laudantium corrupti. Ipsum dolore molestias
-                    consequatur quas voluptatibus id dicta adipisci possimus aspernatur nobis.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eos facere inventore iure
-                    similique, quasi hic! Soluta voluptates fugit exercitationem voluptas, quam magnam eveniet? Modi non
-                    doloribus officiis earum nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-                    eos facere inventore iure similique, quasi hic! Soluta voluptates fugit exercitationem voluptas,
-                    quam magnam eveniet? Modi non doloribus officiis earum nobis.</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just about any HTML
+                        can go within the <strong>.accordion-body</strong>, though the transition does
+                        limit overflow.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
