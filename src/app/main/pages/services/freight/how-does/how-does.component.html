@@ -14,39 +14,43 @@
 
 
 <!-- card -->
-<div id="block-carousel-freight" class="container mb-5">
-    <app-section-title title="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></app-section-title>
+<section id="block-carousel-freight">
+    <div class="container mb-5">
+        <app-section-title title="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></app-section-title>
 
 
-    <div class="swiper">
-        <div class="swiper-wrapper">
+        <div class="swiper">
+            <div class="swiper-wrapper">
 
-            <div *ngFor="let item of [1,2,3,4,5,6,7]" class="swiper-slide">
-                <div class="card bg-theme">
-                    <img class="card-img-top" src="./assets/images/car-dealership.jpg" alt="DPL service image">
-                    <div class="card-body">
-                        <div class="card-title">
-                            <h4 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                        </div>
-                        <div class="card-text">
-                            <p class="text-light mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-                                modi quod quam atque dolorem maiores reprehenderit at, deleniti illo iure deserunt esse
-                                neque nam!</p>
+                <div *ngFor="let item of [1,2,3,4,5,6,7]" class="swiper-slide">
+                    <div class="card bg-theme">
+                        <img class="card-img-top" src="./assets/images/car-dealership.jpg" alt="DPL service image">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                            </div>
+                            <div class="card-text">
+                                <p class="text-light mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Maxime
+                                    modi quod quam atque dolorem maiores reprehenderit at, deleniti illo iure deserunt
+                                    esse
+                                    neque nam!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-
         </div>
-    </div>
 
-    <div class="swiper-button-next--freight">
-        <i class="fa fa-chevron-right"></i>
-    </div>
-    <div class="swiper-button-prev--freight">
-        <i class="fa fa-chevron-left"></i>
-    </div>
+        <div class="swiper-button-next--freight">
+            <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="swiper-button-prev--freight">
+            <i class="fa fa-chevron-left"></i>
+        </div>
 
-    <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>
 
-</div>
+    </div>
+</section>

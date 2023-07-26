@@ -1,22 +1,10 @@
-.icon-block {
-
-    .icon {
-        margin: 0 auto 0 auto;
-        font-size: 28px;
-        height: 70px;
-        display: flex;
-        width: 70px;
-        background: var(--theme-1);
+.carousel {
+    h5, p {
         color: #fff;
-        border-radius: 10px;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 20px 30px 0 rgba(41, 112, 250, 0.2);
     }
 
-    .text {
-        text-align: center;
-        margin: 20px auto;
-        width: 80%;
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        color: #fff;
     }
 }
