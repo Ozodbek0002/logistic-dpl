@@ -1,1 +1,221 @@
-<app-main-bar></app-main-bar>
+<section id="main-bar">
+
+    <div class="form-block flex-column">
+
+        <h2 class="mb-5">Lorem, ipsum dolor.</h2>
+
+        <form #f="ngForm" (submit)="send(f)">
+
+
+            <div class="form" [class.d-none]="!one">
+
+                <!-- from input -->
+                <div class="form-outline">
+                    <input ngModel name="from" type="text" placeholder="From (Zip Code)" #inputFrom
+                        (input)="findCityByZipCodeFrom(inputFrom.value)" [matAutocomplete]="from" required>
+                    <i class="fa fa-map-marker-alt"></i>
+
+                    <mat-autocomplete #from="matAutocomplete">
+                        <mat-option
+                            [value]="searchResultFrom().city + ', ' + searchResultFrom().state + ' ' + inputFrom.value">
+                            {{ searchResultFrom().city }}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+
+                <!-- to inout -->
+                <div class="form-outline">
+                    <input ngModel name="to" type="text" placeholder="To (Zip Code)" #inputTo
+                        (input)="findCityByZipCodeTo(inputTo.value)" [matAutocomplete]="to" required>
+                    <i class="fa fa-map-marker-alt"></i>
+
+                    <mat-autocomplete #to="matAutocomplete">
+                        <mat-option
+                            [value]="searchResultTo().city + ', ' + searchResultTo().state + ' ' + inputTo.value">
+                            {{ searchResultTo().city }}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+
+                <!-- change date -->
+                <div class="form-outline">
+                    <input ngModel name="date" style="padding-left: 55px;" placeholder="mm/dd/yy" matInput [matDatepicker]="picker" readonly
+                        required>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </div>
+
+
+                <!-- truck type -->
+                <div class="radio-btn">
+                    <input ngModel type="radio" class="form-check-input" name="truck" value="open" id="open" required>
+                    <label class="form-check-label" for="open">
+                        <img src="./assets/truck2.png" width="30px" alt="">
+                        Open
+                    </label>
+                </div>
+                <div class="radio-btn mx-2">
+                    <input ngModel type="radio" class="form-check-input" name="truck" value="enclosed" id="enclosed"
+                        required>
+                    <label class="form-check-label" for="enclosed">
+                        <img src="./assets/truck1.png" width="30px" alt="">
+                        Enclosed
+                    </label>
+                </div>
+
+
+                <!-- next btn -->
+                <button type="button" (click)="one = false; two = true;" class="form-btn px-3">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+
+
+            <div class="form" [class.d-none]="!two">
+
+                <!-- prev btn -->
+                <div class="pc-show">
+                    <button type="button" (click)="one = true; two = false;" class="form-btn px-3">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                </div>
+
+
+                <!-- frist name -->
+                <div class="form-outline">
+                    <input ngModel name="first_name" type="text" placeholder="First name" required minlength="3">
+                    <i class="fa fa-user"></i>
+                </div>
+
+
+                <!-- last name -->
+                <div class="form-outline">
+                    <input ngModel name="last_name" type="text" placeholder="Last name" required minlength="3">
+                    <i class="fa fa-user"></i>
+                </div>
+
+
+                <!-- phone -->
+                <div class="form-outline">
+                    <input ngModel name="phone" type="text" placeholder="Phone" required minlength="6">
+                    <i class="fa fa-phone"></i>
+                </div>
+
+
+                <!-- email -->
+                <div class="form-outline">
+                    <input ngModel name="email" type="email" placeholder="Email" required minlength="8">
+                    <i class="fa fa-envelope"></i>
+                </div>
+
+
+                <!-- mobile navigation buttons -->
+                <div class="mobile-show">
+                    <button type="button" (click)="one = true; two = false;" class="form-btn me-3">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <button type="button" (click)="three = true; two = false;" class="form-btn">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+
+
+                <!-- next btn -->
+                <div class="pc-show">
+                    <button type="button" (click)="three = true; two = false;" class="form-btn px-3">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="form" [class.d-none]="!three">
+
+                <!-- prev btn -->
+                <div class="pc-show">
+                    <button type="button" (click)="three = false; two = true;" class="form-btn px-3">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                </div>
+
+
+                <!-- car's year -->
+                <div class="form-outline">
+                    <input ngModel name="year" type="text" placeholder="Year" required minlength="3">
+                    <i class="fa fa-car"></i>
+                </div>
+
+
+                <!-- car brand -->
+                <div class="form-outline">
+                    <input ngModel name="make" type="text" placeholder="Make" required minlength="3" #makeInput
+                        [matAutocomplete]="makeSelect">
+                    <i class="fa fa-car"></i>
+
+                    <mat-autocomplete #makeSelect="matAutocomplete">
+                        <mat-option *ngFor="let option of (model | async) | search:makeInput.value"
+                            [value]="option.name">
+                            {{option.name}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+
+                <!-- car model -->
+                <div class="form-outline">
+                    <input ngModel name="model" type="text" placeholder="Model" required minlength="3" #modelInput
+                        [matAutocomplete]="carSelect">
+                    <i class="fa fa-car"></i>
+
+                    <mat-autocomplete #carSelect="matAutocomplete">
+                        <mat-option *ngFor="let option of (car | async) | search:modelInput.value"
+                            [value]="option.Model">
+                            {{option.Model}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+
+                <!-- car type -->
+                <div class="form-outline">
+                    <input ngModel name="type" type="text" placeholder="Type" required minlength="3" #typeInput
+                        [matAutocomplete]="typeSelect">
+                    <i class="fa fa-car"></i>
+
+                    <mat-autocomplete #typeSelect="matAutocomplete">
+                        <mat-option *ngFor="let option of (type | async) | search:typeInput.value"
+                            [value]="option.name">
+                            {{option.name}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </div>
+
+
+                <!-- mobile navigation buttons -->
+                <div class="mobile-show">
+                    <button type="button" (click)="three = false; two = true;" class="form-btn me-3">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <button type="submit" [disabled]="f.invalid" (click)="three = false; one = true;"
+                        class="form-btn px-3">Submit</button>
+                </div>
+
+
+                <!-- submit btn -->
+                <div class="pc-show">
+                    <button type="submit" [disabled]="f.invalid" (click)="three = false; one = true;"
+                        class="form-btn px-3">Submit</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+    <video id="main-bar-video" preload autoplay loop muted>
+        <source src="./assets/globe animation.mp4" type="video/mp4">
+    </video>
+
+</section>

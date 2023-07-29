@@ -16,10 +16,12 @@
 
 
 
+
+
+
 <!-- icon block -->
 <div class="container pb-5">
     <app-section-title title="Lorem ipsum dolor sit amet consectetur adipisicing elit."></app-section-title>
-    <p class="text-center h5 fe-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore.</p>
 
     <div class="row">
         <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
@@ -82,6 +84,36 @@
                 </div>
             </div>
         </div>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa-solid fa-shield"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa-solid fa-warehouse"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto mt-5 col-11 col-sm-8 col-md-5 col-lg-4">
+            <div class="icon-block">
+                <div class="icon">
+                    <i class="fa-solid fa-file-lines"></i>
+                </div>
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae unde rerum odit magnam aliquam!
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -91,7 +123,10 @@
 
 
 
+
 <div class="container">
+    <app-section-title title="Lorem ipsum dolor sit amet consectetur adipisicing elit."></app-section-title>
+
     <div class="row">
         <div class="mx-auto col-11 col-sm-10 col-md-6 mt-5">
             <div class="d-f-a-c-j-c h-100">
@@ -108,6 +143,19 @@
 
             <form #f="ngForm" (submit)="send(f)">
                 <h3 class="text-center">Private dealers form</h3>
+                
+                <mat-form-field class="w-100">
+                    <mat-label>Company name</mat-label>
+                    <input type="text" placeholder="City or ZIP" aria-label="Number" matInput ngModel
+                        #inputFromCompany (input)="findCompany(inputFromCompany.value)" [matAutocomplete]="company_name"
+                        name="company_name" required minlength="5">
+
+                    <mat-autocomplete #company_name="matAutocomplete">
+                        <mat-option *ngFor="let item of companies" [value]="item.name">
+                            {{ item['name'] }}
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>
 
                 <mat-form-field class="w-100">
                     <mat-label>First name</mat-label>
@@ -130,14 +178,11 @@
                 </mat-form-field>
 
                 <mat-form-field class="w-100">
-                    <mat-label>Volume</mat-label>
-                    <mat-select ngModel name="car" required>
-                        <mat-option [value]="'1'">1 vehicle in month</mat-option>
-                        <mat-option [value]="'1-5'">1-5 vehicle in month</mat-option>
-                        <mat-option [value]="'5-10'">5-10 vehicle in month</mat-option>
-                        <mat-option [value]="'10+'">10+ vehicle in month</mat-option>
-                    </mat-select>
+                    <mat-label>Role</mat-label>
+                    <input type="text" matInput ngModel name="role" required minlength="7">
                 </mat-form-field>
+
+                
 
                 <button [disabled]="f.invalid" type="submit" class="btn-theme w-100">SEND</button>
             </form>
@@ -187,6 +232,63 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nobis cumque nesciunt quas. Ipsum
                         modi eveniet reiciendis suscipit similique sequi ad qui, delectus culpa iste laudantium dolores
                         nesciunt voluptate minus, cum nisi ab quaerat voluptas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mx-auto ms-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
+                <div class="img-block">
+                    <img class="img-fluid rounded-3" src="./assets/images/dealers/dealership.jpg" alt="Service image">
+                </div>
+            </div>
+            <div class="mx-auto me-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
+                <div class="text-block">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati laborum, quas quam, inventore
+                        odit quasi ut quidem asperiores, minus ducimus labore nihil! Impedit minus aspernatur tempore?
+                        Soluta, consequatur. Maxime, vitae.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A reprehenderit quisquam enim
+                        perspiciatis. Provident porro autem vero vitae molestias, corrupti repellat tempora aut
+                        aspernatur illo nemo earum quidem!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row sm-reverse">
+            <div class="mx-auto me-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
+                <div class="img-block">
+                    <img class="img-fluid rounded-3" src="./assets/images/dealers/carhauler.jpg" alt="Service image">
+                </div>
+            </div>
+            <div class="mx-auto ms-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
+                <div class="text-block">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nobis cumque nesciunt quas. Ipsum
+                        modi eveniet reiciendis suscipit similique sequi ad qui, delectus culpa iste laudantium dolores
+                        nesciunt voluptate minus, cum nisi ab quaerat voluptas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mx-auto ms-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
+                <div class="img-block">
+                    <img class="img-fluid rounded-3" src="./assets/images/dealers/dealership.jpg" alt="Service image">
+                </div>
+            </div>
+            <div class="mx-auto me-md-0 mb-5 mt-3 col-11 col-sm-10 col-md-5">
+                <div class="text-block">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati laborum, quas quam, inventore
+                        odit quasi ut quidem asperiores, minus ducimus labore nihil! Impedit minus aspernatur tempore?
+                        Soluta, consequatur. Maxime, vitae.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A reprehenderit quisquam enim
+                        perspiciatis. Provident porro autem vero vitae molestias, corrupti repellat tempora aut
+                        aspernatur illo nemo earum quidem!</p>
                 </div>
             </div>
         </div>

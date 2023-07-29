@@ -118,6 +118,16 @@
                     }
                 }
             }
+
+
+
+            .mobile-show {
+                display: none;
+            }
+
+            .pc-show {
+                display: block;
+            }
         }
     }
 }
@@ -125,11 +135,15 @@
 
 @media screen and (max-width: 992px) {
     #main-bar .form-block {
+        h2 {
+            margin: 0 0 80px 10%;
+        }
+
         .form {
             display: block;
             align-items: unset;
             justify-content: unset;
-            width: 50%;
+            width: 80%;
 
             .radio-btn {
                 margin-left: 1rem !important;
@@ -146,13 +160,33 @@
             .form-outline {
                 width: 100%;
             }
+
+            .pc-show {
+                display: none;
+            }
+
+            .mobile-show {
+                display: flex;
+            }
         }
     }
 }
 
 
-@media screen and (max-width: 992px) {
-    #main-bar .form-block .form {
-        width: 80%;
+@media screen and (max-width: 576px) {
+    #main-bar {
+        h2 {
+            margin: 0 0 80px 5%;
+        }
+
+        .form-block {
+            .form {
+                width: 90%;
+
+                .form-outline {
+                    margin-bottom: 10px;
+                }
+            }
+        }
     }
 }

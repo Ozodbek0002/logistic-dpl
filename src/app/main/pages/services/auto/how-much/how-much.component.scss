@@ -1,0 +1,192 @@
+#main-bar {
+    min-height: 90vh;
+    position: relative;
+    background: transparent;
+
+    #main-bar-video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+
+    .form-block {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+
+        h2 {
+            margin: 0 0 80px 5%;
+        }
+
+
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+            padding: 2px 3px;
+            border-radius: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0px 30px 0 rgba(21, 62, 143, 0.2);
+
+            .radio-btn {
+                display: inline-block;
+                min-width: fit-content;
+                width: calc(12.5% - 50px);
+
+                .form-check-label {
+                    display: contents;
+                    color: #555 !important;
+                }
+            }
+
+            .form-btn {
+                padding: 15px;
+                border-radius: 10px;
+                background: var(--theme-2);
+                border: none;
+                outline: none;
+                color: #fff;
+
+                &:hover {
+                    background: var(--theme-1);
+                }
+            }
+
+            .form-outline {
+                display: inline-block;
+                width: 24%;
+
+
+                &:hover input {
+                    box-shadow: 0 0 2px var(--theme-2);
+                    border: 1px solid var(--theme-2) !important;
+                }
+
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 15px;
+                    color: #999;
+                    transform: translateY(-50%);
+                }
+
+                .mat-datepicker-toggle {
+                    width: 100%;
+                    position: absolute;
+                    top: 43%;
+                    left: 0;
+                    color: #999;
+                    transform: translateY(-50%);
+
+                    .mat-mdc-icon-button.mat-mdc-button-base {
+                        padding-left: 0 !important;
+                        width: auto !important;
+                    }
+                }
+
+
+                input {
+                    padding: 16px 16px 16px 45px;
+                    box-shadow: none;
+                    background: transparent;
+                    color: var(--theme-1);
+                    border-radius: 10px;
+                    outline: none;
+                    width: 100%;
+                    border: 1px solid transparent;
+
+                    &:hover,
+                    &:focus,
+                    &:focus-visible {
+                        box-shadow: 0 0 2px var(--theme-2);
+                        border: 1px solid var(--theme-2) !important;
+                    }
+
+                    &:focus~i {
+                        color: var(--theme-2);
+                    }
+                }
+            }
+
+
+
+            .mobile-show {
+                display: none;
+            }
+
+            .pc-show {
+                display: block;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    #main-bar .form-block {
+        h2 {
+            margin: 0 0 80px 10%;
+        }
+
+        .form {
+            display: block;
+            align-items: unset;
+            justify-content: unset;
+            width: 80%;
+
+            .radio-btn {
+                margin-left: 1rem !important;
+                width: calc(50% - 50px);
+            }
+
+            .form-btn {
+                display: block;
+                width: 100%;
+                margin-top: 10px;
+                padding: 10px;
+            }
+
+            .form-outline {
+                width: 100%;
+            }
+
+            .pc-show {
+                display: none;
+            }
+
+            .mobile-show {
+                display: flex;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    #main-bar {
+        h2 {
+            margin: 0 0 80px 5%;
+        }
+
+        .form-block {
+            .form {
+                width: 90%;
+
+                .form-outline {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment.development';
   encapsulation: ViewEncapsulation.None
 })
 export class DealarshipsComponent {
-  defult = [{"name": "..."}];
+  defult = [{"name": "Loading..."}];
 
   companies: Array<any> = this.defult;
   api = environment.companyApi;

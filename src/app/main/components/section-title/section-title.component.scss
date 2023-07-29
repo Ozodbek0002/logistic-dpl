@@ -21,10 +21,19 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    h2.section-title {
+@media screen and (max-width: 992px) {
+    .section-title h2 {
         font-weight: 600;
-        margin-top: 60px;
-        margin-bottom: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .section-title h2 {
+        font-size: 26px;
     }
 }

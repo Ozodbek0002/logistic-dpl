@@ -24,13 +24,13 @@ nav {
                     border-left: 1px solid transparent;
 
                     &:hover {
-                        color: var(--theme-2);
-                        border-left: 1px solid var(--theme-2);
+                        color: var(--theme-1);
+                        border-left: 1px solid var(--theme-1);
                     }
 
                     &.active {
-                        color: var(--theme-2);
-                        border-left: 1px solid var(--theme-2);
+                        color: var(--theme-1);
+                        border-left: 1px solid var(--theme-1);
                     }
                 }
             }
@@ -43,13 +43,13 @@ nav {
         border-bottom: 1px solid transparent;
 
         &:hover {
-            color: var(--theme-2);
-            border-bottom: 1px solid var(--theme-2);
+            color: var(--theme-1);
+            border-bottom: 1px solid var(--theme-1);
         }
 
         &.active {
-            color: var(--theme-2);
-            border-bottom: 1px solid var(--theme-2);
+            color: var(--theme-1);
+            border-bottom: 1px solid var(--theme-1);
         }
     }
 
@@ -109,7 +109,7 @@ nav {
             transition: all 1s ease;
 
             &:hover {
-                background: var(--theme-2-light);
+                background: var(--theme-2);
             }
         }
     }
@@ -127,7 +127,7 @@ nav {
             .bar1,
             .bar2,
             .bar3 {
-                background-color: var(--theme-2);
+                background-color: var(--theme-1);
                 margin: 6px 0;
                 margin-right: auto;
                 margin-left: 0;
@@ -202,12 +202,15 @@ nav {
 
 
         .navbar-dropdown-link {
+            color: #4f4f4f;
+            display: inline-block;
+
             &:hover {
-                color: var(--theme-2);
+                color: var(--theme-1);
             }
 
             &.active {
-                color: var(--theme-2);
+                color: var(--theme-1);
             }
         }
 
@@ -217,7 +220,7 @@ nav {
             margin-top: 20px;
 
             .accordion-button:not(.collapsed) {
-                color: var(--theme-2);
+                color: var(--theme-1);
             }
 
             .accordion-body {
@@ -233,8 +236,17 @@ nav {
                         margin-top: 5px;
 
                         a {
+                            color: #97a0a7;
                             font-size: 12px;
                             font-weight: 500;
+                            padding-left: 10px;
+                            border-left: 1px solid transparent;
+
+                            &.active,
+                            &:hover {
+                                color: var(--theme-1);
+                                border-left: 1px solid var(--theme-1);
+                            }
                         }
                     }
                 }
@@ -243,6 +255,7 @@ nav {
     }
 
 }
+
 
 
 @media screen and (max-width: 992px) {

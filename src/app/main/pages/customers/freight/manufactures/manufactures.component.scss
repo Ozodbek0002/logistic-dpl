@@ -3,6 +3,14 @@
         color: #fff;
     }
 
+
+    .carousel-caption {
+        bottom: unset;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
         color: #fff;
