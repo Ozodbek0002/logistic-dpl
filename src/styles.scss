@@ -150,6 +150,13 @@ strong span {
 
 
 
+.swal2-container.swal2-center.swal2-backdrop-show .swal2-popup .swal2-actions .swal2-confirm.swal2-styled {
+    background-color: var(--theme-2) !important;
+}
+
+
+
+
 
 .video-block {
     position: relative;
@@ -291,8 +298,8 @@ strong span {
 .btn-primary {
     --mdb-btn-bg: var(--theme-2);
     --mdb-btn-box-shadow: 0 4px 9px -4px var(--theme-2);
-    --mdb-btn-hover-bg: var(--theme-2-dark);
-    --mdb-btn-focus-bg: var(--theme-2-dark);
+    --mdb-btn-hover-bg: var(--theme-1);
+    --mdb-btn-focus-bg: var(--theme-1);
     --mdb-btn-active-bg: var(--theme-1);
 }
 
