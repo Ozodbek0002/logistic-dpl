@@ -1,5 +1,5 @@
 <!-- client informations -->
-<div class="container">
+<div class="container" *ngIf="client_information">
     <app-section-title title="User informations"></app-section-title>
 
     <div class="row">
@@ -55,7 +55,7 @@
 
 
 <!-- truck & containers -->
-<section id="truck-container">
+<section id="truck-container" *ngIf="user_truck">
     <div class="container">
         <div class="row">
 
@@ -78,7 +78,7 @@
 
 
 <!-- all products -->
-<section id="products">
+<section id="products" *ngIf="products; else notFound">
     <div class="container">
 
         <app-section-title title="Product group"></app-section-title>
@@ -175,8 +175,15 @@
 
 
 
+
+<ng-template #notFound>
+    <h4 class="text-center my-5 py-5">Not Found</h4>
+</ng-template>
+
+
+
 <div class="text-center my-5">
     <a routerLink="/app/services/freight/how-much-does-it-cost/client-form" class="btn btn-secondary">Back</a>
-    <button class="btn btn-info mx-2"><i class="fa fa-print me-2"></i> Print</button>
-    <button class="btn btn-primary">Send</button>
+    <!-- <button class="btn btn-info mx-2"><i class="fa fa-print me-2"></i> Print</button> -->
+    <button (click)="send()" class="btn btn-primary ms-2">Send</button>
 </div>
