@@ -1,21 +1,28 @@
-.truck-box {
-    position: relative;
-
-    image {
-        object-fit: cover;
-    }
-
-    button {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-}
-
-
 .select-truck {
-    border: 1px solid #7e8388;
-    padding: 10px;
+    display: flex;
+    flex-flow: column;
     height: 100%;
+    padding: 20px 10px;
     border-radius: 10px;
+    border: 1px solid #9EA9B9;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #eee;
+    }
+
+    &.active {
+        border: 1.5px solid var(--theme-1);
+    }
+
+    img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    h6 {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
 }

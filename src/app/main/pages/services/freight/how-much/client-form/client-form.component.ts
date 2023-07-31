@@ -23,11 +23,20 @@ export class ClientFormComponent {
   constructor(private http: HttpClient) {}
 
 
-
-
   send(form: NgForm) {
-    console.log(form);
-    form.onReset();
+    // {
+    //   "from": "LENOX DALE, MA 12420",
+    //   "to": "CRAGSMOOR, NY 12420",
+    //   "first_name": "Nick",
+    //   "last_name": "Bernard",
+    //   "phone": "930939200",
+    //   "email": "test@gmail.com"
+    // }
+
+    if(form.valid) {
+      localStorage.setItem('client_informations', JSON.stringify(form.value));
+      form.onReset();
+    }
   }
 
 

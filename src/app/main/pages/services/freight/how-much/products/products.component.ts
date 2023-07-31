@@ -75,7 +75,6 @@ export class ProductsComponent {
 
     this.selectEvet = true;
     this.selectedProduct(1);
-    console.log(this.userProducts);
     
     localStorage.setItem('products', JSON.stringify(this.userProducts));
   }

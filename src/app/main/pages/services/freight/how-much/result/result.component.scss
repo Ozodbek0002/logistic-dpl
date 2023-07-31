@@ -1,0 +1,130 @@
+.select-truck {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #9EA9B9;
+
+    img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    h6 {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+#products {
+    .grp-name-input {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        margin-right: 10px;
+        outline: none;
+        font-size: 20px;
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+
+
+
+    i.fa-trash-alt {
+        font-weight: 500;
+    }
+
+
+
+
+    table {
+        thead {
+            tr {
+                th {
+                    padding: 10px 8px;
+                    justify-content: flex-start;
+                    border: none;
+                    padding-bottom: 0;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #7e8388;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    padding: 10px 8px;
+
+                    .form-outline {
+                        .trailing {
+                            color: #9fb1c1;
+                        }
+
+                        input {
+                            border-radius: 50rem;
+                            border-color: #9fb1c1;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        thead .number-input,
+        tbody .number-input {
+            width: 120px;
+        }
+    }
+}
+
+
+
+#product-form {
+
+    .col {
+        margin-bottom: 20px;
+
+        .prod-radio-btn {
+            display: none;
+        }
+
+        .product-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0px #ddd;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &.active {
+                color: #fff;
+                background-color: #e3ebf7;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    #products {
+        table {
+            thead .number-input,
+            tbody .number-input {
+                display: none;
+            }
+        }
+    }
+}
