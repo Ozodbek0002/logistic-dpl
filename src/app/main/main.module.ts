@@ -11,6 +11,9 @@ import { MatSelectSearchModule } from 'mat-select-search';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
 
 import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
@@ -53,6 +56,7 @@ import { FixedButtonsComponent } from './components/fixed-buttons/fixed-buttons.
 import { SectionTitleComponent } from './components/section-title/section-title.component';
 import { BreadCrumbsComponent } from './components/bread-crumbs/bread-crumbs.component';
 import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinner.component';
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -109,7 +113,21 @@ import { LoaderSpinnerComponent } from './components/loader-spinner/loader-spinn
     MatSelectSearchModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+    }),
   ]
 })
 export class MainModule { }
+
+
+// required for AOT compilation
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
+  return new TranslateHttpLoader(http);
+}

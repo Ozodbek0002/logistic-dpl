@@ -1,37 +1,39 @@
 <app-bread-crumbs [img_url]="'intermodal.jpg'">
     <div class="d-flex align-items-center h-100">
         <div class="w-100 d-block">
-            <h1 class="text-light">Lorem, ipsum dolor.</h1>
+            <h1 class="text-light">
+                {{ 'customers.auto.online-auto.text1' | translate }}
+            </h1>
 
             <div class="g-container">
                 <ul id="list-example" class="list-unstyled" style="--s: 4">
                     <li>
                         <div (click)="goTo('block-1')" class="text-light">
-                            Lorem ipsum
+                            {{ 'customers.auto.online-auto.text1' | translate }}
                             <i class="fa fa-arrow-right ms-3"></i>
                         </div>
                     </li>
                     <li>
                         <div (click)="goTo('block-2')" class="text-light">
-                            Lorem ipsum
+                            {{ 'customers.auto.online-auto.text2' | translate }}
                             <i class="fa fa-arrow-right ms-3"></i>
                         </div>
                     </li>
                     <li>
                         <div (click)="goTo('block-3')" class="text-light">
-                            Lorem ipsum
+                            {{ 'customers.auto.online-auto.text3' | translate }}
                             <i class="fa fa-arrow-right ms-3"></i>
                         </div>
                     </li>
                     <li>
                         <div (click)="goTo('block-4')" class="text-light">
-                            Lorem ipsum
+                            {{ 'customers.auto.online-auto.text4' | translate }}
                             <i class="fa fa-arrow-right ms-3"></i>
                         </div>
                     </li>
                     <li>
                         <div (click)="goTo('block-1')" class="text-light">
-                            Lorem ipsum
+                            {{ 'customers.auto.online-auto.text1' | translate }}
                             <i class="fa fa-arrow-right ms-3"></i>
                         </div>
                     </li>
@@ -44,12 +46,8 @@
 
 
 <div class="container">
-    <app-section-title title="Your simpler way to book is here"></app-section-title>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ab quo aspernatur sequi
-        saepe magni ipsam ipsa
-        tempore id vel, expedita maxime perferendis ipsum quod eaque, sint atque facere temporibus. At dicta soluta
-        exercitationem commodi nemo provident maiores odit consectetur, ut repellendus dolor perspiciatis nam cupiditate
-        doloremque sed?</p>
+    <app-section-title [title]="'customers.auto.online-auto.text1' | translate"></app-section-title>
+    <p class="text-center">{{ 'customers.auto.online-auto.paragraph1' | translate }}</p>
 
     <img src="./assets/images/2.jpg" class="w-100 my-4 rounded" alt="Service image">
 </div>
